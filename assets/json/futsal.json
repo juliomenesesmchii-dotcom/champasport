@@ -1,0 +1,482 @@
+[
+    {
+        "id": 1,
+        "pregunta": "¿Cuáles son las dimensiones mínimas y máximas de la longitud de la línea de banda en partidos internacionales?",
+        "opciones": {
+            "a": "25 m y 42 m",
+            "b": "38 m y 42 m",
+            "c": "30 m y 40 m",
+            "d": "35 m y 45 m"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "De acuerdo con la Regla 1, punto 3, en partidos internacionales la longitud de la línea de banda debe tener un mínimo de 38 m y un máximo de 42 m."
+    },
+    {
+        "id": 2,
+        "pregunta": "¿Cuál es la distancia entre los postes de la portería (cara interior) y la altura del travesaño al suelo?",
+        "opciones": {
+            "a": "2.5 m de ancho por 2 m de alto",
+            "b": "3.16 m de ancho por 2.08 m de alto",
+            "c": "3 m de ancho por 2 m de alto",
+            "d": "3 m de ancho por 2.10 m de alto"
+        },
+        "respuesta_correcta": "c",
+        "explicacion": "Según la Regla 1, punto 9, la distancia entre los dos postes será de 3 m y la distancia del borde inferior del travesaño al suelo será de 2 m."
+    },
+    {
+        "id": 3,
+        "pregunta": "¿Qué ocurre si un jugador realiza marcas no autorizadas en el terreno de juego?",
+        "opciones": {
+            "a": "Será advertido verbalmente y se repetirá la jugada",
+            "b": "Será amonestado por conducta antideportiva",
+            "c": "Se le expulsará directamente del partido",
+            "d": "No se sanciona a menos que interfiera con el balón"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "La Regla 1, punto 2, establece que si un jugador realizara marcas no autorizadas, será amonestado por conducta antideportiva y el juego se reanudará con un libre indirecto."
+    },
+    {
+        "id": 4,
+        "pregunta": "¿Cuál es el peso reglamentario del balón al inicio del partido?",
+        "opciones": {
+            "a": "Entre 390 y 430 g",
+            "b": "Entre 410 y 450 g",
+            "c": "Exactamente 440 g",
+            "d": "Entre 400 y 440 g"
+        },
+        "respuesta_correcta": "d",
+        "explicacion": "Conforme a la Regla 2, punto 1, el balón debe pesar entre 400 y 440 g al inicio del partido."
+    },
+    {
+        "id": 5,
+        "pregunta": "Si el balón golpea en el techo de un pabellón cubierto mientras está en juego, ¿cómo se reanuda el partido?",
+        "opciones": {
+            "a": "Con un balón a tierra",
+            "b": "Con un saque de banda para los adversarios",
+            "c": "Con un saque inicial para el equipo contrario",
+            "d": "Con un libre indirecto desde el centro del campo"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "La Regla 9, punto 3, indica que si el balón golpea el techo, el partido se reanudará con un saque de banda ejecutado por los adversarios del último equipo que tocó el balón."
+    },
+    {
+        "id": 6,
+        "pregunta": "¿Cuál es el número mínimo de jugadores que debe tener un equipo sobre el campo para que el partido pueda comenzar o continuar?",
+        "opciones": {
+            "a": "Dos jugadores",
+            "b": "Tres jugadores",
+            "c": "Cuatro jugadores",
+            "d": "Cinco jugadores"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "Según la Regla 3, punto 1, el partido no comenzará ni se reanudará si uno de los equipos dispone de menos de tres jugadores."
+    },
+    {
+        "id": 7,
+        "pregunta": "¿En qué momento es efectiva una sustitución?",
+        "opciones": {
+            "a": "Cuando el jugador reemplazado sale del campo",
+            "b": "Cuando el árbitro autoriza la entrada del suplente",
+            "c": "Cuando el suplente entra por completo al terreno por la zona de sustituciones tras entregar el peto al jugador que sustituye",
+            "d": "En el momento en que se detiene el cronómetro"
+        },
+        "respuesta_correcta": "c",
+        "explicacion": "La Regla 3, punto 4, estipula que las sustituciones son efectivas cuando el suplente entra por completo en el terreno tras entregar el peto al jugador sustituido."
+    },
+    {
+        "id": 8,
+        "pregunta": "Si un jugador es expulsado tras el saque inicial, ¿cuándo puede entrar un suplente en su lugar?",
+        "opciones": {
+            "a": "Inmediatamente después de la expulsión",
+            "b": "Cuando el árbitro lo considere oportuno",
+            "c": "Tras dos minutos de juego efectivo o si el equipo contrario marca un gol (bajo condiciones específicas)",
+            "d": "Solo al comenzar el segundo periodo"
+        },
+        "respuesta_correcta": "c",
+        "explicacion": "De acuerdo con la Regla 3, punto 8, un suplente puede entrar cuando pasen dos minutos desde la expulsión, a menos que se marque un gol durante esos dos minutos estando en superioridad numérica."
+    },
+    {
+        "id": 9,
+        "pregunta": "¿Está permitido que los jugadores lleven joyería si esta se cubre con cinta adhesiva?",
+        "opciones": {
+            "a": "Sí, si el árbitro lo considera seguro",
+            "b": "Solo en categorías juveniles",
+            "c": "No, está prohibido y no se permite cubrirla con cinta",
+            "d": "Solo si es un brazalete de goma"
+        },
+        "respuesta_correcta": "c",
+        "explicacion": "La Regla 4, punto 1, prohíbe todo tipo de accesorios de joyería y establece explícitamente que no se permite cubrirlos con cinta adhesiva."
+    },
+    {
+        "id": 10,
+        "pregunta": "¿Qué ocurre si los dos guardametas tienen camisetas del mismo color y no disponen de repuestos?",
+        "opciones": {
+            "a": "El partido se suspende",
+            "b": "Los árbitros deben permitir que se juegue el partido",
+            "c": "Uno de ellos debe jugar con el peto de un suplente",
+            "d": "Se decide por sorteo quién cambia de camiseta"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "La Regla 4, punto 3, especifica que si las camisetas de los dos guardametas fueran del mismo color y no hubiera repuesto, los árbitros permitirán que se juegue el partido."
+    },
+    {
+        "id": 11,
+        "pregunta": "¿Quién tiene la autoridad final para suspender definitivamente un partido por cualquier tipo de interferencia externa?",
+        "opciones": {
+            "a": "El cronometrador",
+            "b": "El tercer árbitro",
+            "c": "El árbitro principal",
+            "d": "Ambos árbitros por consenso obligatorio"
+        },
+        "respuesta_correcta": "c",
+        "explicacion": "Según la Regla 5, punto 3, el árbitro principal es quien suspenderá definitiva o temporalmente el partido cuando lo juzgue oportuno por interferencia externa."
+    },
+    {
+        "id": 12,
+        "pregunta": "¿Pueden los árbitros cambiar una decisión tras haberse reanudado el juego?",
+        "opciones": {
+            "a": "Sí, si el tercer árbitro les avisa",
+            "b": "No, las decisiones sobre hechos del juego son irrevocables una vez reanudado este",
+            "c": "Solo si se trata de un gol mal anulado",
+            "d": "Sí, pero solo antes de que termine el periodo"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "La Regla 5, punto 2, indica que si se ha reanudado el juego, los árbitros no podrán cambiar su decisión inicial."
+    },
+    {
+        "id": 13,
+        "pregunta": "¿Cuál es el tiempo de juego efectivo de un periodo estándar en un partido de futsal?",
+        "opciones": {
+            "a": "15 minutos",
+            "b": "20 minutos",
+            "c": "25 minutos",
+            "d": "45 minutos"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "Según la Regla 7, punto 1, el partido consta de dos mitades iguales de 20 minutos de juego efectivo."
+    },
+    {
+        "id": 14,
+        "pregunta": "¿Tienen los equipos derecho a tiempo muerto durante la prórroga (tiempo suplementario)?",
+        "opciones": {
+            "a": "Sí, un minuto por cada parte",
+            "b": "No, no hay tiempos muertos en las prórrogas",
+            "c": "Solo un tiempo muerto de 30 segundos",
+            "d": "Solo si no los usaron en el segundo periodo"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "La Regla 7, punto 3, establece claramente que no habrá tiempos muertos en las prórrogas o tiempos suplementarios."
+    },
+    {
+        "id": 15,
+        "pregunta": "¿Qué distancia mínima deben respetar los adversarios en un saque inicial (saque de centro)?",
+        "opciones": {
+            "a": "2 m",
+            "b": "3 m",
+            "c": "5 m",
+            "d": "1 m"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "De acuerdo con la Regla 8, punto 1, los adversarios del equipo que efectúa el saque inicial deberán encontrarse como mínimo a 3 m del balón."
+    },
+    {
+        "id": 16,
+        "pregunta": "¿Cuándo se considera que el balón está en juego en un balón a tierra?",
+        "opciones": {
+            "a": "En cuanto el árbitro lo suelta",
+            "b": "Cuando un jugador lo toca con el pie",
+            "c": "En el momento en que toca el suelo",
+            "d": "Cuando se desplaza con claridad"
+        },
+        "respuesta_correcta": "c",
+        "explicacion": "La Regla 8, punto 2, determina que el balón estará en juego en el momento en que toque el suelo tras el procedimiento de balón a tierra."
+    },
+    {
+        "id": 17,
+        "pregunta": "¿Es válido un gol si el guardameta lanza el balón con la mano e introduce el balón directamente en la portería contraria?",
+        "opciones": {
+            "a": "Sí, es gol válido",
+            "b": "No, se concederá saque de meta al equipo contrario",
+            "c": "No, se concederá saque de esquina al equipo contrario",
+            "d": "Solo si el balón bota antes de entrar"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "Según la Regla 10, punto 1, si el guardameta lanza el balón con la mano y entra directamente en la meta contraria, se concederá saque de meta."
+    },
+    {
+        "id": 18,
+        "pregunta": "¿Existe la infracción de fuera de juego en el futsal?",
+        "opciones": {
+            "a": "Sí, como en el fútbol 11",
+            "b": "Solo en la mitad de campo adversaria",
+            "c": "No existe la infracción de fuera de juego",
+            "d": "Solo si hay más de dos atacantes en el área"
+        },
+        "respuesta_correcta": "c",
+        "explicacion": "La Regla 11 indica de forma tajante: 'No existe la infracción de fuera de juego en el futsal'."
+    },
+    {
+        "id": 19,
+        "pregunta": "¿Qué sanción disciplinaria corresponde a una infracción 'temeraria'?",
+        "opciones": {
+            "a": "Advertencia verbal",
+            "b": "Amonestación (tarjeta amarilla)",
+            "c": "Expulsión (tarjeta roja)",
+            "d": "Ninguna, solo tiro libre"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "La Regla 12, punto 1, define 'temeraria' como la acción en la que un jugador no tiene en cuenta el riesgo para su adversario, por lo que deberá ser amonestado."
+    },
+    {
+        "id": 20,
+        "pregunta": "¿Cuál es el límite superior del brazo para determinar una infracción por mano?",
+        "opciones": {
+            "a": "El hombro completo",
+            "b": "El punto inferior de la axila",
+            "c": "El codo",
+            "d": "La mitad del bíceps"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "La Regla 12, punto 1 (Tocar el balón con la mano), indica que el límite superior del brazo coincide con el punto inferior de la axila."
+    },
+    {
+        "id": 21,
+        "pregunta": "¿Cuánto tiempo puede un guardameta controlar el balón con las manos o los pies en su propia mitad del terreno de juego?",
+        "opciones": {
+            "a": "3 segundos",
+            "b": "4 segundos",
+            "c": "5 segundos",
+            "d": "Ilimitado si no le presionan"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "La Regla 12, punto 2, establece que se concederá un libre indirecto si el guardameta controla el balón en su propia mitad durante más de cuatro segundos."
+    },
+    {
+        "id": 22,
+        "pregunta": "¿Qué ocurre si un jugador impide un gol del equipo adversario mediante una infracción por mano voluntaria?",
+        "opciones": {
+            "a": "Será amonestado y se pitará penal",
+            "b": "Será expulsado independientemente de dónde se produzca la infracción (excepto el portero en su área)",
+            "c": "Se concede el gol automáticamente",
+            "d": "Solo se pita penal sin sanción disciplinaria"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "La Regla 12, punto 3, señala que se deberá expulsar al jugador que impida un gol o una ocasión manifiesta mediante una infracción por mano voluntaria."
+    },
+    {
+        "id": 23,
+        "pregunta": "¿Cuándo se concederá un tiro libre directo a partir de la sexta falta acumulada en un periodo?",
+        "opciones": {
+            "a": "Siempre que la falta sea en campo contrario",
+            "b": "A partir de la sexta falta cometida por un equipo en un mismo periodo",
+            "c": "Solo si la falta es violenta",
+            "d": "Al acumular diez faltas en total"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "La Regla 13, punto 5, especifica que se concederá un libre directo por cada falta acumulable a partir de la sexta en un mismo periodo."
+    },
+    {
+        "id": 24,
+        "pregunta": "¿Está permitido formar barrera en un tiro libre directo a partir de la sexta falta acumulada?",
+        "opciones": {
+            "a": "Sí, a 5 m",
+            "b": "Solo con dos jugadores",
+            "c": "No, los defensores no podrán formar barrera",
+            "d": "Solo si el tiro es desde el lugar de la infracción"
+        },
+        "respuesta_correcta": "c",
+        "explicacion": "Según la Regla 13, punto 5, los jugadores del equipo defensor no podrán formar una barrera para defender estos libres directos."
+    },
+    {
+        "id": 25,
+        "pregunta": "¿A qué distancia debe estar el punto penal de la línea de meta?",
+        "opciones": {
+            "a": "5 m",
+            "b": "6 m",
+            "c": "7 m",
+            "d": "10 m"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "La Regla 1, punto 4, indica que en cada área se marcará el punto penal a 6 m de distancia de los postes."
+    },
+    {
+        "id": 26,
+        "pregunta": "¿Qué posición debe mantener el guardameta en el momento del golpeo de un tiro penal?",
+        "opciones": {
+            "a": "Debe estar tocando ambos postes",
+            "b": "Puede estar adelantado hasta 1 metro",
+            "c": "Al menos parte de un pie en contacto directo con la línea de meta, sobre ella o por detrás",
+            "d": "Completamente detrás de la línea de meta"
+        },
+        "respuesta_correcta": "c",
+        "explicacion": "Según la Regla 14, punto 1, el guardameta debe tener al menos parte de un pie en contacto directo con la línea de meta, sobre ella o por detrás en el momento del golpeo."
+    },
+    {
+        "id": 27,
+        "pregunta": "¿Se puede marcar un gol directo de saque de banda?",
+        "opciones": {
+            "a": "Sí, si lo toca el portero",
+            "b": "No, es imposible marcar gol directamente",
+            "c": "Solo si el balón no bota",
+            "d": "Sí, si se lanza con el pie"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "La Regla 15 indica que no está permitido anotar gol directamente de saque de banda."
+    },
+    {
+        "id": 28,
+        "pregunta": "¿Cuál es el tiempo máximo permitido para ejecutar un saque de banda, meta o esquina?",
+        "opciones": {
+            "a": "3 segundos",
+            "b": "4 segundos",
+            "c": "5 segundos",
+            "d": "6 segundos"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "Varias reglas (13, 15, 16, 17) establecen que estas reanudaciones deben realizarse en un tiempo máximo de cuatro segundos."
+    },
+    {
+        "id": 29,
+        "pregunta": "¿Cómo debe realizarse obligatoriamente un saque de meta?",
+        "opciones": {
+            "a": "Con el pie desde cualquier punto del área",
+            "b": "El guardameta lanzará o dejará caer el balón con las manos",
+            "c": "Poniendo el balón en el suelo y pateándolo",
+            "d": "Con un lanzamiento de larga distancia por encima del hombro"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "La Regla 16, punto 1, establece que el guardameta del equipo defensor lanzará o dejará caer el balón con las manos desde dentro del área."
+    },
+    {
+        "id": 30,
+        "pregunta": "¿Es posible marcar un gol directo contra el equipo adversario en un saque de esquina?",
+        "opciones": {
+            "a": "No, debe tocarlo otro jugador",
+            "b": "Sí, se puede marcar gol directamente",
+            "c": "Solo si es un autogol",
+            "d": "Solo en categorías senior"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "La Regla 17 indica que se podrá marcar gol directamente de saque de esquina, pero solo contra el equipo adversario."
+    },
+    {
+        "id": 31,
+        "pregunta": "¿Cuántas solicitudes de revisión de vídeo rechazadas se permiten por equipo y periodo?",
+        "opciones": {
+            "a": "Ninguna",
+            "b": "Una por periodo",
+            "c": "Dos por partido",
+            "d": "Ilimitadas si hay errores claros"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "Según el Protocolo de sistemas de revisión en vídeo, habrá un límite de solicitudes de revisión rechazadas: una por equipo y por periodo."
+    },
+    {
+        "id": 32,
+        "pregunta": "¿Quién toma la decisión definitiva tras una revisión de vídeo?",
+        "opciones": {
+            "a": "El técnico de repeticiones",
+            "b": "El tercer árbitro",
+            "c": "El árbitro principal",
+            "d": "Ambos árbitros de pista por votación"
+        },
+        "respuesta_correcta": "c",
+        "explicacion": "El protocolo indica que el árbitro principal será el único que puede adoptar una decisión final tras la revisión."
+    },
+    {
+        "id": 33,
+        "pregunta": "¿Qué distancia mínima deben respetar los jugadores adversarios en un saque de esquina?",
+        "opciones": {
+            "a": "3 m",
+            "b": "4 m",
+            "c": "5 m",
+            "d": "6 m"
+        },
+        "respuesta_correcta": "c",
+        "explicacion": "Conforme a la Regla 17, punto 1, los adversarios deberán permanecer a un mínimo de 5 m del cuadrante de esquina hasta que el balón esté en juego."
+    },
+    {
+        "id": 34,
+        "pregunta": "¿Qué ocurre si el lanzador de un tiro libre vuelve a tocar el balón antes de que lo haga otro jugador?",
+        "opciones": {
+            "a": "Se repite el tiro libre",
+            "b": "Se concede saque de banda",
+            "c": "Se concede libre indirecto al equipo contrario",
+            "d": "Se amonesta al jugador"
+        },
+        "respuesta_correcta": "c",
+        "explicacion": "La Regla 13, punto 3, estipula que si el ejecutor toca el balón por segunda vez antes de que lo toque otro jugador, se concederá libre indirecto."
+    },
+    {
+        "id": 35,
+        "pregunta": "¿Cuál de estos incidentes NO es revisable por el sistema de vídeo a petición de un equipo?",
+        "opciones": {
+            "a": "Gol dudoso",
+            "b": "Segunda amonestación (tarjeta amarilla)",
+            "c": "Tarjeta roja directa",
+            "d": "Confusión de identidad"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "El Protocolo de vídeo indica que las situaciones revisables son goles, penales, tarjetas rojas directas y confusión de identidad; explícitamente se excluye la segunda amonestación."
+    },
+    {
+        "id": 36,
+        "pregunta": "¿Qué señal debe hacer el árbitro para indicar un libre indirecto?",
+        "opciones": {
+            "a": "Señalar al suelo",
+            "b": "Levantar un brazo por encima de la cabeza",
+            "c": "Extender ambos brazos horizontalmente",
+            "d": "Hacer sonar el silbato tres veces"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "La Regla 13, punto 1, indica que los árbitros señalarán el libre indirecto levantando un brazo por encima de la cabeza."
+    },
+    {
+        "id": 37,
+        "pregunta": "¿En qué mitad del terreno se ubica la zona de sustituciones de un equipo?",
+        "opciones": {
+            "a": "En la mitad que ataca el equipo",
+            "b": "En la mitad defendida por dicho equipo",
+            "c": "A lo largo de toda la línea de banda",
+            "d": "Frente al banquillo del equipo contrario"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "La Regla 1, punto 6, establece que la zona de sustituciones estará ubicada en la mitad del terreno de juego defendida por dicho equipo."
+    },
+    {
+        "id": 38,
+        "pregunta": "Si un partido termina en empate y el reglamento exige un ganador, ¿cuál es la duración de los dos periodos de tiempo suplementario?",
+        "opciones": {
+            "a": "3 minutos cada uno",
+            "b": "5 minutos cada uno",
+            "c": "10 minutos cada uno",
+            "d": "No excederán los 15 minutos cada uno"
+        },
+        "respuesta_correcta": "d",
+        "explicacion": "La Regla 10, punto 2, menciona dos periodos suplementarios de igual duración que no excedan los 15 minutos cada uno (normalmente 5 minutos, pero el reglamento fija el tope en 15)."
+    },
+    {
+        "id": 39,
+        "pregunta": "¿Cuántos suplentes se pueden utilizar en partidos de una competición oficial de la FIFA?",
+        "opciones": {
+            "a": "Un máximo de cinco",
+            "b": "Un máximo de siete",
+            "c": "Un máximo de nueve",
+            "d": "Ilimitados"
+        },
+        "respuesta_correcta": "c",
+        "explicacion": "La Regla 3, punto 2, indica que en competiciones oficiales de la FIFA o confederaciones se podrá utilizar un máximo de nueve suplentes."
+    },
+    {
+        "id": 40,
+        "pregunta": "¿Qué sucede si un balón queda defectuoso tras chocar con un poste y entra directamente en la portería?",
+        "opciones": {
+            "a": "Se anula y se reanuda con balón a tierra",
+            "b": "Se repite el tiro",
+            "c": "Los árbitros concederán el gol",
+            "d": "Se concede saque de meta"
+        },
+        "respuesta_correcta": "c",
+        "explicacion": "Según la Regla 2, punto 6, si el balón queda defectuoso tras chocar con los postes o travesaño y entra directamente en portería, se concederá el gol."
+    }
+]

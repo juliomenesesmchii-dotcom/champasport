@@ -1,0 +1,482 @@
+[
+    {
+        "id": 1,
+        "pregunta": "¿A quién deben notificar inmediatamente los participantes si detectan un error corregible en el marcador o reloj?",
+        "opciones": {
+            "a": "Al comisario del partido",
+            "b": "A los árbitros",
+            "c": "Al anotador únicamente",
+            "d": "Al delegado técnico"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "Según el Art. 1.2, todos los participantes deben notificar inmediatamente a los árbitros cualquier irregularidad identificada para que el error pueda ser corregido."
+    },
+    {
+        "id": 2,
+        "pregunta": "Cuando quedan 2:00 minutos o menos en el cuarto cuarto, ¿dónde puede el entrenador decidir que se realice el saque tras un tiempo muerto?",
+        "opciones": {
+            "a": "Únicamente en la línea de saque de pista delantera",
+            "b": "Únicamente en la pista trasera",
+            "c": "En la pista delantera o en la pista trasera en el lugar más cercano a donde se detuvo el juego",
+            "d": "En la línea de medio campo siempre"
+        },
+        "respuesta_correcta": "c",
+        "explicacion": "El Art. 17.2.4 permite al primer entrenador decidir si el partido se reanuda desde las líneas de saque en pista delantera o desde el lugar más cercano en pista trasera tras un tiempo muerto en los últimos 2 minutos."
+    },
+    {
+        "id": 3,
+        "pregunta": "Si tras un tiempo muerto en los últimos 2 minutos se decide avanzar el saque a pista delantera tras una violación, ¿en qué lado se realizará?",
+        "opciones": {
+            "a": "En el lado opuesto a la mesa de oficiales",
+            "b": "En el lado de la mesa de oficiales",
+            "c": "En el mismo lado de la pista que el saque original",
+            "d": "El entrenador puede elegir el lado"
+        },
+        "respuesta_correcta": "c",
+        "explicacion": "El Art. 17.2.4 establece que si el saque es tras falta o violación, se efectuará en la pista delantera en el mismo lado (mesa o lado opuesto) que el saque original."
+    },
+    {
+        "id": 4,
+        "pregunta": "¿A qué distancia del borde interior de la línea de fondo se encuentran las líneas de saque laterales?",
+        "opciones": {
+            "a": "8,325 metros",
+            "b": "5 metros",
+            "c": "6,75 metros",
+            "d": "0,15 metros"
+        },
+        "respuesta_correcta": "a",
+        "explicacion": "El Art. 2.5.6 define que las líneas de saque tienen su borde exterior a una distancia de 8,325 metros del borde interior de la línea de fondo más próxima."
+    },
+    {
+        "id": 5,
+        "pregunta": "¿Hasta qué momento se aplican las restricciones de interposición sobre un balón en trayectoria hacia la canasta?",
+        "opciones": {
+            "a": "Hasta que el balón toque el tablero",
+            "b": "Hasta que el balón toque el aro o no tenga posibilidad de entrar",
+            "c": "Hasta que un defensor lo desvíe",
+            "d": "Hasta que el reloj de tiro llegue a cero"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "El Art. 31.2.3 indica que las restricciones se aplican hasta que el balón no tenga posibilidad de entrar o haya tocado el aro."
+    },
+    {
+        "id": 6,
+        "pregunta": "¿Qué acción de un jugador se define específicamente como interferencia según el nuevo texto del Art. 31.2.4?",
+        "opciones": {
+            "a": "Tocar el balón mientras está en contacto con el aro",
+            "b": "Hacer que la canasta vibre impidiendo que el balón entre o provocando que entre",
+            "c": "Pasar la mano por debajo de la canasta y tocar el balón",
+            "d": "Tocar el tablero mientras el balón está en el aire"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "Se produce interferencia cuando un jugador hace que la canasta vibre o agarra la canasta de tal manera que provoque un rebote no natural o cambio de dirección del balón."
+    },
+    {
+        "id": 7,
+        "pregunta": "Si un primer entrenador-jugador comete su quinta falta como jugador, ¿cuál es su estatus legal en el partido?",
+        "opciones": {
+            "a": "Debe abandonar el edificio inmediatamente",
+            "b": "Es un jugador excluido, pero puede continuar como entrenador",
+            "c": "Puede seguir jugando pero no puede entrenar",
+            "d": "Debe sentarse en el banquillo y no puede dar instrucciones"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "El Art. 40.2 especifica que un primer entrenador-jugador con 5 faltas es un jugador excluido, pero se le permite continuar en su función de entrenador."
+    },
+    {
+        "id": 8,
+        "pregunta": "¿A quién se le carga y anota una falta cometida por un jugador que ya ha sido excluido por cometer 5 faltas?",
+        "opciones": {
+            "a": "Al propio jugador como falta técnica",
+            "b": "Al capitán del equipo",
+            "c": "Al primer entrenador ('B')",
+            "d": "No se anota, solo se sanciona el tiro libre"
+        },
+        "respuesta_correcta": "c",
+        "explicacion": "De acuerdo al Art. 40.3, una falta cometida por un jugador excluido se cargará y anotará en el acta al primer entrenador como una falta tipo 'B'."
+    },
+    {
+        "id": 9,
+        "pregunta": "¿Cuál de las siguientes combinaciones resulta en la descalificación automática de un jugador?",
+        "opciones": {
+            "a": "3 faltas personales y 1 técnica",
+            "b": "1 falta antideportiva y 1 falta técnica",
+            "c": "2 faltas personales y 1 antideportiva",
+            "d": "5 faltas personales"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "El Art. 40.4 indica que un jugador es descalificado si comete 2 técnicas, 2 antideportivas o la combinación de 1 antideportiva y 1 técnica."
+    },
+    {
+        "id": 10,
+        "pregunta": "¿Cuántas faltas técnicas personales ('C') debe cometer un primer entrenador para ser descalificado?",
+        "opciones": {
+            "a": "2 faltas técnicas 'C'",
+            "b": "3 faltas técnicas 'C'",
+            "c": "1 falta técnica 'C'",
+            "d": "5 faltas técnicas 'C'"
+        },
+        "respuesta_correcta": "a",
+        "explicacion": "El Art. 40.5 establece que un entrenador es descalificado al cometer 2 faltas técnicas ('C') por su conducta antideportiva personal."
+    },
+    {
+        "id": 11,
+        "pregunta": "¿Cuál es el límite total de faltas técnicas (combinando 'B' y 'C') para que un primer entrenador sea descalificado?",
+        "opciones": {
+            "a": "2 faltas técnicas",
+            "b": "3 faltas técnicas",
+            "c": "4 faltas técnicas",
+            "d": "No hay límite total mientras no sean personales"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "Un entrenador es descalificado tras 3 faltas técnicas, ya sean todas tipo 'B' (banquillo) o al menos una sea 'C' (personal), según el Art. 40.5."
+    },
+    {
+        "id": 12,
+        "pregunta": "¿De cuánto tiempo dispone un miembro del equipo descalificado para abandonar la pista tras ser informado?",
+        "opciones": {
+            "a": "1 minuto",
+            "b": "Inmediatamente, sin tiempo definido",
+            "c": "30 segundos",
+            "d": "Hasta que se reanude el juego"
+        },
+        "respuesta_correcta": "c",
+        "explicacion": "El Art. 40.6 obliga a cualquier persona descalificada a abandonar la pista en un plazo máximo de 30 segundos."
+    },
+    {
+        "id": 13,
+        "pregunta": "¿Qué obligación tiene el cronometrador respecto a las faltas individuales de los jugadores?",
+        "opciones": {
+            "a": "Solo anotarlas en el acta",
+            "b": "Levantar el indicador de faltas de manera visible para ambos entrenadores",
+            "c": "Gritar el número de faltas en cada interrupción",
+            "d": "Informar solo al jugador que cometió la falta"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "El Art. 49.1 estipula que el cronometrador debe indicar el número de faltas levantando el indicador de faltas de jugador de manera visible para los entrenadores."
+    },
+    {
+        "id": 14,
+        "pregunta": "¿Qué indicador debe mostrar el cronometrador cuando un jugador o entrenador ha sido descalificado?",
+        "opciones": {
+            "a": "El indicador número 5 en rojo",
+            "b": "Una bandera roja",
+            "c": "El indicador GD",
+            "d": "No tiene un indicador específico"
+        },
+        "respuesta_correcta": "c",
+        "explicacion": "Según el Art. 49.1, el cronometrador indicará la descalificación mostrando el indicador 'GD' (Game Disqualification)."
+    },
+    {
+        "id": 15,
+        "pregunta": "¿Cómo debe mostrarse la señal de faltas de equipo una vez que el balón pasa a estar vivo tras la cuarta falta en un cuarto?",
+        "opciones": {
+            "a": "Mostrando el número 5",
+            "b": "Parpadeando en color rojo",
+            "c": "Completamente rojo, sin mostrar ningún número",
+            "d": "Mostrando el número de faltas acumuladas"
+        },
+        "respuesta_correcta": "c",
+        "explicacion": "El Art. 49.1 indica que la señal de faltas de equipo será completamente roja y no mostrará números una vez que el balón esté vivo tras la cuarta falta."
+    },
+    {
+        "id": 16,
+        "pregunta": "Tras corregir un error, ¿dónde se reanuda el juego según los Procedimientos Generales?",
+        "opciones": {
+            "a": "En el lugar donde se produjo el error",
+            "b": "Con un salto entre dos en el círculo central",
+            "c": "En el punto más cercano a donde se detuvo para corregirlo",
+            "d": "En la línea de fondo del equipo defensor"
+        },
+        "respuesta_correcta": "c",
+        "explicacion": "El Art. 44.1.3 establece que el juego se reanudará en el punto más cercano a donde se detuvo para la corrección, concediendo el balón al equipo con derecho a él en ese momento."
+    },
+    {
+        "id": 17,
+        "pregunta": "Si un error de Categoría 1 ocurre antes de los últimos 2:00 minutos del 4º cuarto, ¿cuál es el límite de tiempo para identificarlo?",
+        "opciones": {
+            "a": "Antes de que termine el partido",
+            "b": "Antes de que queden 2:00 minutos o menos del 4º cuarto",
+            "c": "En la siguiente interrupción de juego",
+            "d": "Dentro de los 5 minutos posteriores al error"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "El Art. 44.3.1 especifica que los errores ocurridos antes del umbral de los 2:00 minutos deben identificarse y corregirse antes de que el reloj llegue a ese tiempo en el 4º cuarto."
+    },
+    {
+        "id": 18,
+        "pregunta": "Si un error ocurre antes de los últimos 2:00 del 4º cuarto, pero los árbitros detienen el juego por primera vez restando menos de 2:00, ¿cuándo debe corregirse?",
+        "opciones": {
+            "a": "Ya no es corregible",
+            "b": "Antes de que el balón vuelva a estar en vivo",
+            "c": "Al finalizar el partido",
+            "d": "Después del primer tiempo muerto"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "Según el Art. 44.3.1, si la primera interrupción es ya dentro de los últimos 2:00 minutos, el error debe corregirse antes de que el balón vuelva a estar vivo."
+    },
+    {
+        "id": 19,
+        "pregunta": "¿Bajo qué condición puede corregirse un error una vez finalizado el encuentro?",
+        "opciones": {
+            "a": "Si ocurrió después de la última vez que los árbitros detuvieron el juego antes del final",
+            "b": "Cualquier error de anotación es corregible tras el partido",
+            "c": "Si el entrenador presenta una protesta formal inmediata",
+            "d": "Ningún error es corregible tras sonar la señal final"
+        },
+        "respuesta_correcta": "a",
+        "explicacion": "El Art. 44.3.2 permite la corrección tras el final del encuentro si el error ocurrió después de la última interrupción del juego antes de que sonara la señal final."
+    },
+    {
+        "id": 20,
+        "pregunta": "Si un jugador involucrado en una corrección de error está en el banquillo tras una sustitución legal, ¿qué debe hacer?",
+        "opciones": {
+            "a": "Permanecer en el banquillo; un compañero lanza por él",
+            "b": "Debe volver al terreno de juego para participar en la corrección",
+            "c": "El entrenador debe elegir a otro jugador en pista",
+            "d": "La corrección se anula si el jugador no está en pista"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "El Art. 44.3.3 obliga al jugador a volver al terreno de juego para la corrección, momento en el cual vuelve a ser considerado jugador."
+    },
+    {
+        "id": 21,
+        "pregunta": "Si se conceden tiros libres por error y el reloj de partido NO se ha puesto en marcha, ¿cómo se reanuda el juego tras cancelarlos?",
+        "opciones": {
+            "a": "Con un saque para el equipo oponente en la línea de fondo",
+            "b": "Con un saque en la prolongación de la línea de tiros libres para el equipo al que se le cancelaron",
+            "c": "Con un salto entre dos",
+            "d": "Se repite la jugada desde el saque original"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "El Art. 44.4.1 indica que si el reloj no arrancó, se concede un saque en la prolongación de la línea de tiros libres al equipo afectado por la cancelación."
+    },
+    {
+        "id": 22,
+        "pregunta": "Se omiten tiros libres merecidos, el reloj se pone en marcha y hay un cambio de posesión. Tras descubrir el error, ¿cómo se reanuda el juego?",
+        "opciones": {
+            "a": "El equipo que tenía derecho a los tiros mantiene la posesión tras lanzarlos",
+            "b": "Se lanzan los tiros libres y el juego se reanuda por parte del equipo que tenía el control al detenerse el juego",
+            "c": "Se ignora el error por haber cambio de posesión",
+            "d": "Se retrocede el reloj al momento del error"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "Según el Art. 44.4.2, tras lanzar los tiros libres omitidos, el juego se reanuda por el equipo que tenía el control del balón en el lugar más cercano a la detención."
+    },
+    {
+        "id": 23,
+        "pregunta": "¿Qué sucede si se permite que el jugador equivocado lance tiros libres?",
+        "opciones": {
+            "a": "Se validan si entran, pero se pita falta técnica",
+            "b": "Se cancelan los tiros libres y la posesión, y se concede saque a los oponentes",
+            "c": "Se repiten por el jugador correcto inmediatamente",
+            "d": "Se anula el partido"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "El Art. 44.4.3 establece que se cancelarán los tiros lanzados por el jugador equivocado y se entregará el balón a los oponentes para un saque."
+    },
+    {
+        "id": 24,
+        "pregunta": "Si los árbitros ORDENAN a un jugador equivocado lanzar tiros libres, ¿cuál es el procedimiento?",
+        "opciones": {
+            "a": "Se cancelan los tiros y el jugador correcto los intenta de nuevo",
+            "b": "Se mantienen los puntos pero se sanciona al árbitro",
+            "c": "Se penaliza al equipo con una falta técnica",
+            "d": "Se concede saque de banda al oponente sin lanzar tiros"
+        },
+        "respuesta_correcta": "a",
+        "explicacion": "A diferencia de cuando el equipo se equivoca, si el árbitro ordena al jugador equivocado, el Art. 44.4.4 indica que se cancelan esos tiros y el jugador correcto debe lanzarlos."
+    },
+    {
+        "id": 25,
+        "pregunta": "Si un jugador fue excluido erróneamente por una falta marcada al jugador equivocado, ¿qué acción debe tomarse al corregirlo?",
+        "opciones": {
+            "a": "Debe permanecer fuera por el resto del cuarto",
+            "b": "El acta se corrige y el jugador es readmitido",
+            "c": "No se puede readmitir una vez que abandonó la pista",
+            "d": "Se le compensa con un tiempo muerto adicional"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "El Art. 44.4.6 especifica que cualquier jugador o entrenador erróneamente excluido debido a un error de señalización será readmitido tras corregir el acta."
+    },
+    {
+        "id": 26,
+        "pregunta": "¿Qué tipo de error se define exclusivamente como Categoría 2?",
+        "opciones": {
+            "a": "Conceder puntos por error",
+            "b": "Errores del reloj de tiro (shot clock)",
+            "c": "Identificar al lanzador de tiros libres equivocado",
+            "d": "Errores en el reloj de partido"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "El Art. 44.5 define los errores de Categoría 2 únicamente como fallos o aplicaciones erróneas relacionadas con el reloj de tiro."
+    },
+    {
+        "id": 27,
+        "pregunta": "Para que un error del reloj de tiro (Categoría 2) sea corregible, ¿cuándo debe ser reconocido?",
+        "opciones": {
+            "a": "En cualquier momento antes del final del cuarto",
+            "b": "Durante la primera interrupción si el equipo con control sigue siendo el mismo",
+            "c": "Solo si el balón está muerto",
+            "d": "Inmediatamente en los siguientes 5 segundos"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "El Art. 44.6.1 permite la corrección mientras el balón está vivo o en la primera interrupción si el equipo que controla el balón no ha cambiado."
+    },
+    {
+        "id": 28,
+        "pregunta": "¿Cuándo deja de ser corregible un error del reloj de tiro?",
+        "opciones": {
+            "a": "Después de un tiempo muerto",
+            "b": "Después de un cambio de posesión de balón vivo",
+            "c": "Después de 24 segundos",
+            "d": "Si el entrenador no reclama inmediatamente"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "El Art. 44.6.2 indica que el error ya no es corregible tras un cambio de posesión de balón vivo o si el equipo con control consigue una canasta válida."
+    },
+    {
+        "id": 29,
+        "pregunta": "En caso de discrepancia irresoluble entre el marcador electrónico y el acta del partido, ¿cuál tiene prioridad?",
+        "opciones": {
+            "a": "El marcador electrónico",
+            "b": "El acta del partido",
+            "c": "La decisión del comisario",
+            "d": "Se repite el cuarto afectado"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "El Art. 48.2 establece que el acta del partido tiene prioridad y el marcador se corregirá en consecuencia ante cualquier discrepancia."
+    },
+    {
+        "id": 30,
+        "pregunta": "Si un error de anotación se descubre fuera de los límites del Artículo 44, ¿qué debe hacer el árbitro principal?",
+        "opciones": {
+            "a": "Corregirlo de todas formas por justicia deportiva",
+            "b": "No puede corregirse y debe enviar un informe detallado a los organizadores",
+            "c": "Anular los puntos sospechosos",
+            "d": "Consultar con ambos entrenadores y votar la corrección"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "Según el Art. 48.3, si el error está fuera de los límites del Art. 44, no puede corregirse y se debe remitir un informe a la organización."
+    },
+    {
+        "id": 31,
+        "pregunta": "¿Cuándo deben usar los árbitros la nueva señal de 'pase hacia fuera' (pass out)?",
+        "opciones": {
+            "a": "Cuando un jugador comete una violación de pasos",
+            "b": "Cuando un jugador recibe falta en acción de tiro pero decide pasar el balón",
+            "c": "Para indicar un saque de banda lateral",
+            "d": "Cuando el balón sale de la pista por el fondo"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "El Apéndice A introduce esta señal para clarificar situaciones donde una falta en acción de tiro se convierte en 'no de tiro' porque el jugador decide pasar."
+    },
+    {
+        "id": 32,
+        "pregunta": "¿Cuál de los siguientes es un motivo válido para presentar una protesta oficial según el Apéndice C?",
+        "opciones": {
+            "a": "Un error de juicio subjetivo de un árbitro",
+            "b": "Un error en el acta o relojes que los árbitros estaban autorizados a corregir bajo el Art. 44 y no lo hicieron",
+            "c": "La expulsión de un jugador por doble técnica",
+            "d": "Un mal arbitraje general durante el partido"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "El Apéndice C.1 especifica que se puede protestar si hubo un error corregible según el Art. 44 que no se corrigió a pesar de haber pruebas disponibles."
+    },
+    {
+        "id": 33,
+        "pregunta": "Si 2 o más equipos empatan en balance de victorias/derrotas, ¿cuál es el primer criterio de desempate?",
+        "opciones": {
+            "a": "Diferencia de puntos en todos los partidos del grupo",
+            "b": "Los partidos disputados entre los equipos implicados",
+            "c": "Sorteo puro",
+            "d": "Ranking FIBA actualizado"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "El Apéndice D.1.3 establece que los partidos disputados entre los equipos empatados decidirán la clasificación en primera instancia."
+    },
+    {
+        "id": 34,
+        "pregunta": "En competiciones donde NO existe un ranking FIBA, ¿cuál es el último criterio para desempatar a los equipos?",
+        "opciones": {
+            "a": "La edad media de los jugadores",
+            "b": "Un sorteo",
+            "c": "El equipo que cometió menos faltas",
+            "d": "La diferencia de puntos total"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "Según el Apéndice D.1.3, si no hay ranking FIBA aplicable y otros criterios fallan, la clasificación final se determina mediante un sorteo."
+    },
+    {
+        "id": 35,
+        "pregunta": "En los últimos 2:00 del 4º cuarto, ¿cuándo debe tener lugar la revisión del IRS por un tiro convertido antes de la señal del reloj de tiro?",
+        "opciones": {
+            "a": "Inmediatamente, deteniendo el juego si es necesario",
+            "b": "En la primera ocasión en que los árbitros hayan detenido el juego por cualquier motivo",
+            "c": "Solo si el entrenador solicita un challenge",
+            "d": "Al finalizar el cuarto"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "El Apéndice F.3.2 indica que la revisión debe ocurrir en la primera ocasión en que el juego se detenga tras la canasta."
+    },
+    {
+        "id": 36,
+        "pregunta": "Si el IRS determina que una violación de interposición se sancionó INCORRECTAMENTE y ningún equipo tiene control claro del balón, ¿cómo se reanuda?",
+        "opciones": {
+            "a": "Saque para el equipo defensor",
+            "b": "Se produce una situación de salto",
+            "c": "Se repite la jugada desde el inicio del reloj de tiro",
+            "d": "Saque para el equipo que lanzó"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "El Apéndice F.3.2 establece que si no hay control inmediato y claro tras una interposición mal pitada, se reanuda con situación de salto."
+    },
+    {
+        "id": 37,
+        "pregunta": "¿Qué puede revisar el IRS en cualquier momento del partido respecto a las faltas?",
+        "opciones": {
+            "a": "Si una falta personal cumple criterios para ser aumentada a antideportiva o descalificante",
+            "b": "Cualquier falta personal para ver si realmente existió contacto",
+            "c": "Solo las faltas cometidas contra el capitán",
+            "d": "Faltas técnicas para ver si se pueden anular"
+        },
+        "respuesta_correcta": "a",
+        "explicacion": "El Apéndice F.3.3 autoriza la revisión en cualquier momento para determinar si una falta personal, antideportiva o descalificante debe ser aumentada o rebajada de categoría."
+    },
+    {
+        "id": 38,
+        "pregunta": "¿Cuántos 'challenges' se le conceden a un primer entrenador durante el partido?",
+        "opciones": {
+            "a": "Dos, si el primero es exitoso",
+            "b": "Solo uno, independientemente del resultado",
+            "c": "Uno por cada mitad del partido",
+            "d": "Ilimitados mientras tenga tiempos muertos"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "El Apéndice F.4.2 estipula que al primer entrenador solo se le concederá un 'challenge' durante todo el partido."
+    },
+    {
+        "id": 39,
+        "pregunta": "¿Hasta qué momento puede cancelarse un 'Challenge' solicitado por el primer entrenador?",
+        "opciones": {
+            "a": "Hasta que los árbitros lleguen al monitor",
+            "b": "Hasta el momento en que el árbitro realice la señal concediendo el HCC",
+            "c": "En ningún momento, la solicitud es irreversible desde el inicio",
+            "d": "Hasta que el oponente acepte la revisión"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "El Apéndice F.4.2 permite la cancelación del challenge hasta que el árbitro haga la señal oficial de concesión."
+    },
+    {
+        "id": 40,
+        "pregunta": "Si un equipo ya ha recibido un aviso por simular una falta (flopping), ¿cuál es la sanción para cualquier jugador de ese equipo que simule de nuevo?",
+        "opciones": {
+            "a": "Otro aviso oficial",
+            "b": "Una falta técnica",
+            "c": "Expulsión inmediata",
+            "d": "Dos tiros libres para el oponente sin falta técnica"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "Según el OBRI Art. 36, tras un aviso previo al equipo, el segundo aviso por simular una falta conlleva una falta técnica cargada al jugador."
+    }
+]

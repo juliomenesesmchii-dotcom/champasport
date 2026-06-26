@@ -1,0 +1,482 @@
+[
+    {
+        "id": 1,
+        "pregunta": "¿Cuáles son las dimensiones oficiales del campo de juego en el voleibol?",
+        "opciones": {
+            "a": "15 x 7 m",
+            "b": "18 x 9 m",
+            "c": "20 x 10 m",
+            "d": "12 x 6 m"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "Según la Regla 1.1, el campo de juego es un rectángulo de 18 x 9 m, rodeado por una zona libre de un mínimo de 3 m de ancho en todos sus lados."
+    },
+    {
+        "id": 2,
+        "pregunta": "¿A qué altura debe colocarse el borde superior de la red para las competencias masculinas?",
+        "opciones": {
+            "a": "2.24 m",
+            "b": "2.35 m",
+            "c": "2.43 m",
+            "d": "2.50 m"
+        },
+        "respuesta_correcta": "c",
+        "explicacion": "La Regla 2.1.1 establece que el borde superior de la red se coloca a una altura de 2.43 m para los hombres."
+    },
+    {
+        "id": 3,
+        "pregunta": "¿A qué altura debe colocarse el borde superior de la red para las competencias femeninas?",
+        "opciones": {
+            "a": "2.10 m",
+            "b": "2.24 m",
+            "c": "2.32 m",
+            "d": "2.43 m"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "De acuerdo con la Regla 2.1.1, la altura de la red para las mujeres es de 2.24 m."
+    },
+    {
+        "id": 4,
+        "pregunta": "¿Cuántos toques máximos tiene un equipo para regresar el balón al campo adversario (sin contar el bloqueo)?",
+        "opciones": {
+            "a": "2 toques",
+            "b": "3 toques",
+            "c": "4 toques",
+            "d": "Ilimitados siempre que no se retenga"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "La Regla 9.1 indica que cada equipo tiene derecho a un máximo de tres toques (además del bloqueo) para regresar el balón."
+    },
+    {
+        "id": 5,
+        "pregunta": "¿Qué sucede cuando el equipo receptor gana una jugada?",
+        "opciones": {
+            "a": "Gana un punto únicamente",
+            "b": "Solo gana el derecho a sacar",
+            "c": "Gana un punto, el derecho a sacar y sus jugadores deben rotar",
+            "d": "Se repite la jugada sin cambios en la puntuación"
+        },
+        "respuesta_correcta": "c",
+        "explicacion": "Según la sección de Características del Juego (pág. 39), cuando el equipo receptor gana la jugada, gana un punto, el derecho a sacar y sus jugadores deben rotar una posición en el sentido de las agujas del reloj."
+    },
+    {
+        "id": 6,
+        "pregunta": "¿Cómo se gana un set normal (del 1ro al 4to)?",
+        "opciones": {
+            "a": "Al llegar a 15 puntos con 1 de ventaja",
+            "b": "Al llegar a 21 puntos con 2 de ventaja",
+            "c": "Al llegar a 25 puntos con una ventaja mínima de 2 puntos",
+            "d": "Al llegar a 30 puntos sin necesidad de ventaja"
+        },
+        "respuesta_correcta": "c",
+        "explicacion": "La Regla 6.2 estipula que un set (excepto el 5to) es ganado por el equipo que primero anota 25 puntos con una ventaja mínima de 2 puntos."
+    },
+    {
+        "id": 7,
+        "pregunta": "¿A cuántos puntos se juega el set decisivo (5to set)?",
+        "opciones": {
+            "a": "A 10 puntos con ventaja de 2",
+            "b": "A 15 puntos con una diferencia mínima de 2 puntos",
+            "c": "A 21 puntos con ventaja de 2",
+            "d": "A 25 puntos igual que los anteriores"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "La Regla 6.3.2 establece que en caso de empate 2-2, el decisivo 5to set se juega a 15 puntos con una diferencia mínima de 2 puntos."
+    },
+    {
+        "id": 8,
+        "pregunta": "¿En qué sentido deben realizar la rotación los jugadores?",
+        "opciones": {
+            "a": "En sentido contrario a las agujas del reloj",
+            "b": "Solo rotan los jugadores delanteros",
+            "c": "En el sentido de las agujas del reloj",
+            "d": "Los jugadores eligen su posición libremente en cada jugada"
+        },
+        "respuesta_correcta": "c",
+        "explicacion": "La Regla 7.6.2 indica que los jugadores deben efectuar una rotación en el sentido de las agujas del reloj."
+    },
+    {
+        "id": 9,
+        "pregunta": "¿De cuánto tiempo dispone el sacador para golpear el balón tras el silbato del 1er árbitro?",
+        "opciones": {
+            "a": "5 segundos",
+            "b": "8 segundos",
+            "c": "10 segundos",
+            "d": "12 segundos"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "La Regla 12.4.4 obliga al sacador a golpear el balón dentro de los 8 segundos siguientes al toque del silbato del primer árbitro."
+    },
+    {
+        "id": 10,
+        "pregunta": "¿Qué se sanciona si dos o más faltas son cometidas simultáneamente por jugadores adversarios?",
+        "opciones": {
+            "a": "Se penaliza al equipo que sacó",
+            "b": "Se sanciona doble falta y se repite la jugada",
+            "c": "Gana el punto el equipo que no cometió la primera falta",
+            "d": "Se sanciona al jugador de mayor rango"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "De acuerdo con la Regla 6.1.2.2, si dos o más faltas son cometidas simultáneamente por adversarios, se sanciona DOBLE FALTA y se repite la jugada."
+    },
+    {
+        "id": 11,
+        "pregunta": "¿Cuál de las siguientes acciones le está prohibida al Líbero?",
+        "opciones": {
+            "a": "Reemplazar a un jugador zaguero",
+            "b": "Realizar un pase de volea fuera de la zona de frente",
+            "c": "Sacar, bloquear o intentar bloquear",
+            "d": "Defender un balón en la zona libre"
+        },
+        "respuesta_correcta": "c",
+        "explicacion": "La Regla 19.3.1.3 establece explícitamente que el Líbero no puede sacar, bloquear o intentar bloquear."
+    },
+    {
+        "id": 12,
+        "pregunta": "¿El toque de bloqueo cuenta como un toque de equipo?",
+        "opciones": {
+            "a": "Sí, es el primer toque",
+            "b": "No cuenta como un toque de equipo",
+            "c": "Solo si el balón pasa al campo contrario",
+            "d": "Cuenta solo si lo realiza un zaguero"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "Según la Regla 14.4.1, el toque de bloqueo no cuenta como un toque del equipo; consecuentemente, el equipo tiene derecho a tres toques tras el bloqueo."
+    },
+    {
+        "id": 13,
+        "pregunta": "¿Cuándo se considera que el contacto de un jugador con la red es una falta?",
+        "opciones": {
+            "a": "Siempre que toque cualquier parte de la red",
+            "b": "Solo si la red se rompe",
+            "c": "Si ocurre entre las antenas y durante la acción de jugar el balón",
+            "d": "Si toca la red fuera de las antenas sin interferir"
+        },
+        "respuesta_correcta": "c",
+        "explicacion": "La Regla 11.3.1 define como falta el contacto con la red entre las antenas y durante la acción de jugar el balón."
+    },
+    {
+        "id": 14,
+        "pregunta": "¿Qué significa que el 1er árbitro muestre una TARJETA AMARILLA a un miembro del equipo?",
+        "opciones": {
+            "a": "Es un castigo y el adversario gana un punto",
+            "b": "Es una amonestación formal (advertencia) sin consecuencias inmediatas",
+            "c": "El jugador debe abandonar el set",
+            "d": "Es un castigo por demora"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "La Regla 21.1 indica que la tarjeta amarilla es una advertencia formal, no es una sanción en sí misma y no tiene consecuencias inmediatas."
+    },
+    {
+        "id": 15,
+        "pregunta": "¿Qué consecuencia tiene la muestra de una TARJETA ROJA por conducta grosera?",
+        "opciones": {
+            "a": "Amonestación verbal únicamente",
+            "b": "Expulsión del jugador por el resto del set",
+            "c": "Castigo: el equipo adversario gana un punto y el derecho al saque",
+            "d": "Descalificación del partido"
+        },
+        "respuesta_correcta": "c",
+        "explicacion": "La Regla 21.3.1 y el Diagrama 11 (6b) especifican que el castigo (tarjeta roja) resulta en un punto y el saque para el adversario."
+    },
+    {
+        "id": 16,
+        "pregunta": "¿Cómo se indica una EXPULSIÓN y qué implica para el sancionado?",
+        "opciones": {
+            "a": "Tarjeta roja; punto para el adversario",
+            "b": "Tarjetas Roja y Amarilla juntas; no juega el resto del set",
+            "c": "Tarjetas Roja y Amarilla separadas; no juega el resto del partido",
+            "d": "Tarjeta amarilla; solo advertencia"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "La Regla 21.3.2 y 21.6 explican que la expulsión se muestra con tarjetas juntas y el miembro no puede participar durante el resto del set."
+    },
+    {
+        "id": 17,
+        "pregunta": "¿Cuál es la sanción máxima por conducta incorrecta y cómo se muestra?",
+        "opciones": {
+            "a": "Castigo; tarjeta roja",
+            "b": "Expulsión; tarjetas roja y amarilla juntas",
+            "c": "Descalificación; tarjetas roja y amarilla separadas",
+            "d": "Amonestación; tarjeta amarilla"
+        },
+        "respuesta_correcta": "c",
+        "explicacion": "La Regla 21.3.3 y 21.6 definen la descalificación como la sanción máxima, mostrada con las tarjetas separadas, implicando la salida por el resto del partido."
+    },
+    {
+        "id": 18,
+        "pregunta": "¿Bajo qué condición puede un jugador zaguero completar un golpe de ataque desde la zona de frente?",
+        "opciones": {
+            "a": "En cualquier momento si no salta",
+            "b": "Si al momento del contacto una parte del balón está por debajo del borde superior de la red",
+            "c": "Si el balón proviene del campo adversario directamente",
+            "d": "No puede atacar nunca desde la zona de frente"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "Según la Regla 13.2.3, un zaguero puede atacar desde la zona de frente si, al contacto, el balón no está completamente por encima del borde superior de la red."
+    },
+    {
+        "id": 19,
+        "pregunta": "¿Cuántas sustituciones están permitidas por equipo en cada set?",
+        "opciones": {
+            "a": "Máximo 2",
+            "b": "Máximo 4",
+            "c": "Máximo 6",
+            "d": "Ilimitadas"
+        },
+        "respuesta_correcta": "c",
+        "explicacion": "La Regla 15.1 establece que cada equipo puede solicitar un máximo de seis sustituciones por set."
+    },
+    {
+        "id": 20,
+        "pregunta": "¿Cuál es la cantidad máxima de tiempos de descanso que puede pedir un equipo por set y cuánto duran?",
+        "opciones": {
+            "a": "1 tiempo de 60 segundos",
+            "b": "2 tiempos de 30 segundos cada uno",
+            "c": "3 tiempos de 30 segundos cada uno",
+            "d": "2 tiempos de 60 segundos cada uno"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "Las Reglas 15.1 y 15.4.1 indican que se pueden solicitar dos tiempos de descanso por set y cada uno dura 30 segundos."
+    },
+    {
+        "id": 21,
+        "pregunta": "¿Qué requisito debe cumplirse entre dos reemplazos de Líbero?",
+        "opciones": {
+            "a": "Deben pasar 30 segundos",
+            "b": "Debe haber una jugada completada",
+            "c": "El entrenador debe pedir permiso al 1er árbitro",
+            "d": "No hay requisitos, son inmediatos"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "La Regla 19.3.2.1 especifica que debe haber una jugada completada entre dos reemplazos de Líbero."
+    },
+    {
+        "id": 22,
+        "pregunta": "¿Cuántos lanzamientos del balón al aire se permiten para la ejecución del saque?",
+        "opciones": {
+            "a": "Dos lanzamientos",
+            "b": "Solo se permite un lanzamiento o soltada del balón",
+            "c": "Ilimitados siempre que no se golpee",
+            "d": "Uno para saque de tenis y dos para saque bajo"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "La Regla 12.4.2 establece que se permite solo un lanzamiento al aire del balón para el saque."
+    },
+    {
+        "id": 23,
+        "pregunta": "¿Cuándo se considera que un balón está 'dentro'?",
+        "opciones": {
+            "a": "Cuando toca el suelo completamente dentro de las líneas",
+            "b": "Si toca cualquier parte del campo, incluyendo las líneas de delimitación",
+            "c": "Solo si cae en el centro del campo",
+            "d": "Si toca la red y luego el suelo adversario"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "La Regla 8.3 aclara que el balón está 'dentro' si cualquier parte del mismo toca el campo, incluyendo las líneas."
+    },
+    {
+        "id": 24,
+        "pregunta": "¿Cuáles son las posiciones que ocupan los jugadores zagueros en el campo?",
+        "opciones": {
+            "a": "4, 3 y 2",
+            "b": "1, 2 y 3",
+            "c": "5, 6 y 1",
+            "d": "4, 5 y 6"
+        },
+        "respuesta_correcta": "c",
+        "explicacion": "La Regla 7.4.1.2 indica que los jugadores zagueros ocupan las posiciones 5 (zaguero izquierdo), 6 (zaguero centro) y 1 (zaguero derecho)."
+    },
+    {
+        "id": 25,
+        "pregunta": "¿Qué función cumplen las antenas en la red?",
+        "opciones": {
+            "a": "Sostener la red a los postes",
+            "b": "Delimitar lateralmente el espacio de paso del balón",
+            "c": "Indicar la altura de la red",
+            "d": "Son solo decorativas"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "Según la Regla 2.4, las antenas se consideran parte de la red y delimitan lateralmente el espacio de paso."
+    },
+    {
+        "id": 26,
+        "pregunta": "¿Cuál es la excepción para los contactos consecutivos en el toque del balón?",
+        "opciones": {
+            "a": "No hay excepciones, siempre es falta",
+            "b": "En el bloqueo y en el primer toque del equipo (en una misma acción)",
+            "c": "Solo si el balón viene muy fuerte",
+            "d": "En el tercer toque para pasar el balón"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "Las Reglas 9.2.3.1 y 9.2.3.2 permiten contactos consecutivos en el bloqueo y en el primer toque del equipo, siempre que sea una misma acción."
+    },
+    {
+        "id": 27,
+        "pregunta": "¿Por dónde debe pasar el balón al ser enviado al campo contrario?",
+        "opciones": {
+            "a": "Por cualquier lugar por encima de la red",
+            "b": "Por fuera de las antenas",
+            "c": "Por el espacio de paso (dentro de las antenas y bajo el techo)",
+            "d": "Por debajo de la banda superior"
+        },
+        "respuesta_correcta": "c",
+        "explicacion": "La Regla 10.1.1 estipula que el balón debe pasar por encima de la red dentro del espacio de paso delimitado por las antenas."
+    },
+    {
+        "id": 28,
+        "pregunta": "¿Está permitida la penetración debajo de la red al espacio adversario?",
+        "opciones": {
+            "a": "No, está estrictamente prohibido",
+            "b": "Sí, siempre que no se interfiera con el juego del adversario",
+            "c": "Solo para el Líbero",
+            "d": "Solo después de que el balón toque el suelo"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "La Regla 11.2.1 permite penetrar en el espacio adversario por debajo de la red, a condición de no interferir con el juego contrario."
+    },
+    {
+        "id": 29,
+        "pregunta": "¿Qué restricción hay si el Líbero hace un pase de volea de dedos en su zona de frente?",
+        "opciones": {
+            "a": "El balón debe ser pasado de golpe bajo inmediatamente",
+            "b": "Ningún jugador puede completar un ataque si el balón está totalmente sobre la red",
+            "c": "Se considera falta del Líbero automáticamente",
+            "d": "El equipo pierde el derecho a rotar"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "La Regla 19.3.1.4 prohíbe completar un golpe de ataque (balón sobre la red) si proviene de un pase de dedos del Líbero en zona de frente."
+    },
+    {
+        "id": 30,
+        "pregunta": "¿Cuándo cambian de campo los equipos en el set decisivo?",
+        "opciones": {
+            "a": "A los 10 puntos",
+            "b": "Cuando el equipo líder alcanza los 8 puntos",
+            "c": "No hay cambio de campo en el 5to set",
+            "d": "A la mitad del tiempo transcurrido"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "La Regla 18.2.2 indica que en el set decisivo, los equipos cambian de campo sin demora cuando el líder alcanza los 8 puntos."
+    },
+    {
+        "id": 31,
+        "pregunta": "¿Cuál es la presión interior reglamentaria de un balón de voleibol?",
+        "opciones": {
+            "a": "0.15 - 0.20 kg/cm2",
+            "b": "0.30 - 0.325 kg/cm2",
+            "c": "0.40 - 0.45 kg/cm2",
+            "d": "0.50 - 0.55 kg/cm2"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "La Regla 3.1 especifica que la presión interior del balón debe ser de 0.30-0.325 kg/cm2."
+    },
+    {
+        "id": 32,
+        "pregunta": "¿Cuántos jugadores pueden registrarse como máximo en la hoja de anotación para un partido de competencia mundial FIVB de Mayores?",
+        "opciones": {
+            "a": "12 jugadores",
+            "b": "10 jugadores",
+            "c": "14 jugadores",
+            "d": "16 jugadores"
+        },
+        "respuesta_correcta": "c",
+        "explicacion": "Según la Regla 4.1.1, para competencias mundiales y oficiales de la FIVB de Mayores, hasta 14 jugadores pueden ser registrados."
+    },
+    {
+        "id": 33,
+        "pregunta": "¿Desde dónde puede dar instrucciones el entrenador a los jugadores durante el partido?",
+        "opciones": {
+            "a": "Sentado en la banca únicamente",
+            "b": "Desde cualquier lugar de la zona libre",
+            "c": "Parado o caminando en la zona libre frente a su banco (hasta la línea de ataque)",
+            "d": "Desde detrás del primer árbitro"
+        },
+        "respuesta_correcta": "c",
+        "explicacion": "La Regla 5.2.3.4 permite al entrenador dar instrucciones parado o caminando en la zona libre frente a su banco hasta la extensión de la línea de ataque."
+    },
+    {
+        "id": 34,
+        "pregunta": "¿Cuál es el resultado de un partido si un equipo es declarado ausente por no presentarse a tiempo?",
+        "opciones": {
+            "a": "0-2 (0-15 por set)",
+            "b": "0-3 (0-25 para cada set)",
+            "c": "Se reprograma el partido",
+            "d": "Pierde solo el primer set"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "La Regla 6.4.1 establece que el equipo ausente pierde el partido con un resultado de 0-3 y 0-25 para cada set."
+    },
+    {
+        "id": 35,
+        "pregunta": "¿Cuál es la circunferencia reglamentaria del balón de voleibol?",
+        "opciones": {
+            "a": "60-62 cm",
+            "b": "62-64 cm",
+            "c": "65-67 cm",
+            "d": "68-70 cm"
+        },
+        "respuesta_correcta": "c",
+        "explicacion": "La Regla 3.1 indica que la circunferencia del balón es de 65-67 cm."
+    },
+    {
+        "id": 36,
+        "pregunta": "¿Cuánto duran todos los intervalos entre sets?",
+        "opciones": {
+            "a": "2 minutos",
+            "b": "3 minutos",
+            "c": "5 minutos",
+            "d": "10 minutos"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "La Regla 18.1 establece que todos los intervalos duran 3 minutos (pudiendo extenderse el de entre el 2do y 3er set)."
+    },
+    {
+        "id": 37,
+        "pregunta": "¿Cuándo se considera que los jugadores del equipo que saca realizan una 'pantalla'?",
+        "opciones": {
+            "a": "Si saltan durante el saque sin tocar el balón",
+            "b": "Si ocultan el golpe de saque o la trayectoria del balón al equipo receptor",
+            "c": "Si hablan entre ellos durante el saque",
+            "d": "Si levantan las manos por debajo de la cintura"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "La Regla 12.5.2 define la pantalla como acciones de jugadores para ocultar el golpe de saque o la trayectoria del balón hasta que alcanza la red."
+    },
+    {
+        "id": 38,
+        "pregunta": "¿Qué es un 'toque asistido' según el reglamento?",
+        "opciones": {
+            "a": "Recibir ayuda de un fisioterapeuta durante el juego",
+            "b": "Apoyarse en un compañero o estructura para golpear el balón",
+            "c": "Hacer un pase después de un bloqueo",
+            "d": "Tocar el balón con ambas manos a la vez"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "La Regla 9.1.3 prohíbe apoyarse en un compañero o estructura dentro del área de juego con el fin de golpear el balón."
+    },
+    {
+        "id": 39,
+        "pregunta": "¿Cómo debe ser el toque del balón según sus características reglamentarias?",
+        "opciones": {
+            "a": "Puede ser retenido si es para defensa",
+            "b": "Debe ser golpeado limpiamente, sin ser retenido ni acompañado",
+            "c": "Solo puede tocarse con las manos",
+            "d": "Debe durar al menos un segundo en contacto con la piel"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "La Regla 9.2.2 especifica que el balón no puede ser retenido ni acompañado/conducido."
+    },
+    {
+        "id": 40,
+        "pregunta": "¿A qué altura debe estar la vista del 1er árbitro sobre el borde superior de la red?",
+        "opciones": {
+            "a": "Al mismo nivel",
+            "b": "Aproximadamente 30 cm",
+            "c": "Aproximadamente 50 cm",
+            "d": "Exactamente 1 metro"
+        },
+        "respuesta_correcta": "c",
+        "explicacion": "La Regla 23.1 indica que la vista del primer árbitro debe estar aproximadamente 50 cm sobre el borde superior de la red."
+    }
+]

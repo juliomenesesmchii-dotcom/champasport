@@ -1,0 +1,482 @@
+[
+    {
+        "id": 1,
+        "pregunta": "¿Cuál es el ancho reglamentario de la pista para un partido de individuales?",
+        "opciones": {
+            "a": "10,97 metros (36 pies)",
+            "b": "8,23 metros (27 pies)",
+            "c": "23,77 metros (78 pies)",
+            "d": "6,40 metros (21 pies)"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "De acuerdo con la Regla 1, la pista de tenis es un rectángulo que para los partidos de individuales debe tener 8,23 metros (27 pies) de ancho."
+    },
+    {
+        "id": 2,
+        "pregunta": "¿A qué altura debe estar situada la red en su centro exacto?",
+        "opciones": {
+            "a": "1,07 metros (3,5 pies)",
+            "b": "1,00 metros",
+            "c": "0,914 metros (3 pies)",
+            "d": "0,850 metros"
+        },
+        "respuesta_correcta": "c",
+        "explicacion": "La Regla 1 especifica que, aunque los postes tengan una altura mayor, la altura en el centro de la red debe ser de 0,914 metros, sostenida por una faja."
+    },
+    {
+        "id": 3,
+        "pregunta": "En un partido de individuales que utiliza una red de dobles, ¿a qué distancia de la línea lateral de individuales deben colocarse los palos de individuales?",
+        "opciones": {
+            "a": "0,914 metros (3 pies)",
+            "b": "1,37 metros (4,5 pies)",
+            "c": "0,50 metros",
+            "d": "1,07 metros"
+        },
+        "respuesta_correcta": "a",
+        "explicacion": "Según la Regla 1, si se usa una red de dobles para individuales, esta se sostiene mediante palos de individuales cuyos centros estarán a 0,914 metros afuera de cada lado de la línea de individuales."
+    },
+    {
+        "id": 4,
+        "pregunta": "¿Cuál es el ancho máximo permitido para la marca central situada en la línea de fondo?",
+        "opciones": {
+            "a": "10 cm (4 pulgadas)",
+            "b": "2 cm",
+            "c": "7,5 cm",
+            "d": "5 cm (2 pulgadas)"
+        },
+        "respuesta_correcta": "d",
+        "explicacion": "La Regla 1 establece que la línea central de servicio y la marca central deben ser de 5 cm (2 pulgadas) de ancho."
+    },
+    {
+        "id": 5,
+        "pregunta": "Si se establece una política de cambio de pelotas durante el partido, ¿cómo se realiza el primer cambio según el reglamento?",
+        "opciones": {
+            "a": "En el mismo número de juegos que los cambios subsiguientes",
+            "b": "Dos juegos antes que el resto del partido, para considerar el calentamiento",
+            "c": "Al finalizar el primer set, independientemente de los juegos",
+            "d": "Después del primer juego del partido"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "La Regla 3 estipula que el primer cambio de pelotas del partido se realizará dos juegos antes que en el resto del partido, teniendo en cuenta el calentamiento."
+    },
+    {
+        "id": 6,
+        "pregunta": "¿Qué ocurre si una pelota se rompe durante el juego de un punto?",
+        "opciones": {
+            "a": "El jugador que la rompió pierde el punto",
+            "b": "Se repite el punto (let)",
+            "c": "Se continúa el punto con la pelota en ese estado hasta que termine",
+            "d": "El juez de silla decide si el daño afectó la trayectoria"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "La Regla 3 indica claramente: 'Si una pelota se rompe durante el juego se repetirá el punto'."
+    },
+    {
+        "id": 7,
+        "pregunta": "¿Dónde pueden colocarse los dispositivos para reducir la vibración en la raqueta?",
+        "opciones": {
+            "a": "En cualquier parte del encordado",
+            "b": "Únicamente en el centro de la cabeza de la raqueta",
+            "c": "Únicamente fuera de la zona de las cuerdas cruzadas",
+            "d": "En el marco, pero nunca en las cuerdas"
+        },
+        "respuesta_correcta": "c",
+        "explicacion": "Según la Regla 4 (Caso 3), los dispositivos antivibración únicamente pueden colocarse fuera de la zona de las cuerdas cruzadas."
+    },
+    {
+        "id": 8,
+        "pregunta": "¿Cuál es el tanteo de un juego si ambos jugadores han ganado tres puntos cada uno?",
+        "opciones": {
+            "a": "40-40",
+            "b": "Iguales (Deuce)",
+            "c": "Ventaja",
+            "d": "Treinta iguales"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "La Regla 5 establece que si cada jugador o equipo ha ganado tres puntos, se cantará el tanteo de 'iguales'."
+    },
+    {
+        "id": 9,
+        "pregunta": "Para ganar un juego de tie-break estándar, ¿cuántos puntos debe alcanzar un jugador y por qué margen?",
+        "opciones": {
+            "a": "6 puntos con margen de 1",
+            "b": "10 puntos con margen de 2",
+            "c": "7 puntos con margen de 2",
+            "d": "5 puntos con margen de 2"
+        },
+        "respuesta_correcta": "c",
+        "explicacion": "La Regla 5b define que el primer jugador o equipo que obtenga siete puntos gana el juego y el set, siempre que haya un margen de dos puntos."
+    },
+    {
+        "id": 10,
+        "pregunta": "¿En qué momento se debe anunciar qué método de puntuación de set se utilizará en una competición?",
+        "opciones": {
+            "a": "Al finalizar el primer juego",
+            "b": "Antes de que comience la competición",
+            "c": "Cuando el marcador llegue a 5-5",
+            "d": "Es opcional y lo decide el servidor del primer juego"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "La Regla 6 especifica que puede usarse cualquier método (set de ventaja o de tie-break) siempre que se anuncie antes de que comience la competición."
+    },
+    {
+        "id": 11,
+        "pregunta": "¿Cuál es el número máximo de sets que se pueden disputar en un partido de tenis masculino en los Grand Slams?",
+        "opciones": {
+            "a": "Tres sets",
+            "b": "Siete sets",
+            "c": "Cuatro sets",
+            "d": "Cinco sets"
+        },
+        "respuesta_correcta": "d",
+        "explicacion": "La Regla 7 permite que un partido se juegue al mejor de tres sets o al mejor de cinco sets."
+    },
+    {
+        "id": 12,
+        "pregunta": "Si un jugador gana el sorteo inicial, ¿cuál de las siguientes opciones NO puede elegir?",
+        "opciones": {
+            "a": "Ser el servidor o el restador en el primer juego",
+            "b": "El lado de la pista para el primer juego",
+            "c": "Que su oponente elija primero",
+            "d": "Cambiar las pelotas antes del calentamiento"
+        },
+        "respuesta_correcta": "d",
+        "explicacion": "La Regla 9 detalla las opciones tras ganar el sorteo (servir/restar, lado, o delegar elección). El cambio de pelotas no es una opción del sorteo."
+    },
+    {
+        "id": 13,
+        "pregunta": "¿Con qué frecuencia cambian de lado los jugadores durante un set normal?",
+        "opciones": {
+            "a": "Después de cada juego",
+            "b": "Después de cada número par de juegos",
+            "c": "Al final del primer, tercer y siguientes juegos impares",
+            "d": "Solo al final de cada set"
+        },
+        "respuesta_correcta": "c",
+        "explicacion": "La Regla 10 dicta que los jugadores cambiarán de lado al final del primer, tercer y siguientes juegos impares de cada set."
+    },
+    {
+        "id": 14,
+        "pregunta": "¿Qué ocurre si una pelota en juego toca una línea de la pista?",
+        "opciones": {
+            "a": "Se considera que cae fuera",
+            "b": "Se repite el punto",
+            "c": "Se considera que cae dentro del campo de juego",
+            "d": "Depende de si la pelota toca más del 50% de la línea"
+        },
+        "respuesta_correcta": "c",
+        "explicacion": "La Regla 12 establece de forma simple que si una pelota toca una línea, se considera que cae dentro del campo limitado por esa línea."
+    },
+    {
+        "id": 15,
+        "pregunta": "Si la pelota golpea un accesorio fijo permanente (como la silla del juez) ANTES de tocar el suelo, ¿qué se dictamina?",
+        "opciones": {
+            "a": "Se repite el punto",
+            "b": "El jugador que golpeó la pelota pierde el punto",
+            "c": "El jugador que golpeó la pelota gana el punto",
+            "d": "Es una pelota buena si cae dentro tras el rebote"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "La Regla 13 estipula que si la pelota toca un accesorio fijo permanente antes de tocar el suelo, el jugador que golpeó la pelota pierde el punto."
+    },
+    {
+        "id": 16,
+        "pregunta": "¿Cuál es la posición correcta de los pies del servidor en el momento de realizar el saque?",
+        "opciones": {
+            "a": "Un pie debe tocar la línea de fondo",
+            "b": "Ambos pies deben estar situados detrás de la línea de fondo",
+            "c": "Puede estar pisando la marca central",
+            "d": "Debe tener un pie en el aire obligatoriamente"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "La Regla 16 indica que el servidor se pondrá con ambos pies situados detrás de la línea de fondo y dentro de las prolongaciones imaginarias de la marca central y la línea lateral."
+    },
+    {
+        "id": 17,
+        "pregunta": "En un partido de individuales, el servidor realiza el saque situándose detrás de la línea de fondo entre la línea lateral de individuales y la de dobles. ¿Es esto legal?",
+        "opciones": {
+            "a": "Sí, es permitido en individuales",
+            "b": "No, es una falta de pie",
+            "c": "Solo si el restador está de acuerdo",
+            "d": "Solo si se juega en pista de tierra batida"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "La Regla 18 (Caso 1) aclara que en individuales no se permite situarse en esa zona; si lo hace, infringe la regla de posición y comete una falta."
+    },
+    {
+        "id": 18,
+        "pregunta": "Si el servidor lanza la pelota al aire para sacar pero decide no golpearla y la recoge con la raqueta, ¿qué se decide?",
+        "opciones": {
+            "a": "Falta en el servicio",
+            "b": "Doble falta",
+            "c": "No se ha cometido falta, puede repetir el intento",
+            "d": "Pérdida del punto"
+        },
+        "respuesta_correcta": "c",
+        "explicacion": "Según la Regla 19 (Caso 1), se permite que un jugador lance la pelota y decida no golpearla, recogiéndola con la mano o raqueta sin que cuente como falta."
+    },
+    {
+        "id": 19,
+        "pregunta": "¿Cuándo se considera que un restador está listo para recibir el servicio?",
+        "opciones": {
+            "a": "Cuando levanta la mano",
+            "b": "Cuando el juez de silla lo indica",
+            "c": "Si intenta devolver el servicio",
+            "d": "Después de 5 segundos de que el servidor se prepare"
+        },
+        "respuesta_correcta": "c",
+        "explicacion": "La Regla 21 establece que se considerará que un restador está listo para el juego si intenta devolver el servicio."
+    },
+    {
+        "id": 20,
+        "pregunta": "¿Qué sucede con el primer servicio si se canta un 'let' durante el juego de un punto (no en el servicio)?",
+        "opciones": {
+            "a": "El servidor tiene derecho a un segundo servicio",
+            "b": "Se mantiene el error anterior",
+            "c": "El servidor tiene derecho a un primer servicio",
+            "d": "El restador elige qué servicio se repite"
+        },
+        "respuesta_correcta": "c",
+        "explicacion": "La Regla 23 (Caso 1) explica que cuando se canta un let, debe volverse a jugar todo el punto, lo que otorga al servidor un primer servicio."
+    },
+    {
+        "id": 21,
+        "pregunta": "Un jugador pierde el punto si la pelota en juego le toca a él o a cualquier cosa que lleve puesto, EXCEPTO:",
+        "opciones": {
+            "a": "Su gorra",
+            "b": "Su raqueta sostenida en la mano",
+            "c": "Su reloj",
+            "d": "Su compañero en dobles"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "La Regla 24i señala que un jugador pierde el punto si la pelota le toca a él o a su ropa, excepto la raqueta (cuando la tiene en la mano y es parte del golpe)."
+    },
+    {
+        "id": 22,
+        "pregunta": "Si un jugador lanza su raqueta hacia la pelota y la golpea, ganando el punto porque el oponente no llega, ¿cuál es la decisión?",
+        "opciones": {
+            "a": "Punto para el jugador que lanzó la raqueta",
+            "b": "Se repite el punto",
+            "c": "El jugador que lanzó la raqueta pierde el punto",
+            "d": "Depende de si la raqueta cruzó la red"
+        },
+        "respuesta_correcta": "c",
+        "explicacion": "La Regla 24j y el Caso 6 especifican que si la pelota toca la raqueta cuando no está en la mano del jugador, este pierde el punto."
+    },
+    {
+        "id": 23,
+        "pregunta": "¿Es una devolución buena si la pelota pasa por debajo de la cuerda de la red entre el palo de individuales y el poste de la red sin tocar nada?",
+        "opciones": {
+            "a": "No, debe pasar por encima de la red",
+            "b": "Sí, siempre que toque el campo correcto",
+            "c": "Solo en partidos de dobles",
+            "d": "Se canta let"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "La Regla 25d establece que es una devolución buena si la pelota pasa por debajo de la cuerda de la red entre el palo de individuales y el poste adyacente y golpea el campo correspondiente."
+    },
+    {
+        "id": 24,
+        "pregunta": "¿Qué ocurre si un jugador es obstaculizado por un acto deliberado de su contrario?",
+        "opciones": {
+            "a": "Se repite el punto",
+            "b": "El jugador obstaculizado gana el punto",
+            "c": "Se le da una advertencia al contrario",
+            "d": "No se toma ninguna medida si la pelota entró"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "La Regla 26 indica que si un jugador es obstaculizado por un acto deliberado de su contrario, el jugador ganará el punto."
+    },
+    {
+        "id": 25,
+        "pregunta": "Si se descubre que un jugador está sacando desde el lado equivocado de la pista, ¿qué sucede con las faltas cometidas antes del descubrimiento?",
+        "opciones": {
+            "a": "Se anulan todas",
+            "b": "El jugador pierde el punto",
+            "c": "Cualquier falta cantada será válida",
+            "d": "Se repite el juego desde cero"
+        },
+        "respuesta_correcta": "c",
+        "explicacion": "La Regla 27a sobre corrección de errores especifica que cualquier falta que se cantase antes de descubrirse el error de lado será válida."
+    },
+    {
+        "id": 26,
+        "pregunta": "¿Cuál es el tiempo máximo permitido entre el final de un punto y el inicio del servicio siguiente?",
+        "opciones": {
+            "a": "20 segundos",
+            "b": "90 segundos",
+            "c": "25 segundos",
+            "d": "60 segundos"
+        },
+        "respuesta_correcta": "c",
+        "explicacion": "La Regla 29a establece un descanso máximo de veinticinco (25) segundos entre el juego de un punto y otro."
+    },
+    {
+        "id": 27,
+        "pregunta": "En un cambio de lado al final de un juego, ¿cuánto tiempo máximo de descanso se permite?",
+        "opciones": {
+            "a": "120 segundos",
+            "b": "60 segundos",
+            "c": "25 segundos",
+            "d": "90 segundos"
+        },
+        "respuesta_correcta": "d",
+        "explicacion": "La Regla 29a indica que cuando los jugadores cambian de lado al final de un juego se permite un descanso máximo de noventa (90) segundos."
+    },
+    {
+        "id": 28,
+        "pregunta": "¿Cuánto tiempo se concede para un tiempo muerto médico para tratar una condición médica tratable?",
+        "opciones": {
+            "a": "5 minutos",
+            "b": "3 minutos",
+            "c": "10 minutos",
+            "d": "No hay límite, lo decide el médico"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "La Regla 29c estipula que se podrá permitir un tiempo muerto de tres minutos para tratar una condición médica tratable."
+    },
+    {
+        "id": 29,
+        "pregunta": "¿Se permite dar instrucciones a un jugador durante el desarrollo de un punto?",
+        "opciones": {
+            "a": "Sí, si es el capitán en Copa Davis",
+            "b": "No, está prohibido en todo momento durante el punto",
+            "c": "Solo mediante señales manuales discretas",
+            "d": "Sí, si el juez de silla no lo oye"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "La Regla 30 es taxativa: 'No está permitido dar instrucciones durante el desarrollo de un punto'."
+    },
+    {
+        "id": 30,
+        "pregunta": "En el tenis en silla de ruedas, ¿cuántos botes se le permiten al jugador antes de devolver la pelota?",
+        "opciones": {
+            "a": "Un solo bote",
+            "b": "Dos botes, y el segundo puede ser fuera de los límites",
+            "c": "Tres botes",
+            "d": "Dos botes, pero ambos deben ser dentro de la pista"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "En las Reglas del Tenis en Silla de Ruedas (sección a), se permiten dos botes, y el segundo puede ser fuera o dentro de los límites de la pista."
+    },
+    {
+        "id": 31,
+        "pregunta": "¿Qué sucede en el tenis en silla de ruedas si el jugador utiliza sus pies como freno o para impulsarse mientras la pelota está en juego?",
+        "opciones": {
+            "a": "No pasa nada",
+            "b": "Se le da un aviso",
+            "c": "Pierde el punto",
+            "d": "Se repite el punto"
+        },
+        "respuesta_correcta": "c",
+        "explicacion": "Según la sección d.ii de las reglas de silla de ruedas, el jugador pierde el punto si utiliza sus pies o extremidades inferiores contra el suelo o las ruedas mientras la pelota está en juego."
+    },
+    {
+        "id": 32,
+        "pregunta": "En el método de puntuación 'Sin Ventaja', ¿quién elige el lado de recepción en el punto decisivo?",
+        "opciones": {
+            "a": "El servidor",
+            "b": "El juez de silla",
+            "c": "Se sortea",
+            "d": "El restador"
+        },
+        "respuesta_correcta": "d",
+        "explicacion": "El Apéndice VI (Puntuación Sin Ventaja) indica que el o los restadores elegirán si recibir el servicio desde la mitad izquierda o derecha para el punto decisivo."
+    },
+    {
+        "id": 33,
+        "pregunta": "¿Qué es un 'Match Tie-break' de 10 puntos?",
+        "opciones": {
+            "a": "Un juego para desempatar un set corto",
+            "b": "Un juego que reemplaza al set decisivo final para definir el partido",
+            "c": "Un entrenamiento previo al partido",
+            "d": "Una regla exclusiva para el tenis de playa"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "El Apéndice VI describe el Match Tie-break como un juego que reemplaza al set decisivo final (generalmente el tercero o quinto) cuando hay empate en sets."
+    },
+    {
+        "id": 34,
+        "pregunta": "¿Quién es la autoridad final en todas las cuestiones de ley de tenis?",
+        "opciones": {
+            "a": "El juez de silla",
+            "b": "El comité del torneo",
+            "c": "El juez árbitro",
+            "d": "La ITF en Londres vía telefónica"
+        },
+        "respuesta_correcta": "c",
+        "explicacion": "El Apéndice VII establece que el juez árbitro es la autoridad final en todas las cuestiones de ley de tenis y su decisión será definitiva."
+    },
+    {
+        "id": 35,
+        "pregunta": "¿En qué tipo de superficie se permiten exclusivamente las inspecciones de marcas de pelota?",
+        "opciones": {
+            "a": "Hierba natural",
+            "b": "Moqueta",
+            "c": "Tierra batida (arcilla)",
+            "d": "Superficies duras acrílicas"
+        },
+        "respuesta_correcta": "c",
+        "explicacion": "El Apéndice VII (Procedimientos para inspecciones de marca) especifica que estas solamente se pueden hacer en pistas de tierra batida."
+    },
+    {
+        "id": 36,
+        "pregunta": "¿Cuántas reclamaciones fallidas de revisión electrónica se permiten a un jugador por set?",
+        "opciones": {
+            "a": "Ilimitadas",
+            "b": "Tres (3)",
+            "c": "Una (1)",
+            "d": "Dos (2)"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "El Apéndice VII (Revisión Electrónica) permite a cada jugador o equipo hacer tres reclamaciones fallidas por set."
+    },
+    {
+        "id": 37,
+        "pregunta": "¿Qué sucede si un jugador en silla de ruedas no puede impulsar la silla con las ruedas debido a su discapacidad?",
+        "opciones": {
+            "a": "Es descalificado",
+            "b": "Puede impulsarla utilizando un pie",
+            "c": "Debe jugar con un asistente",
+            "d": "Solo puede jugar dobles"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "La regla f de silla de ruedas permite que, por falta de capacidad, un jugador impulse la silla utilizando un pie."
+    },
+    {
+        "id": 38,
+        "pregunta": "¿Se permite publicidad sobre la superficie de la pista dentro de las líneas de juego?",
+        "opciones": {
+            "a": "Sí, si es de color oscuro",
+            "b": "Solo en la zona de servicio",
+            "c": "No, no se permite publicidad dentro de las líneas",
+            "d": "Solo el logo del fabricante de la raqueta"
+        },
+        "respuesta_correcta": "c",
+        "explicacion": "El Apéndice V, punto 5, prohíbe explícitamente publicidad y otras marcas sobre la superficie de la pista dentro de las líneas que la definen."
+    },
+    {
+        "id": 39,
+        "pregunta": "Durante un tie-break, ¿cada cuántos puntos deben cambiar de lado los jugadores?",
+        "opciones": {
+            "a": "Cada dos puntos",
+            "b": "Cada seis puntos",
+            "c": "Después del primer punto y luego cada cuatro",
+            "d": "Al final del tie-break únicamente"
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "La Regla 10 establece que durante el juego de tie-break los jugadores cambiarán de lado después de cada seis puntos."
+    },
+    {
+        "id": 40,
+        "pregunta": "¿Cuál es la duración máxima permitida para el calentamiento previo al partido?",
+        "opciones": {
+            "a": "10 minutos",
+            "b": "3 minutos",
+            "c": "5 minutos",
+            "d": "Lo que decidan los jugadores"
+        },
+        "respuesta_correcta": "c",
+        "explicacion": "La Regla 29e indica que el tiempo de calentamiento será de un máximo de cinco (5) minutos, a menos que los organizadores decidan otra cosa."
+    }
+]

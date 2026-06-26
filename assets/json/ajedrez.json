@@ -1,0 +1,482 @@
+[
+    {
+        "id": 1,
+        "pregunta": "Según el artículo 1.2, ¿qué jugador tiene la obligación de realizar el primer movimiento de la partida?",
+        "opciones": {
+            "a": "El jugador con las piezas oscuras.",
+            "b": "El jugador con las piezas claras.",
+            "c": "Se decide por sorteo de colores justo antes de mover.",
+            "d": "Cualquiera de los dos, previo acuerdo."
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "El Artículo 1.2 establece explícitamente que el jugador con las piezas claras (el Blanco) realiza el primer movimiento de la partida."
+    },
+    {
+        "id": 2,
+        "pregunta": "¿Cuál es la disposición correcta del tablero entre los jugadores según el artículo 2.1?",
+        "opciones": {
+            "a": "La casilla de la esquina derecha más cercana a cada jugador debe ser negra.",
+            "b": "La casilla de la esquina izquierda más cercana a cada jugador debe ser blanca.",
+            "c": "La casilla de la esquina derecha más cercana a cada jugador debe ser blanca.",
+            "d": "Es indiferente mientras las piezas estén bien colocadas."
+        },
+        "respuesta_correcta": "c",
+        "explicacion": "De acuerdo con el Artículo 2.1, el tablero se coloca de tal forma que la casilla de la esquina derecha más cercana a cada jugador sea blanca."
+    },
+    {
+        "id": 3,
+        "pregunta": "Según el artículo 3.1.3, ¿se considera que una pieza ataca una casilla si no puede ser movida porque dejaría a su propio rey bajo ataque?",
+        "opciones": {
+            "a": "No, una pieza clavada no ataca ninguna casilla.",
+            "b": "Sí, se considera que la pieza ataca la casilla a pesar de la imposibilidad de movimiento.",
+            "c": "Solo si la pieza es de mayor valor que el rey.",
+            "d": "Solo en partidas de Ajedrez Rápido o Relámpago."
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "El Artículo 3.1.3 aclara que una pieza ataca una casilla incluso si no puede ser movida porque este movimiento dejaría o colocaría su propio rey bajo ataque."
+    },
+    {
+        "id": 4,
+        "pregunta": "¿En qué momento es legal realizar la captura 'al paso' según el artículo 3.7.4.2?",
+        "opciones": {
+            "a": "En cualquier momento de la partida posterior al avance del peón.",
+            "b": "Solo en el movimiento inmediatamente siguiente al avance de dos casillas del peón adversario.",
+            "c": "Dos movimientos después del avance del peón.",
+            "d": "Solo si no existen otras capturas legales en el tablero."
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "El Artículo 3.7.4.2 especifica que la captura al paso es solo legal en el movimiento inmediatamente siguiente al citado avance de dos casillas del peón adversario."
+    },
+    {
+        "id": 5,
+        "pregunta": "Cuando un peón alcanza la casilla de promoción, ¿por qué piezas puede ser sustituido según el artículo 3.7.5.1?",
+        "opciones": {
+            "a": "Únicamente por una dama.",
+            "b": "Por una dama, torre, alfil o caballo del mismo color.",
+            "c": "Por cualquier pieza que haya sido capturada previamente.",
+            "d": "Por una dama o un segundo rey."
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "El Artículo 3.7.5.1 estipula que el peón debe cambiarse por una dama, torre, alfil o caballo del mismo color en la casilla de llegada."
+    },
+    {
+        "id": 6,
+        "pregunta": "Según el artículo 3.8.2.1, ¿en qué caso se pierde definitivamente el derecho al enroque?",
+        "opciones": {
+            "a": "Si el rey está temporalmente en jaque.",
+            "b": "Si el rey ya ha sido movido previamente.",
+            "c": "Si la casilla que debe cruzar el rey está atacada.",
+            "d": "Si hay piezas entre el rey y la torre."
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "El Artículo 3.8.2.1 indica que se ha perdido el derecho al enroque si el rey ya ha sido movido, o con una torre que ya ha sido movida."
+    },
+    {
+        "id": 7,
+        "pregunta": "De acuerdo con el artículo 4.1, ¿cómo debe realizarse cada movimiento sobre el tablero?",
+        "opciones": {
+            "a": "Con ambas manos para mayor precisión.",
+            "b": "Con una sola mano.",
+            "c": "Con una mano para mover y la otra para pulsar el reloj.",
+            "d": "Es indiferente, siempre que el movimiento sea legal."
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "El Artículo 4.1 establece de manera estricta que cada movimiento debe ser jugado con una sola mano."
+    },
+    {
+        "id": 8,
+        "pregunta": "Si un jugador toca su rey y una de sus torres con la intención de enrocar, y el enroque es legal, ¿qué debe hacer según el artículo 4.4.1?",
+        "opciones": {
+            "a": "Puede elegir entre mover el rey o la torre.",
+            "b": "Debe enrocar por ese lado.",
+            "c": "Debe mover el rey a otra casilla legal.",
+            "d": "Se le penaliza con tiempo y se sigue la partida."
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "El Artículo 4.4.1 dicta que si el jugador toca su rey y una torre, debe enrocar por ese lado si fuera legal hacerlo."
+    },
+    {
+        "id": 9,
+        "pregunta": "Según el artículo 4.7.2, ¿cuándo se considera completado el movimiento de enroque?",
+        "opciones": {
+            "a": "Cuando el jugador ha soltado el rey en su nueva casilla.",
+            "b": "Cuando el jugador ha soltado la torre en la casilla previamente cruzada por el rey.",
+            "c": "En cuanto el jugador anuncia 'enroque'.",
+            "d": "Cuando se ha pulsado el reloj de ajedrez."
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "El Artículo 4.7.2 especifica que el enroque se considera realizado cuando el jugador ha soltado la torre en la casilla previamente cruzada por el rey."
+    },
+    {
+        "id": 10,
+        "pregunta": "Según el artículo 5.1.1, ¿qué condición debe cumplirse para que el mate finalice inmediatamente la partida?",
+        "opciones": {
+            "a": "Que el jugador que da mate tenga más tiempo en el reloj.",
+            "b": "Que el movimiento que generó la posición de mate sea legal conforme a los artículos 3 y 4.2-4.7.",
+            "c": "Que el árbitro esté presente para certificarlo.",
+            "d": "Que el adversario acepte la derrota verbalmente."
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "El Artículo 5.1.1 establece que el mate finaliza la partida siempre que el movimiento que generó la posición cumpla con las reglas de movimiento y acción de las piezas."
+    },
+    {
+        "id": 11,
+        "pregunta": "¿Qué ocurre si un jugador cuya bandera ha caído reclama tablas porque su adversario no tiene ninguna combinación de movimientos legales para dar mate (Art. 6.9)?",
+        "opciones": {
+            "a": "El jugador pierde la partida por tiempo.",
+            "b": "La partida es tablas.",
+            "c": "Se añade tiempo al jugador y se continúa.",
+            "d": "El árbitro decide el ganador por criterio técnico."
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "Según el Artículo 6.9, si la posición es tal que el adversario no puede dar mate mediante cualquier posible combinación de movimientos legales, la partida es tablas a pesar de la caída de bandera."
+    },
+    {
+        "id": 12,
+        "pregunta": "Si un jugador presiona el reloj sin haber realizado un movimiento, ¿cómo se penaliza según el artículo 7.5.3?",
+        "opciones": {
+            "a": "Se le advierte verbalmente.",
+            "b": "Se considera y penaliza como si fuera un movimiento ilegal.",
+            "c": "No hay penalización si el jugador está en juego.",
+            "d": "Se le resta un minuto de su tiempo restante."
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "El Artículo 7.5.3 establece que presionar el reloj sin hacer ningún movimiento se considerará y penalizará como si fuera un movimiento ilegal."
+    },
+    {
+        "id": 13,
+        "pregunta": "Según el artículo 7.5.5, ¿cuál es la sanción por el segundo movimiento ilegal completado por el mismo jugador?",
+        "opciones": {
+            "a": "El árbitro concede otros dos minutos al adversario.",
+            "b": "El árbitro decretará la pérdida de la partida para el infractor.",
+            "c": "El jugador recibe una advertencia final.",
+            "d": "Se anula la partida y se juega una nueva."
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "El Artículo 7.5.5 indica que para el segundo movimiento ilegal completado del mismo jugador, el árbitro decretará la pérdida de la partida para el infractor."
+    },
+    {
+        "id": 14,
+        "pregunta": "Según el artículo 8.1.1, ¿cuál es el sistema de anotación que la FIDE obliga a usar en las planillas?",
+        "opciones": {
+            "a": "Sistema Descriptivo.",
+            "b": "Cualquier sistema que sea legible.",
+            "c": "Anotación Algebraica.",
+            "d": "Solo anotación electrónica aprobada."
+        },
+        "respuesta_correcta": "c",
+        "explicacion": "El Artículo 8.1.1 y el Apéndice C especifican que los movimientos deben anotarse en anotación algebraica."
+    },
+    {
+        "id": 15,
+        "pregunta": "¿Cuándo está prohibido anotar los movimientos según el artículo 8.1.2?",
+        "opciones": {
+            "a": "Después de realizar el movimiento.",
+            "b": "Antes de realizar el movimiento (salvo reclamación específica).",
+            "c": "Durante el tiempo de reflexión del adversario.",
+            "d": "En las partidas de Ajedrez Rápido."
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "El Artículo 8.1.2 prohíbe anotar los movimientos antes de realizarlos, excepto en casos de reclamación de tablas por repetición o regla de 50 movimientos."
+    },
+    {
+        "id": 16,
+        "pregunta": "Según el artículo 9.1.2.1, ¿cuál es el momento correcto para que un jugador ofrezca tablas?",
+        "opciones": {
+            "a": "Antes de realizar su movimiento.",
+            "b": "Después de haber realizado un movimiento sobre el tablero y antes de pulsar su reloj.",
+            "c": "En el tiempo de reflexión del adversario.",
+            "d": "Inmediatamente después de pulsar el reloj."
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "El Artículo 9.1.2.1 establece que el jugador debe ofrecer tablas después de realizar su movimiento y antes de pulsar su reloj."
+    },
+    {
+        "id": 17,
+        "pregunta": "¿Cuántas veces debe aparecer la misma posición para que un jugador pueda reclamar tablas según el artículo 9.2.1?",
+        "opciones": {
+            "a": "Al menos dos veces.",
+            "b": "Al menos tres veces.",
+            "c": "Exactamente cinco veces.",
+            "d": "Tres veces consecutivas."
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "El Artículo 9.2.1 indica que la partida es tablas bajo una correcta reclamación cuando la misma posición va a producirse o acaba de producirse al menos por tercera vez."
+    },
+    {
+        "id": 18,
+        "pregunta": "Según el artículo 9.3, ¿cuántos movimientos deben completarse sin capturas ni movimientos de peón para reclamar tablas?",
+        "opciones": {
+            "a": "40 movimientos.",
+            "b": "50 movimientos.",
+            "c": "75 movimientos.",
+            "d": "100 movimientos."
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "El Artículo 9.3 permite reclamar tablas si se han completado los últimos 50 movimientos de cada jugador sin movimientos de peón ni capturas."
+    },
+    {
+        "id": 19,
+        "pregunta": "De acuerdo con el artículo 9.6.1, ¿cuándo es tablas una partida de forma automática por repetición de posición?",
+        "opciones": {
+            "a": "Cuando aparece la misma posición por tercera vez.",
+            "b": "Cuando aparece la misma posición por quinta vez.",
+            "c": "Cuando el árbitro se cansa de la repetición.",
+            "d": "Solo si hay reclamación tras la cuarta repetición."
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "El Artículo 9.6.1 establece que la partida es tablas (sin necesidad de reclamación) si la misma posición ha aparecido al menos cinco veces."
+    },
+    {
+        "id": 20,
+        "pregunta": "Según el artículo 10.1, ¿cuántos puntos recibe un jugador por un empate (tablas)?",
+        "opciones": {
+            "a": "1 punto.",
+            "b": "0 puntos.",
+            "c": "Medio punto (1/2).",
+            "d": "Un cuarto de punto (1/4)."
+        },
+        "respuesta_correcta": "c",
+        "explicacion": "El Artículo 10.1 indica que un jugador que entabla su partida recibe medio punto (1/2)."
+    },
+    {
+        "id": 21,
+        "pregunta": "¿Qué sanción se aplica generalmente si es evidente que un jugador lleva un dispositivo electrónico no autorizado dentro del recinto de juego (Art. 11.3.2.2)?",
+        "opciones": {
+            "a": "Una advertencia y confiscación del objeto.",
+            "b": "Pérdida de la partida.",
+            "c": "Reducción de 10 minutos en el reloj.",
+            "d": "Repetición de la partida desde la posición inicial."
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "Según el Artículo 11.3.2.2, si es evidente que un jugador lleva un dispositivo de este tipo, perderá la partida."
+    },
+    {
+        "id": 22,
+        "pregunta": "Según el artículo 12.6, ¿puede el árbitro informar a un jugador de que su adversario ha realizado un movimiento o no ha pulsado su reloj?",
+        "opciones": {
+            "a": "Sí, es su deber ayudar a los jugadores.",
+            "b": "No, el árbitro debe abstenerse de informar de estas situaciones.",
+            "c": "Solo en partidas de niños o principiantes.",
+            "d": "Solo si el jugador se lo pregunta directamente."
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "El Artículo 12.6 prohíbe explícitamente que el árbitro informe a un jugador de que su adversario ha movido o de que no ha pulsado el reloj."
+    },
+    {
+        "id": 23,
+        "pregunta": "En Ajedrez Rápido, ¿cuál es el tiempo de incremento para cada jugador según el artículo A.3 en comparación con el ajedrez estándar por un movimiento ilegal?",
+        "opciones": {
+            "a": "Dos minutos.",
+            "b": "Un minuto.",
+            "c": "Treinta segundos.",
+            "d": "No hay incremento de tiempo."
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "El Artículo A.3 especifica que las penalizaciones por irregularidades en Ajedrez Rápido serán de un minuto en lugar de dos minutos."
+    },
+    {
+        "id": 24,
+        "pregunta": "De acuerdo con el artículo 6.2.3, ¿con qué mano debe pulsar el reloj el jugador?",
+        "opciones": {
+            "a": "Con la mano que tenga libre.",
+            "b": "Con la misma mano con la que realizó su movimiento.",
+            "c": "Siempre con la mano derecha.",
+            "d": "Con cualquiera, mientras no golpee el reloj."
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "El Artículo 6.2.3 exige que el jugador pulse su reloj con la misma mano con la que realizó su movimiento."
+    },
+    {
+        "id": 25,
+        "pregunta": "Si se descubre durante la partida que el tablero se colocó incorrectamente (casilla negra a la derecha), ¿qué debe hacerse según el artículo 7.2.2?",
+        "opciones": {
+            "a": "La partida se anula y se empieza otra.",
+            "b": "La partida continúa, pero la posición debe transferirse a un tablero colocado correctamente.",
+            "c": "Se ignora el error y se termina la partida.",
+            "d": "Se penaliza al Blanco con dos minutos."
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "El Artículo 7.2.2 indica que si el tablero está mal colocado, la partida continúa pero la posición debe transferirse a un tablero correcto."
+    },
+    {
+        "id": 26,
+        "pregunta": "Según el artículo 7.5.2, si un jugador promociona un peón y pulsa el reloj sin sustituirlo por una pieza, ¿qué pieza debe colocarse en la casilla de promoción?",
+        "opciones": {
+            "a": "El jugador puede elegir en ese momento.",
+            "b": "Se sustituye obligatoriamente por una dama del mismo color.",
+            "c": "Se sustituye por una torre.",
+            "d": "El peón permanece en la octava fila hasta que el jugador elija."
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "El Artículo 7.5.2 establece que si no se sustituye el peón al promocionar y se pulsa el reloj, el peón se sustituye por una dama del mismo color."
+    },
+    {
+        "id": 27,
+        "pregunta": "¿Qué sucede si una partida comienza con los colores cambiados y han pasado más de 10 movimientos (Art. 7.3)?",
+        "opciones": {
+            "a": "La partida se interrumpe y se empieza una nueva.",
+            "b": "La partida continúa tal como está.",
+            "c": "Se intercambian los relojes pero se mantienen las piezas.",
+            "d": "El árbitro decide quién gana por sorteo."
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "Según el Artículo 7.3, si se han realizado 10 o más movimientos con los colores cambiados, la partida continuará."
+    },
+    {
+        "id": 28,
+        "pregunta": "Según el artículo 4.8, si un jugador toca una pieza con intención de moverla, ¿qué derecho pierde?",
+        "opciones": {
+            "a": "El derecho a enrocar.",
+            "b": "El derecho a reclamar la violación de los artículos 4.1 a 4.7 por parte de su adversario.",
+            "c": "El derecho a ofrecer tablas en ese turno.",
+            "d": "El derecho a pedir tiempo extra."
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "El Artículo 4.8 indica que una vez que el jugador toca una pieza con intención de moverla, pierde el derecho a reclamar violaciones previas de las reglas de acción de piezas por su adversario."
+    },
+    {
+        "id": 29,
+        "pregunta": "De acuerdo con el artículo 6.7.1, ¿cuál es el tiempo de incomparecencia (espera) si las bases del torneo no especifican uno?",
+        "opciones": {
+            "a": "15 minutos.",
+            "b": "30 minutos.",
+            "c": "Cero minutos (tolerancia cero).",
+            "d": "60 minutos."
+        },
+        "respuesta_correcta": "c",
+        "explicacion": "El Artículo 6.7.1 establece que si no se especifica un tiempo de incomparecencia en las bases, este es cero."
+    },
+    {
+        "id": 30,
+        "pregunta": "Según el artículo 9.6.2, la partida es tablas automáticamente tras 75 movimientos sin capturas ni movimientos de peón, a menos que:",
+        "opciones": {
+            "a": "Uno de los jugadores tenga ventaja material clara.",
+            "b": "El último movimiento resulte en jaque mate.",
+            "c": "El árbitro decida que hay posibilidades de victoria.",
+            "d": "Se trate de una final de campeonato mundial."
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "El Artículo 9.6.2 aclara que la regla de los 75 movimientos produce tablas automáticas, pero si el último movimiento resulta en jaque mate, este prevalecerá."
+    },
+    {
+        "id": 31,
+        "pregunta": "Según el artículo 11.3.1, ¿qué está prohibido hacer durante la partida en relación con otros tableros?",
+        "opciones": {
+            "a": "Mirar otras partidas.",
+            "b": "Analizar cualquier partida en otro tablero.",
+            "c": "Hablar con los jugadores de otras partidas.",
+            "d": "Anotar resultados de otros tableros en la planilla."
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "El Artículo 11.3.1 prohíbe explícitamente a los jugadores analizar cualquier partida en otro tablero durante su propia partida."
+    },
+    {
+        "id": 32,
+        "pregunta": "De acuerdo con el artículo 8.7, ¿qué sucede si ambos jugadores firman las planillas con un resultado incorrecto?",
+        "opciones": {
+            "a": "El árbitro debe corregirlo obligatoriamente.",
+            "b": "Dicho resultado permanecerá aunque sea incorrecto (salvo decisión contraria del árbitro).",
+            "c": "La partida se declara nula.",
+            "d": "Se penaliza a ambos jugadores con un punto."
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "El Artículo 8.7 estipula que una vez firmado el resultado por ambos jugadores, este permanecerá aunque sea incorrecto."
+    },
+    {
+        "id": 33,
+        "pregunta": "Según el artículo 12.9, ¿cuál de estas NO es una sanción que el árbitro pueda aplicar?",
+        "opciones": {
+            "a": "Una advertencia.",
+            "b": "Reducir la puntuación obtenida por el infractor.",
+            "c": "Confiscar las piezas del jugador.",
+            "d": "La expulsión de la competición."
+        },
+        "respuesta_correcta": "c",
+        "explicacion": "El Artículo 12.9 enumera las sanciones legales; confiscar piezas no forma parte de ellas, mientras que las otras opciones sí están listadas."
+    },
+    {
+        "id": 34,
+        "pregunta": "Según el Apéndice A.1, ¿qué rango de tiempo define a una partida como 'Ajedrez Rápido' por jugador?",
+        "opciones": {
+            "a": "Entre 5 y 10 minutos.",
+            "b": "Más de 10 minutos pero menos de 60 minutos.",
+            "c": "Exactamente 15 minutos.",
+            "d": "Más de 60 minutos."
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "El Apéndice A.1 define el Ajedrez Rápido como aquel donde el tiempo fijo es más de 10 pero menos de 60 minutos por jugador."
+    },
+    {
+        "id": 35,
+        "pregunta": "En el Ajedrez960, según la directriz II.2.1, ¿dónde debe situarse el rey en la posición inicial?",
+        "opciones": {
+            "a": "En la casilla e1 obligatoriamente.",
+            "b": "En algún lugar entre las dos torres.",
+            "c": "En una casilla de color distinto a los alfiles.",
+            "d": "En los extremos de la primera fila."
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "La Directriz II.2.1 para Ajedrez960 exige que el rey se sitúe en algún lugar entre las dos torres en la posición inicial."
+    },
+    {
+        "id": 36,
+        "pregunta": "Según el artículo 3.1, ¿es legal mover una pieza a una casilla ocupada por otra pieza del mismo color?",
+        "opciones": {
+            "a": "Sí, para protegerla.",
+            "b": "No, no está permitido.",
+            "c": "Solo si es el rey enrocando.",
+            "d": "Solo si se anuncia previamente."
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "El Artículo 3.1 prohíbe mover una pieza a una casilla ocupada por una pieza del mismo color."
+    },
+    {
+        "id": 37,
+        "pregunta": "De acuerdo con el artículo 4.2.1, ¿qué debe hacer un jugador que desee ajustar una pieza sin intención de moverla?",
+        "opciones": {
+            "a": "Esperar a que el árbitro lo vea.",
+            "b": "Expresar previamente su intención (ej. 'j’adoube' o 'compongo').",
+            "c": "Tocarla rápidamente mientras el adversario no mira.",
+            "d": "Solo puede hacerlo si su reloj está parado."
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "El Artículo 4.2.1 establece que el jugador en juego debe expresar su intención antes de ajustar piezas en sus casillas."
+    },
+    {
+        "id": 38,
+        "pregunta": "Según el artículo 5.2.2, ¿qué define a una 'posición muerta'?",
+        "opciones": {
+            "a": "Cuando a ambos jugadores se les acaba el tiempo.",
+            "b": "Cuando ningún jugador puede dar mate al rey adversario con cualquier serie de movimientos legales.",
+            "c": "Cuando el rey está ahogado.",
+            "d": "Cuando se han realizado 50 movimientos sin capturas."
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "El Artículo 5.2.2 define la posición muerta como aquella donde es imposible dar mate por cualquier serie de movimientos legales."
+    },
+    {
+        "id": 39,
+        "pregunta": "Según el artículo 6.2.4, ¿qué tipo de manejo del reloj está prohibido y puede ser penalizado?",
+        "opciones": {
+            "a": "Pulsarlo con suavidad.",
+            "b": "Golpearlo violentamente, cogerlo o tirarlo.",
+            "c": "Pulsarlo con la mano que movió la pieza.",
+            "d": "Detenerlo para llamar al árbitro por una razón válida."
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "El Artículo 6.2.4 prohíbe el manejo incorrecto del reloj, incluyendo golpearlo violentamente o tirarlo."
+    },
+    {
+        "id": 40,
+        "pregunta": "De acuerdo con el artículo 11.2.3, ¿quién es la única autoridad que puede permitir a un jugador abandonar el recinto de juego durante la partida?",
+        "opciones": {
+            "a": "El adversario.",
+            "b": "El árbitro.",
+            "c": "El propio jugador si es su turno de mover.",
+            "d": "El organizador del torneo únicamente."
+        },
+        "respuesta_correcta": "b",
+        "explicacion": "El Artículo 11.2.3 especifica que solo con el permiso del árbitro puede un jugador abandonar el recinto de juego."
+    }
+]
