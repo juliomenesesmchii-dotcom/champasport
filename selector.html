@@ -5,6 +5,151 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link type="text/css" rel="stylesheet" href="assets/css/materialize.css" media="screen,projection" />
+    <!-- Reemplaza la línea 8 con esto: -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        .texto-resaltado {
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.85);
+            background-color: rgba(0, 0, 0, 0.55);
+            padding: 10px 24px !important;
+            border-radius: 6px;
+            letter-spacing: 2px;
+        }
+
+        .descripcion-llamativa {
+            font-size: 1.3rem !important;
+            font-weight: 300;
+            color: #37474f !important;
+            line-height: 1.6;
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            /* CORRECCIÓN: Permite que el texto se acomode en varias líneas sin amontonarse */
+        }
+
+        /* CORRECCIÓN: Agrega un margen a la derecha del icono para que no choque con las letras */
+        .descripcion-llamativa i {
+            margin-right: 14px !important;
+        }
+
+        /* CORRECCIÓN: Da un pequeño espacio de seguridad alrededor de las letras en negrita */
+        .descripcion-llamativa strong {
+            font-weight: 700;
+            color: #d50000;
+            margin: 0 5px;
+        }
+    </style>
+
+    <style>
+        .descripcion-llamativa {
+            font-size: 1.25rem !important;
+            /* Aumenta un poco el tamaño para mejor lectura */
+            font-weight: 300;
+            /* Letra más delgada y elegante (estilo Light de Materialize) */
+            color: #37474f !important;
+            /* Un gris azulado oscuro muy elegante en lugar de negro puro */
+            line-height: 1.6;
+            /* Mayor espacio entre líneas para que respire el texto */
+            letter-spacing: 0.5px;
+            /* Un ligero espacio entre letras */
+            display: flex;
+            align-items: center;
+        }
+
+        /* Estilo extra para resaltar palabras clave si lo deseas */
+        .descripcion-llamativa strong {
+            font-weight: 700;
+            color: #d50000;
+            /* Color rojo a juego con tu barra de navegación */
+        }
+    </style>
+    <style>
+        /* ... (deja tus estilos anteriores de texto-resaltado y descripcion-llamativa) ... */
+
+        /* NUEVO ESTILO UNIFICADO PARA LOS BOTONES */
+        .btn-seleccionar {
+            background-color: #212121 !important;
+            /* Fondo gris oscuro/negro muy moderno */
+            color: #ffffff !important;
+            /* Letras totalmente blancas */
+            font-weight: bold !important;
+            width: 100%;
+            border-radius: 6px;
+            text-transform: uppercase;
+            transition: background-color 0.3s ease;
+        }
+
+        /* Efecto cuando pasas el mouse por encima del botón */
+        .btn-seleccionar:hover {
+            background-color: #d50000 !important;
+            /* Cambia a rojo brillante (a juego con tu barra roja) */
+        }
+    </style>
+    <style>
+        /* ... (deja tus estilos anteriores) ... */
+
+        /* NUEVA DECORACIÓN PARA LOS TÍTULOS DE LOS DEPORTES */
+        .titulo-deporte {
+            background-color: rgba(0, 0, 0, 0.4) !important;
+            /* Filtro oscuro de fondo */
+            color: #ffffff !important;
+            /* Letras siempre blancas */
+            font-weight: 700 !important;
+            /* Letra bien gruesa */
+            font-size: 1.3rem !important;
+            /* Tamaño ideal */
+            padding: 6px 12px !important;
+            /* Espacio interno */
+            border-radius: 4px;
+            /* Bordes suavizados */
+            display: flex !important;
+            align-items: center;
+            justify-content: space-between;
+            /* Separa el nombre de los 3 puntos */
+            border-left: 4px solid #ffffff;
+            /* Línea decorativa blanca a la izquierda */
+        }
+
+        /* Asegura que el icono de los tres puntos dentro del título también sea blanco */
+        .titulo-deporte i {
+            color: #ffffff !important;
+        }
+    </style>
+    <style>
+        /* ... (deja tus estilos anteriores) ... */
+
+        /* NUEVO ESTILO PARA EL CONTENEDOR OCULTO DE LA TARJETA */
+        .card-reveal {
+            background-color: #eceff1 !important;
+            /* Un fondo gris claro que no cansa la vista */
+            padding: 16px !important;
+        }
+
+        /* TÍTULO DENTRO DE LA PARTE OCULTA */
+        .titulo-reveal {
+            font-weight: 700 !important;
+            font-size: 1.3rem !important;
+            color: #263238 !important;
+            /* Color gris oscuro elegante */
+            border-bottom: 2px solid #d50000;
+            /* Línea roja deportiva debajo del título */
+            padding-bottom: 6px;
+            display: flex !important;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        /* TEXTO EXPLICATIVO DE LA DESCRIPCIÓN */
+        .texto-reveal {
+            font-size: 1.1rem !important;
+            color: #455a64 !important;
+            line-height: 1.5;
+            margin-top: 15px !important;
+            font-weight: 400;
+        }
+    </style>
+
+
 
     <title>CHAMPASPORT</title>
 </head>
@@ -37,158 +182,226 @@
                 <div class="card-image">
                     <img src="assets/img.selector/file_00000000b594820ea6a24b83824dfda3.png"
                         style="width: 100%; height: 300px; object-fit: cover;">
-                    <span class="card-title">SELECCIONA UN DEPORTE</span>
-                    <span class="card-content">Elige la disciplina que mas te guste y pon a prueba tus conocimientos
-                        sobe sus reglas, jugadas y curiosidades.</span>
 
-
+                    <!-- CORREGIDO: Al quitar el card-content de aquí adentro, puedes controlar la posición del título -->
+                    <!-- Estilo en línea añadido para forzar al título a ir arriba (top: 15px) -->
+                    <span class="card-title flow-text bold texto-resaltado" style="top: 15px; bottom: auto;">
+                        SELECCIONA UN DEPORTE
+                    </span>
                 </div>
 
+                <!-- CORREGIDO: La descripción ahora está en su lugar correcto (fuera de la imagen) -->
+                <div class="card-content" style="padding: 24px;">
+                    <!-- MODIFICADO: Agregamos un contenedor con un icono y estilo personalizado -->
+                    <p class="descripcion-llamativa">
+                        <i class="material-icons left red-text text-accent-4">sports_soccer</i>
+                        Elige la disciplina que más te guste y pon a prueba tus <strong>conocimientos</strong> sobre sus
+                        <strong>reglas, jugadas y curiosidades</strong>.
+                    </p>
+                </div>
 
             </div>
+
         </div>
-    </div>
-    <div class="row">
-        <div class="col s12 m4 l2">
-            <div class="card" style="background-color: chocolate;">
-                <div class="card-image waves-effect waves-block waves-light">
-                    <img class="activator" src="assets/img.selector/bsq.png"
-                        style="width: 100%; height: 150px; object-fit: cover;">
-                </div>
-                <div class="card-content">
-                    <span class="card-title activator grey-text text-darken-4">Basquet<i
-                            class="material-icons right">more_vert</i></span>
-                    <p><a href="#">Selecionar</a></p>
-                </div>
-                <div class="card-reveal">
-                    <span class="card-title grey-text text-darken-4">Basquet<i
-                            class="material-icons right">close</i></span>
-                    <p>Reglas, faltas, jugadas y todo lo esencial de la cancha.</p>
+        <div class="row">
+            <!-- Tarjeta Básquet -->
+            <div class="col s12 m4 l2">
+                <!-- Añadido z-depth-2 para dar una sombra más elegante a la tarjeta -->
+                <div class="card z-depth-2" style="background-color: chocolate; border-radius: 8px; overflow: hidden;">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="assets/img.selector/bsq.png"
+                            style="width: 100%; height: 150px; object-fit: cover;">
+                    </div>
+                    <div class="card-content">
+                        <!-- MEJORA 1: Título en negrita fuerte y color blanco para contrastar con el fondo -->
+                        <span class="card-title activator titulo-deporte">
+                            Básquet <i class="material-icons">more_vert</i>
+                        </span>
+
+                        <!-- MEJORA 2: Enlace convertido en un botón real estilizado -->
+                        <p style="margin-top: 15px;">
+                            <a href="#" class="btn btn-seleccionar">Seleccionar</a>
+                        </p>
+
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title titulo-reveal">
+                            Básquet <i class="material-icons right red-text">close</i>
+                        </span>
+                        <p class="texto-reveal">Reglas, faltas, jugadas y todo lo esencial de la cancha.</p>
+                    </div>
+
                 </div>
             </div>
-        </div>
-        <div class="col s12 m4 l2">
-            <div class="card" style="background-color: darkseagreen;">
-                <div class="card-image waves-effect waves-block waves-light">
-                    <img class="activator" src="assets/img.selector/ftb.png"
-                        style="width: 100%; height: 150px; object-fit: cover;">
-                </div>
-                <div class="card-content">
-                    <span class="card-title activator grey-text text-darken-4">Futbol<i
-                            class="material-icons right">more_vert</i></span>
-                    <p><a href="#">Seleccionar</a></p>
-                </div>
-                <div class="card-reveal">
-                    <span class="card-title grey-text text-darken-4">Futbol<i
-                            class="material-icons right">close</i></span>
-                    <p>Reglas del juego, posiciones, faltas y situaciones claves.</p>
-                </div>
-            </div>
-        </div>
-        <div class="col s12 m4 l2">
-            <div class="card" style="background-color: aquamarine;">
-                <div class="card-image waves-effect waves-block waves-light">
-                    <img class="activator" src="assets/img.selector/tns.png"
-                        style="width: 100%; height: 150px; object-fit: cover;">
-                </div>
-                <div class="card-content">
-                    <span class="card-title activator grey-text text-darken-4">Tenis<i
-                            class="material-icons right">more_vert</i></span>
-                    <p><a href="#">Seleccionar</a></p>
-                </div>
-                <div class="card-reveal">
-                    <span class="card-title grey-text text-darken-4">Tenis<i
-                            class="material-icons right">close</i></span>
-                    <p>Puntuacion, saques, sets y las reglas más importantes</p>
+
+            <!-- Tarjeta Fútbol -->
+            <div class="col s12 m4 l2">
+                <div class="card z-depth-2"
+                    style="background-color: darkseagreen; border-radius: 8px; overflow: hidden;">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="assets/img.selector/ftb.png"
+                            style="width: 100%; height: 150px; object-fit: cover;">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator titulo-deporte">
+                            Futsal <i class="material-icons">more_vert</i>
+                        </span>
+
+                        <p style="margin-top: 15px;">
+                            <a href="#" class="btn btn-seleccionar">Seleccionar</a>
+                        </p>
+
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title titulo-reveal">
+                            Futsal <i class="material-icons right red-text">close</i>
+                        </span>
+                        <p class="texto-reveal">Reglas del juego, posiciones, faltas y situaciones claves.</p>
+                    </div>
+
                 </div>
             </div>
-        </div>
-        <div class="col s12 m4 l2">
-            <div class="card" style="background-color: gold;">
-                <div class="card-image waves-effect waves-block waves-light">
-                    <img class="activator" src="assets/img.selector/vly.png"
-                        style="width: 100%; height: 150px; object-fit: cover;">
-                </div>
-                <div class="card-content">
-                    <span class="card-title activator grey-text text-darken-4">Voley<i
-                            class="material-icons right">more_vert</i></span>
-                    <p><a href="#">Seleccionar</a></p>
-                </div>
-                <div class="card-reveal">
-                    <span class="card-title grey-text text-darken-4">Voley<i
-                            class="material-icons right">close</i></span>
-                    <p>Puntuacion, saques, sets y las reglas más importantes</p>
-                </div>
-            </div>
-        </div>
-        <div class="col s12 m4 l2">
-            <div class="card" style="background-color: saddlebrown;">
-                <div class="card-image waves-effect waves-block waves-light">
-                    <img class="activator" src="assets/img.selector/ajdz.png"
-                        style="width: 100%; height: 150px; object-fit: cover;">
-                </div>
-                <div class="card-content">
-                    <span class="card-title activator grey-text text-darken-4">Ajedrez<i
-                            class="material-icons right">more_vert</i></span>
-                    <p><a href="#">Seleccionar</a></p>
-                </div>
-                <div class="card-reveal">
-                    <span class="card-title grey-text text-darken-4">Ajedrez<i
-                            class="material-icons right">close</i></span>
-                    <p>Movimientos, piezas, estrategia y reglas básicas de juego</p>
+
+            <!-- Tarjeta Tenis -->
+            <div class="col s12 m4 l2">
+                <div class="card z-depth-2" style="background-color: aquamarine; border-radius: 8px; overflow: hidden;">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="assets/img.selector/tns.png"
+                            style="width: 100%; height: 150px; object-fit: cover;">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator titulo-deporte">
+                            Tenis <i class="material-icons">more_vert</i>
+                        </span>
+
+                        <p style="margin-top: 15px;">
+                            <a href="#" class="btn btn-seleccionar">Seleccionar</a>
+                        </p>
+
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title titulo-reveal">
+                            Tenis <i class="material-icons right red-text">close</i>
+                        </span>
+                        <p class="texto-reveal">Puntuación, saques, sets y las reglas más importantes.</p>
+                    </div>
+
                 </div>
             </div>
-        </div>
-        <div class="col s12 m4 l2">
-            <div class="card" style="background-color: indianred;">
-                <div class="card-image waves-effect waves-block waves-light">
-                    <img class="activator" src="assets/img.selector/fl.png"
-                        style="width: 100%; height: 150px; object-fit: cover;">
+
+            <!-- Tarjeta Voley -->
+            <div class="col s12 m4 l2">
+                <div class="card z-depth-2" style="background-color: gold; border-radius: 8px; overflow: hidden;">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="assets/img.selector/vly.png"
+                            style="width: 100%; height: 150px; object-fit: cover;">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator titulo-deporte">
+                            Voley <i class="material-icons">more_vert</i>
+                        </span>
+
+                        <p style="margin-top: 15px;">
+                            <a href="#" class="btn btn-seleccionar">Seleccionar</a>
+                        </p>
+
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title titulo-reveal">
+                            Voley <i class="material-icons right red-text">close</i>
+                        </span>
+                        <p class="texto-reveal">Puntuación, saques, sets y las reglas más importantes.</p>
+                    </div>
+
                 </div>
-                <div class="card-content">
-                    <span class="card-title activator grey-text text-darken-4">Deporte Local<i
-                            class="material-icons right">more_vert</i></span>
-                    <p><a href="#">Seleccionar</a></p>
+            </div>
+
+            <!-- Tarjeta Ajedrez -->
+            <div class="col s12 m4 l2">
+                <div class="card z-depth-2"
+                    style="background-color: saddlebrown; border-radius: 8px; overflow: hidden;">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="assets/img.selector/ajdz.png"
+                            style="width: 100%; height: 150px; object-fit: cover;">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator titulo-deporte">
+                            Ajedrez <i class="material-icons">more_vert</i>
+                        </span>
+
+                        <p style="margin-top: 15px;">
+                            <a href="#" class="btn btn-seleccionar">Seleccionar</a>
+                        </p>
+
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title titulo-reveal">
+                            Ajedrez <i class="material-icons right red-text">close</i>
+                        </span>
+                        <p class="texto-reveal">Movimientos, piezas, estrategia y reglas básicas de juego.</p>
+                    </div>
+
                 </div>
-                <div class="card-reveal">
-                    <span class="card-title grey-text text-darken-4">Deporte Local<i
-                            class="material-icons right">close</i></span>
-                    <p>Puntuacion, saques, sets y las reglas más importantes</p>
+            </div>
+
+            <!-- Tarjeta Deporte Local -->
+            <div class="col s12 m4 l2">
+                <div class="card z-depth-2" style="background-color: indianred; border-radius: 8px; overflow: hidden;">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="assets/img.selector/fl.png"
+                            style="width: 100%; height: 150px; object-fit: cover;">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator titulo-deporte">
+                            Deporte local <i class="material-icons">more_vert</i>
+                        </span>
+
+                        <p style="margin-top: 15px;">
+                            <a href="#" class="btn btn-seleccionar">Seleccionar</a>
+                        </p>
+
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title titulo-reveal">
+                            Deporte Local <i class="material-icons right red-text">close</i>
+                        </span>
+                        <p class="texto-reveal">Puntuación, saques, sets y las reglas más importantes.</p>
+                    </div>
+
                 </div>
             </div>
         </div>
 
-    </div>
-    <footer class="page-footer red accent-4">
-        <div class="container">
-            <div class="row">
-                <div class="col l6 s12">
-                    <h5 class="white-text">Proyecto BTH</h5>
-                    <p class="grey-text text-lighten-4">Este proyecto fue hecho para solicitar el titulo de tecnico
-                        medio en sistemas informaticos.</p>
-                </div>
-                <div class="col l4 offset-l2 s12">
-                    <h5 class="white-text">Contáctanos</h5>
-                    <ul>
-                        <li><a class="grey-text text-lighten-3"
-                                href="https://www.instagram.com/fabito_2008?stkn=YnBoeDltamZ0OWZh">Fabio Meneses</a>
-                        </li>
-                        <li><a class="grey-text text-lighten-3"
-                                href="https://www.instagram.com/j_zteno?stkn=MW4xNndhN212NnA0bw==">Josue Zenteno</a>
-                        </li>
-                        <li><a class="grey-text text-lighten-3"
-                                href="https://www.instagram.com/celsojustiniano?stkn=bTNicGNsdDZlMXhl">Celso
-                                Justiniano</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="footer-copyright">
+        <footer class="page-footer red accent-4">
             <div class="container">
-                © 2026 Marcelino Champagnat ll
+                <div class="row">
+                    <div class="col l6 s12">
+                        <h5 class="white-text">Proyecto BTH</h5>
+                        <p class="grey-text text-lighten-4">Este proyecto fue hecho para solicitar el titulo de tecnico
+                            medio en sistemas informaticos.</p>
+                    </div>
+                    <div class="col l4 offset-l2 s12">
+                        <h5 class="white-text">Contáctanos</h5>
+                        <ul>
+                            <li><a class="grey-text text-lighten-3"
+                                    href="https://www.instagram.com/fabito_2008?stkn=YnBoeDltamZ0OWZh">Fabio Meneses</a>
+                            </li>
+                            <li><a class="grey-text text-lighten-3"
+                                    href="https://www.instagram.com/j_zteno?stkn=MW4xNndhN212NnA0bw==">Josue Zenteno</a>
+                            </li>
+                            <li><a class="grey-text text-lighten-3"
+                                    href="https://www.instagram.com/celsojustiniano?stkn=bTNicGNsdDZlMXhl">Celso
+                                    Justiniano</a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-        </div>
-    </footer>
+            <div class="footer-copyright">
+                <div class="container">
+                    © 2026 Marcelino Champagnat ll
+                </div>
+            </div>
+        </footer>
     </div>
 
 
