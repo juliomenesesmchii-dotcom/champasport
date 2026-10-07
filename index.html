@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link type="text/css" rel="stylesheet" href="assets/css/materialize.css" media="screen,projection" />
-
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>CHAMPASPORT</title>
 </head>
 
@@ -18,8 +18,8 @@
             <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
             <ul class="right hide-on-med-and-down">
                 <li><a href="index.html">Inicio</a></li>
-                <li><a href="badges.html">Como funciona</a></li>
-                <li><a href="collapsible.html">Deportes</a></li>
+                <li><a href="preguntas.html">Como funciona</a></li>
+                <li><a href="resultados.html">Deportes</a></li>
                 <li><a href="selector.html">Comenzar</a></li>
             </ul>
         </div>
@@ -33,10 +33,15 @@
     </ul>
     <div class="carousel carousel-slider center">
 
-        <div class="carousel-fixed-item center">
-            <a class="btn waves-effect white grey-text darken-text-2">
-                button
-            </a>
+        <div class="carousel-fixed-item center" style="bottom: 25px;">
+            <!-- Etiqueta flotante con fondo oscuro translúcido y bordes redondeados -->
+            <span class="btn-flat white-text bold z-depth-1"
+                style="background: rgba(0, 0, 0, 0.7); border-radius: 20px; padding: 0 20px; pointer-events: none; text-transform: uppercase; font-size: 0.85rem; letter-spacing: 1px; display: inline-flex; align-items: center; height: 36px;">
+                <!-- Icono de flechas izquierda/derecha en color amarillo deportivo -->
+                <i class="material-icons amber-text text-accent-4"
+                    style="margin-right: 8px; font-size: 1.4rem;">swap_horiz</i>
+                Desliza para ver los deportes
+            </span>
         </div>
 
         <div class="carousel-item white-text" href="zero!">
@@ -73,113 +78,206 @@
     <div>
         <div class="row">
             <div class="col s12">
-                <div class="card blue darken-2">
+                <!-- Mantenemos tu fondo azul y tus bordes de 20px, pero agregamos una sombra más fuerte (z-depth-3) -->
+                <div class="card blue darken-2 z-depth-3" style="border-radius: 20px; overflow: hidden;">
                     <div class="card-content white-text">
-                        <span class="card-title">Cómo funciona</span>
-                        <p>Es muy facil.Solo tienes que eleguir un deporte , responder las preguntas y ver cuantos
-                            sabes.¡Aceptas el reto!</p>
+
+                        <!-- TÍTULO: Ahora lleva un icono deportivo brillante al lado -->
+                        <span class="card-title bold"
+                            style="font-size: 1.8rem; display: flex; align-items: center; font-weight: 700;">
+                            <i class="material-icons amber-text text-accent-4"
+                                style="margin-right: 12px; font-size: 2.2rem;">emoji_events</i>
+                            CÓMO FUNCIONA
+                        </span>
+
+                        <!-- Línea divisoria blanca para separar el título del contenido -->
+                        <div class="divider white" style="opacity: 0.3; margin: 15px 0;"></div>
+
+                        <!-- CONTENIDO DIVIDIDO EN PASOS VISUALES (Se acomodan solos en PC y Celular) -->
+                        <div class="row" style="margin-bottom: 0; margin-top: 20px;">
+
+                            <!-- Paso 1 -->
+                            <div class="col s12 m4" style="margin-bottom: 15px;">
+                                <div style="display: flex; align-items: center;">
+                                    <!-- Un número redondo blanco usando clases de Materialize -->
+                                    <span class="white blue-text text-darken-2 bold center-align"
+                                        style="width: 35px; height: 35px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; font-size: 1.2rem; margin-right: 12px; flex-shrink: 0; font-weight: 800;">1</span>
+                                    <p class="flow-text" style="font-size: 1.1rem; margin: 0;"><strong>Elige</strong> un
+                                        deporte en el panel.</p>
+                                </div>
+                            </div>
+
+                            <!-- Paso 2 -->
+                            <div class="col s12 m4" style="margin-bottom: 15px;">
+                                <div style="display: flex; align-items: center;">
+                                    <span class="white blue-text text-darken-2 bold center-align"
+                                        style="width: 35px; height: 35px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; font-size: 1.2rem; margin-right: 12px; flex-shrink: 0; font-weight: 800;">2</span>
+                                    <p class="flow-text" style="font-size: 1.1rem; margin: 0;"><strong>Responde</strong>
+                                        las preguntas correctamente.</p>
+                                </div>
+                            </div>
+
+                            <!-- Paso 3 -->
+                            <div class="col s12 m4" style="margin-bottom: 15px;">
+                                <div style="display: flex; align-items: center;">
+                                    <span class="white blue-text text-darken-2 bold center-align"
+                                        style="width: 35px; height: 35px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; font-size: 1.2rem; margin-right: 12px; flex-shrink: 0; font-weight: 800;">3</span>
+                                    <p class="flow-text" style="font-size: 1.1rem; margin: 0;"><strong>¡Mira tu
+                                            récord</strong> y descubre cuánto sabes!</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- RETO FINAL CON ANIMACIÓN NATIVA -->
+                        <div class="center-align" style="margin-top: 25px; margin-bottom: 5px;">
+                            <span class="amber accent-4 grey-text text-darken-4 bold"
+                                style="font-size: 1.2rem; padding: 6px 24px; display: inline-block; border-radius: 4px; letter-spacing: 1px; font-weight: 700; box-shadow: 0 2px 5px rgba(0,0,0,0.2);">
+                                ¿ACEPTAS EL RETO?
+                            </span>
+                        </div>
+
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
 
 
     <div>
         <div class="row">
-            <div class="col s12 m4 l2">
-                <div class="card">
-                    <div class="card-image">
-                        <img src="assets/img/bas.png">
-                        <span class="card-title">Basquet</span>
+            <!-- 1. BÁSQUET (Variante Azul) -->
+            <div class="col s12 m4 l2" style="margin-bottom: 20px;">
+                <div class="card z-depth-3 hoverable"
+                    style="border-radius: 16px; background-color: #1976d2; overflow: hidden; height: 320px;">
+                    <div class="card-image" style="height: 140px; border-bottom: 3px solid #ff1744;">
+                        <img src="assets/img/bas.png" style="height: 100%; width: 100%; object-fit: cover;">
+                        <span class="card-title bold"
+                            style="background: rgba(0,0,0,0.6); width: 100%; padding: 8px 12px; font-size: 1.15rem; font-weight: 700;">Básquet</span>
                     </div>
-                    <div class="card-content">
-                        <p>
-                            Reglas, faltas, jugadas y todo lo esencial de la cancha.</p>
-                    </div>
-
-                </div>
-            </div>
-            <div class="col s12 m4 l2">
-                <div class="card">
-                    <div class="card-image">
-                        <img src="assets/img/fut.png">
-                        <span class="card-title">Futbol</span>
-                    </div>
-                    <div class="card-content">
-                        <p>Reglas del juego, posiciones, faltas y situaciones clave.</p>
+                    <div class="card-content white-text" style="padding: 16px;">
+                        <p style="font-size: 0.95rem; font-weight: 300; line-height: 1.4;">Reglas, faltas, jugadas y
+                            todo lo esencial de la cancha.</p>
                     </div>
                 </div>
             </div>
-            <div class="col s12 m4 l2">
-                <div class="card">
-                    <div class="card-image">
-                        <img src="assets/img/vol.png">
-                        <span class="card-title">Voley</span>
+            <!-- 2. FUTSAL (Variante Gris Oscuro) -->
+            <div class="col s12 m4 l2" style="margin-bottom: 20px;">
+                <div class="card z-depth-3 hoverable"
+                    style="border-radius: 16px; background-color: #212121; overflow: hidden; height: 320px;">
+                    <div class="card-image" style="height: 140px; border-bottom: 3px solid #1976d2;">
+                        <img src="assets/img/fut.png" style="height: 100%; width: 100%; object-fit: cover;">
+                        <span class="card-title bold"
+                            style="background: rgba(0,0,0,0.6); width: 100%; padding: 8px 12px; font-size: 1.15rem; font-weight: 700;">Futsal</span>
                     </div>
-                    <div class="card-content">
-                        <p>Rotaciones, posiciones, puntuación y reglas fundamentales.</p>
+                    <div class="card-content white-text" style="padding: 16px;">
+                        <p style="font-size: 0.95rem; font-weight: 300; line-height: 1.4;">Reglas del juego, posiciones,
+                            faltas y situaciones clave.</p>
                     </div>
                 </div>
-
+            </div>
+            <!-- 3. VÓLEY (Variante Azul) -->
+            <div class="col s12 m4 l2" style="margin-bottom: 20px;">
+                <div class="card z-depth-3 hoverable"
+                    style="border-radius: 16px; background-color: #1976d2; overflow: hidden; height: 320px;">
+                    <div class="card-image" style="height: 140px; border-bottom: 3px solid #ff1744;">
+                        <img src="assets/img/vol.png" style="height: 100%; width: 100%; object-fit: cover;">
+                        <span class="card-title bold"
+                            style="background: rgba(0,0,0,0.6); width: 100%; padding: 8px 12px; font-size: 1.15rem; font-weight: 700;">Vóley</span>
+                    </div>
+                    <div class="card-content white-text" style="padding: 16px;">
+                        <p style="font-size: 0.95rem; font-weight: 300; line-height: 1.4;">Rotaciones, posiciones,
+                            puntuación y reglas fundamentales.</p>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="row">
-            <div class="col s12 m4 l2">
-                <div class="card">
-                    <div class="card-image">
-                        <img src="assets/img/ten.png">
-                        <span class="card-title">Tenis</span>
+            <!-- 4. TENIS (Variante Gris Oscuro) -->
+            <div class="col s12 m4 l2" style="margin-bottom: 20px;">
+                <div class="card z-depth-3 hoverable"
+                    style="border-radius: 16px; background-color: #212121; overflow: hidden; height: 320px;">
+                    <div class="card-image" style="height: 140px; border-bottom: 3px solid #1976d2;">
+                        <img src="assets/img/ten.png" style="height: 100%; width: 100%; object-fit: cover;">
+                        <span class="card-title bold"
+                            style="background: rgba(0,0,0,0.6); width: 100%; padding: 8px 12px; font-size: 1.15rem; font-weight: 700;">Tenis</span>
                     </div>
-                    <div class="card-content">
-                        <p>Puntuación, saques, sets y las reglas más importantes.</p>
-                    </div>
-
-                </div>
-            </div>
-            <div class="col s12 m4 l2">
-                <div class="card">
-                    <div class="card-image">
-                        <img src="assets/img/aje.png">
-                        <span class="card-title">Ajedrez</span>
-                    </div>
-                    <div class="card-content">
-                        <p>Movimientos, piezas, estrategia y reglas básicas del juego.</p>
+                    <div class="card-content white-text" style="padding: 16px;">
+                        <p style="font-size: 0.95rem; font-weight: 300; line-height: 1.4;">Puntuación, saques, sets y
+                            las reglas más importantes.</p>
                     </div>
                 </div>
             </div>
-            <div class="col s12 m4 l2">
-                <div class="card">
-                    <div class="card-image">
-                        <img src="assets/img/loc.png">
-                        <span class="card-title">Local</span>
+            <!-- 5. AJEDREZ (Variante Azul) -->
+            <div class="col s12 m4 l2" style="margin-bottom: 20px;">
+                <div class="card z-depth-3 hoverable"
+                    style="border-radius: 16px; background-color: #1976d2; overflow: hidden; height: 320px;">
+                    <div class="card-image" style="height: 140px; border-bottom: 3px solid #ff1744;">
+                        <img src="assets/img/aje.png" style="height: 100%; width: 100%; object-fit: cover;">
+                        <span class="card-title bold"
+                            style="background: rgba(0,0,0,0.6); width: 100%; padding: 8px 12px; font-size: 1.15rem; font-weight: 700;">Ajedrez</span>
                     </div>
-                    <div class="card-content">
-                        <p>Conocimientos de nuestra Santa Cruz y Bolivia</p>
+                    <div class="card-content white-text" style="padding: 16px;">
+                        <p style="font-size: 0.95rem; font-weight: 300; line-height: 1.4;">Movimientos, piezas,
+                            estrategia y reglas básicas del juego.</p>
                     </div>
                 </div>
-
+            </div>
+            <!-- 6. LOCAL (Variante Gris Oscuro con Borde Destacado) -->
+            <div class="col s12 m4 l2" style="margin-bottom: 20px;">
+                <div class="card z-depth-3 hoverable"
+                    style="border-radius: 16px; background-color: #212121; overflow: hidden; height: 320px;">
+                    <!-- La sección local lleva un color de borde especial para diferenciarla de las demás -->
+                    <div class="card-image" style="height: 140px; border-bottom: 3px solid #ff1744;">
+                        <img src="assets/img/loc.png" style="height: 100%; width: 100%; object-fit: cover;">
+                        <span class="card-title bold red-text text-accent-2"
+                            style="background: rgba(0,0,0,0.75); width: 100%; padding: 8px 12px; font-size: 1.15rem; font-weight: 800; letter-spacing: 0.5px;">LOCAL</span>
+                    </div>
+                    <div class="card-content white-text" style="padding: 16px;">
+                        <p style="font-size: 0.95rem; font-weight: 300; line-height: 1.4;">Conocimientos e historia
+                            deportiva de nuestra Santa Cruz y Bolivia.</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
     </div>
     <div>
-        <div class="row">
+        <div class="row" style="margin-top: 30px; margin-bottom: 30px;">
             <div class="col s12">
-                <div class="card blue darken-2">
-                    <div class="card-content white-text">
-                        <span class="card-title">El deporte no solo se juega con la mente.</span>
-                        <p> Demuestra tus conocimiento y aprende nuevas reglas
-                            y conviertete un experto en cada diciplina.</p>
+                <!-- Convertimos la imagen en el fondo de la tarjeta con z-depth-3 y bordes redondeados de 20px -->
+                <div class="card z-depth-3 text-center"
+                    style="border-radius: 20px; overflow: hidden; background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('assets/img/cl.png') center/cover no-repeat; min-height: 260px; display: flex; align-items: center;">
+
+                    <div class="card-content white-text center-align" style="width: 100%; padding: 40px 20px;">
+
+                        <!-- ICONO DE ENERGÍA/FUEGO PARA LLAMAR LA ATENCIÓN -->
+                        <i class="material-icons amber-text text-accent-4"
+                            style="font-size: 3.5rem; margin-bottom: 10px;">local_fire_department</i>
+
+                        <!-- TÍTULO MOTIVACIONAL REFORMULADO ESTÉTICAMENTE -->
+                        <h4 class="bold"
+                            style="font-weight: 800; font-size: 1.8rem; margin: 0 0 15px 0; letter-spacing: 1px; text-transform: uppercase; text-shadow: 2px 2px 4px rgba(0,0,0,0.8);">
+                            El deporte no solo se juega con el cuerpo...
+                        </h4>
+
+                        <!-- CUERPO DEL MENSAJE (Corregido ortográficamente para tu defensa) -->
+                        <p class="flow-text"
+                            style="font-size: 1.25rem; font-weight: 300; max-width: 800px; margin: 0 auto; text-shadow: 1px 1px 3px rgba(0,0,0,0.8); line-height: 1.6;">
+                            ¡También se domina con la mente! Demuestra tus <strong class="amber-text text-accent-4"
+                                style="font-weight: 700;">conocimientos</strong>, aprende nuevas reglas oficiales y
+                            conviértete en un verdadero <strong class="red-text text-accent-2"
+                                style="font-weight: 700;">experto</strong> en cada disciplina.
+                        </p>
+
                     </div>
+
                 </div>
             </div>
         </div>
-    </div>
-    <div>
-        <img src="assets/img/cl.png" style="width: 100%; height: 300px; object-fit: cover;">
-    </div>
 
+    </div>
     <footer class="page-footer red accent-4">
         <div class="container">
             <div class="row">
