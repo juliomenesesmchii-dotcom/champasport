@@ -402,28 +402,25 @@
                 </div>
             </div>
         </footer>
-    </div>
 
 
-
-
-    <script type="text/javascript" src="assets/js/materialize.js"></script>
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            var elems = document.querySelectorAll('.sidenav');
-            var instances = M.Sidenav.init(elems);
-        });
-        document.addEventListener('DOMContentLoaded', function () {
-
-            var elems = document.querySelectorAll('.carousel');
-
-            var instances = M.Carousel.init(elems, {
-                fullWidth: true,
-                indicators: true
+        <script type="text/javascript" src="assets/js/materialize.js"></script>
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                var elems = document.querySelectorAll('.sidenav');
+                var instances = M.Sidenav.init(elems);
             });
+            document.addEventListener('DOMContentLoaded', function () {
 
-        });
-    </script>
+                var elems = document.querySelectorAll('.carousel');
+
+                var instances = M.Carousel.init(elems, {
+                    fullWidth: true,
+                    indicators: true
+                });
+
+            });
+        </script>
 </body>
 
 </html>
