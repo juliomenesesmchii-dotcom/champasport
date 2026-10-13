@@ -33,76 +33,155 @@
         <li><a href="resultados.html">Deportes</a></li>
         <li><a href="selector.html">Comenzar</a></li>
     </ul>
+    <!-- CABECERA DE RESULTADOS -->
     <div class="row">
-        <div class="col s12 m12">
-            <div class="card">
-
+        <div class="col s12">
+            <!-- Añadimos z-depth-3 para darle profundidad y bordes redondeados modernos -->
+            <div class="card z-depth-3" style="border-radius: 20px; overflow: hidden;">
                 <div class="card-image">
-                    <img src="assets/img/principal.png" style="width: 100%; height: 300px; object-fit: cover;">
-                    <span class="card-title">Cuantos jugadores hay en un partido de futsal</span>
+                    <img src="assets/img/principal.png" style="width: 100%; height: 220px; object-fit: cover;">
+
+                    <!-- CORRECCIÓN: Cambiamos la pregunta por un título de victoria con fondo protector translúcido -->
+                    <span class="card-title flow-text bold"
+                        style="background: rgba(0, 0, 0, 0.65); width: 100%; padding: 15px 25px; font-weight: 800; letter-spacing: 1px; text-transform: uppercase;">
+                        ¡Evaluación Finalizada!
+                    </span>
                 </div>
-
-
             </div>
         </div>
     </div>
+
     <div class="row">
-        <div class="col s12 m7">
-            <i class="material-icons">rewarded_ads</i>
-            <div class="card-content">
-                <span class="card-title">
-                    8/10
-                </span>
-                <p>
-                    Tu calificacion
-                </p>
-            </div>
+        <!-- COLUMNA IZQUIERDA: PANEL DE PUNTAJE PRINCIPAL -->
+        <div class="col s12 m7" style="margin-bottom: 20px;">
 
-            <div class="progress" style="width: 75%; margin: 0 auto;">
-                <div class="determinate" style="width: 80%; align: center;"></div>
-            </div>
-            <div class="card  red lighten-3">
-                <div class="card-content white-text">
-                    <span class="card-title">Excelente</span>
-                    <p>Haz respondido correctamente</p>
+            <!-- Gran Tarjeta de Calificación con Fondo Azul Deportivo -->
+            <div class="card blue darken-2 z-depth-3"
+                style="border-radius: 20px; overflow: hidden; margin-bottom: 20px;">
+                <div class="card-content white-text center-align" style="padding: 30px 20px;">
+
+                    <!-- CORRECCIÓN: Metemos el icono dentro de la tarjeta y usamos un trofeo brillante (emoji_events) -->
+                    <i class="material-icons amber-text text-accent-4"
+                        style="font-size: 4.5rem; margin-bottom: 5px;">emoji_events</i>
+
+                    <span class="grey-text text-lighten-2"
+                        style="display: block; text-transform: uppercase; font-size: 0.9rem; letter-spacing: 1px; font-weight: 600;">
+                        Tu Calificación
+                    </span>
+
+                    <!-- Tu puntuación destacada en grande -->
+                    <h2 class="bold white-text" style="margin: 5px 0 15px 0; font-weight: 800; font-size: 3.5rem;">8 /
+                        10</h2>
+
+                    <!-- BARRA DE PROGRESO DE PUNTUACIÓN (Equivale al 80% de aciertos) -->
+                    <div style="width: 85%; margin: 0 auto 10px auto;">
+                        <div class="progress grey lighten-3" style="height: 10px; border-radius: 5px; margin: 0;">
+                            <!-- Se llena al 80% con tu color Rojo oficial para contrastar con el fondo azul -->
+                            <div class="determinate red accent-4" style="width: 80%; border-radius: 5px;"></div>
+                        </div>
+                    </div>
+
                 </div>
-
             </div>
-            <a class="waves-effect waves-light btn"><i class="material-icons
-                right">arrow_forward</i>Siguiente</a>
-            <a class="waves-effect waves-light btn"><i class="material-icons
-                right">arrow_forward</i>Siguiente</a>
+
+            <!-- MENSAJE DE RENDIMIENTO (Tarjeta de Felicitación) -->
+            <div class="card red accent-4 z-depth-2"
+                style="border-radius: 15px; overflow: hidden; margin-bottom: 25px;">
+                <div class="card-content white-text" style="padding: 16px 20px; display: flex; align-items: center;">
+                    <i class="material-icons left" style="font-size: 2rem; margin-right: 15px;">stars</i>
+                    <div>
+                        <span class="card-title bold" style="font-size: 1.3rem; margin: 0; font-weight: 700;">¡Excelente
+                            rendimiento!</span>
+                        <p style="font-size: 0.95rem; opacity: 0.9; margin-top: 2px;">Has respondido correctamente la
+                            gran mayoría de las preguntas.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- BOTONES DE ACCIÓN FINAL (CORREGIDOS: Volver a intentar o salir) -->
+            <div class="row" style="margin-top: 20px;">
+                <div class="col s6">
+                    <a href="selector.html" class="btn-large waves-effect waves-light grey darken-3 hoverable"
+                        style="width: 100%; border-radius: 8px; font-weight: 700; font-size: 0.9rem; padding: 0 10px;">
+                        <i class="material-icons left">replay</i>Reintentar
+                    </a>
+                </div>
+                <div class="col s6">
+                    <a href="index.html" class="btn-large waves-effect waves-light red accent-4 hoverable"
+                        style="width: 100%; border-radius: 8px; font-weight: 700; font-size: 0.9rem; padding: 0 10px;">
+                        Inicio<i class="material-icons right">home</i>
+                    </a>
+                </div>
+            </div>
 
         </div>
+
+        <!-- COLUMNA DERECHA: TABLA DE ESTADÍSTICAS DETALLADAS -->
         <div class="col s12 m5">
-            <table>
-                <thead>
-                    <tr>
-                        <th colspan="2">Resumen de tu resultado</th>
 
+            <!-- Envolvemos la tabla dentro de una tarjeta con sombra elegante y bordes redondeados -->
+            <div class="card z-depth-2" style="border-radius: 20px; overflow: hidden; background-color: #ffffff;">
+                <div class="card-content" style="padding: 24px;">
 
-                    </tr>
-                </thead>
+                    <!-- TÍTULO DE LA FICHA TÉCNICA -->
+                    <span class="card-title red-text text-accent-4 bold"
+                        style="font-weight: 700; font-size: 1.3rem; margin-bottom: 15px; display: flex; align-items: center;">
+                        <i class="material-icons left">analytics</i>
+                        Resumen de tu resultado
+                    </span>
 
-                <tbody>
-                    <tr>
-                        <td>Respuesta correcta</td>
-                        <td>8</td>
+                    <!-- Línea divisoria roja para separar el título de los datos -->
+                    <div class="divider red accent-4" style="height: 2px; margin-bottom: 15px;"></div>
 
-                    </tr>
-                    <tr>
-                        <td>Respuesta incorrecta</td>
-                        <td>2</td>
+                    <!-- TABLA REESTRUCTURADA CON CLASES NATIVAS DE MATERIALIZE -->
+                    <!-- La clase 'highlight' añade un efecto visual gris al pasar el mouse sobre las filas -->
+                    <table class="highlight responsive-table" style="font-size: 1.05rem;">
+                        <tbody>
 
-                    </tr>
-                    <tr>
-                        <td>Puntuacion total</td>
-                        <td>8/10</td>
+                            <!-- Fila 1: Respuestas Correctas -->
+                            <tr style="border-bottom: 1px solid #e0e0e0;">
+                                <td style="padding: 14px 10px; display: flex; align-items: center;">
+                                    <i class="material-icons green-text"
+                                        style="margin-right: 10px; font-size: 1.4rem;">check_circle</i>
+                                    <span>Respuestas correctas</span>
+                                </td>
+                                <td class="green-text bold right-align"
+                                    style="padding: 14px 10px; font-weight: 700; font-size: 1.2rem;">8</td>
+                            </tr>
 
-                    </tr>
-                </tbody>
-            </table>
+                            <!-- Fila 2: Respuestas Incorrectas -->
+                            <tr style="border-bottom: 1px solid #e0e0e0;">
+                                <td style="padding: 14px 10px; display: flex; align-items: center;">
+                                    <i class="material-icons red-text"
+                                        style="margin-right: 10px; font-size: 1.4rem;">cancel</i>
+                                    <span>Respuestas incorrectas</span>
+                                </td>
+                                <td class="red-text bold right-align"
+                                    style="padding: 14px 10px; font-weight: 700; font-size: 1.2rem;">2</td>
+                            </tr>
+
+                            <!-- Fila 3: Puntuación Total Destacada -->
+                            <tr style="background-color: #e3f2fd; border: none;">
+                                <td
+                                    style="padding: 14px 10px; display: flex; align-items: center; border-radius: 0 0 0 8px;">
+                                    <i class="material-icons blue-text text-darken-2"
+                                        style="margin-right: 10px; font-size: 1.4rem;">star</i>
+                                    <b class="blue-text text-darken-2" style="font-weight: 700;">Puntuación total</b>
+                                </td>
+                                <td class="blue-text text-darken-2 bold right-align"
+                                    style="padding: 14px 10px; font-weight: 800; font-size: 1.25rem; border-radius: 0 0 8px 0;">
+                                    8 / 10
+                                </td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+
         </div>
+
     </div>
 
 
