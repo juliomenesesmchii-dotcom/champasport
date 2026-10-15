@@ -77,12 +77,14 @@
                     </span>
 
                     <!-- Tu puntuación destacada en grande -->
-                    <h2 class="bold white-text" style="margin: 5px 0 15px 0; font-weight: 800; font-size: 3.5rem;">8 /
+                    <h2 id="puntaje-texto" class="bold white-text"
+                        style="margin: 5px 0 15px 0; font-weight: 800; font-size: 3.5rem;">8 /
                         10</h2>
 
                     <!-- BARRA DE PROGRESO DE PUNTUACIÓN (Equivale al 80% de aciertos) -->
                     <div style="width: 85%; margin: 0 auto 10px auto;">
-                        <div class="progress grey lighten-3" style="height: 10px; border-radius: 5px; margin: 0;">
+                        <div id="puntaje-barra" class="progress grey lighten-3"
+                            style="height: 10px; border-radius: 5px; margin: 0;">
                             <!-- Se llena al 80% con tu color Rojo oficial para contrastar con el fondo azul -->
                             <div class="determinate red accent-4" style="width: 80%; border-radius: 5px;"></div>
                         </div>
@@ -94,12 +96,16 @@
             <!-- MENSAJE DE RENDIMIENTO (Tarjeta de Felicitación) -->
             <div class="card red accent-4 z-depth-2"
                 style="border-radius: 15px; overflow: hidden; margin-bottom: 25px;">
-                <div class="card-content white-text" style="padding: 16px 20px; display: flex; align-items: center;">
-                    <i class="material-icons left" style="font-size: 2rem; margin-right: 15px;">stars</i>
+                <div id="tarjeta-mensaje" class="card-content white-text"
+                    style="padding: 16px 20px; display: flex; align-items: center;">
+                    <i id="icono-mensaje" class="material-icons left"
+                        style="font-size: 2rem; margin-right: 15px;">stars</i>
                     <div>
-                        <span class="card-title bold" style="font-size: 1.3rem; margin: 0; font-weight: 700;">¡Excelente
+                        <span id="titulo-mensaje" class="card-title bold"
+                            style="font-size: 1.3rem; margin: 0; font-weight: 700;">¡Excelente
                             rendimiento!</span>
-                        <p style="font-size: 0.95rem; opacity: 0.9; margin-top: 2px;">Has respondido correctamente la
+                        <p id="parrafo-mensaje" style="font-size: 0.95rem; opacity: 0.9; margin-top: 2px;">Has
+                            respondido correctamente la
                             gran mayoría de las preguntas.</p>
                     </div>
                 </div>
@@ -108,7 +114,8 @@
             <!-- BOTONES DE ACCIÓN FINAL (CORREGIDOS: Volver a intentar o salir) -->
             <div class="row" style="margin-top: 20px;">
                 <div class="col s6">
-                    <a href="selector.html" class="btn-large waves-effect waves-light grey darken-3 hoverable"
+                    <a id="btn-reintentar" href="selector.html"
+                        class="btn-large waves-effect waves-light grey darken-3 hoverable"
                         style="width: 100%; border-radius: 8px; font-weight: 700; font-size: 0.9rem; padding: 0 10px;">
                         <i class="material-icons left">replay</i>Reintentar
                     </a>
@@ -152,7 +159,7 @@
                                         style="margin-right: 10px; font-size: 1.4rem;">check_circle</i>
                                     <span>Respuestas correctas</span>
                                 </td>
-                                <td class="green-text bold right-align"
+                                <td id="res-correctas" class="green-text bold right-align"
                                     style="padding: 14px 10px; font-weight: 700; font-size: 1.2rem;">8</td>
                             </tr>
 
@@ -163,7 +170,7 @@
                                         style="margin-right: 10px; font-size: 1.4rem;">cancel</i>
                                     <span>Respuestas incorrectas</span>
                                 </td>
-                                <td class="red-text bold right-align"
+                                <td id="res-incorrectas" class="red-text bold right-align"
                                     style="padding: 14px 10px; font-weight: 700; font-size: 1.2rem;">2</td>
                             </tr>
 
@@ -175,7 +182,7 @@
                                         style="margin-right: 10px; font-size: 1.4rem;">star</i>
                                     <b class="blue-text text-darken-2" style="font-weight: 700;">Puntuación total</b>
                                 </td>
-                                <td class="blue-text text-darken-2 bold right-align"
+                                <td id="res-total-tabla" class="blue-text text-darken-2 bold right-align"
                                     style="padding: 14px 10px; font-weight: 800; font-size: 1.25rem; border-radius: 0 0 8px 0;">
                                     8 / 10
                                 </td>
@@ -192,7 +199,7 @@
     </div>
 
 
-
+    <div id="contenedor-revision"></div>
     <footer class="page-footer red accent-4">
         <div class="container">
             <div class="row">
@@ -226,6 +233,7 @@
 
 
     <script type="text/javascript" src="assets/js/materialize.js"></script>
+    <script type="text/javascript" src="assets/js/pages/results.js"></script>
     <script>
         document.addEventListener('DOMContentLoaded', function () {
             var elems = document.querySelectorAll('.sidenav');
