@@ -8,11 +8,11 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     // Metadatos por deporte (imágenes y títulos)
     const infoDeportes = {
-        'basquet': { nombre: 'BÁSQUETBOL', img: 'assets/img/basquet.png' },
-        'futsal': { nombre: 'FUTSAL', img: 'assets/img/futbol.png' },
-        'tenis': { nombre: 'TENIS', img: 'assets/img/tenis.png' },
-        'voley': { nombre: 'VÓLEY', img: 'assets/img/voley.png' },
-        'ajedrez': { nombre: 'AJEDREZ', img: 'assets/img/ajedrez.png' }
+        'basquet': { nombre: 'BÁSQUETBOL', img: 'assets/img/basquet.webp' },
+        'futsal': { nombre: 'FUTSAL', img: 'assets/img/futbol.webp' },
+        'tenis': { nombre: 'TENIS', img: 'assets/img/tenis.webp' },
+        'voley': { nombre: 'VÓLEY', img: 'assets/img/voley.webp' },
+        'ajedrez': { nombre: 'AJEDREZ', img: 'assets/img/aajedrez.webp' }
     };
 
     const configActual = infoDeportes[deporte] || { nombre: deporte.toUpperCase(), img: 'assets/img/principal.png' };
