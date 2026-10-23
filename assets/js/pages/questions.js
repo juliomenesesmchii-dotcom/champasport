@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         'ajedrez': { nombre: 'AJEDREZ', img: 'assets/img/aajedrez.webp' }
     };
 
-    const configActual = infoDeportes[deporte] || { nombre: deporte.toUpperCase(), img: 'assets/img/principal.png' };
+    const configActual = infoDeportes[deporte] || { nombre: deporte.toUpperCase(), img: 'assets/img/principal.webp' };
 
     // Elementos del DOM
     const tituloPregunta = document.getElementById('texto-pregunta');
