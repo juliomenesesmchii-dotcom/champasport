@@ -1,482 +1,482 @@
 [
-    {
-        "id": 1,
-        "pregunta": "¿Cuál es el ancho reglamentario de la pista para un partido de individuales?",
-        "opciones": {
-            "a": "10,97 metros (36 pies)",
-            "b": "8,23 metros (27 pies)",
-            "c": "23,77 metros (78 pies)",
-            "d": "6,40 metros (21 pies)"
-        },
-        "respuesta_correcta": "b",
-        "explicacion": "De acuerdo con la Regla 1, la pista de tenis es un rectángulo que para los partidos de individuales debe tener 8,23 metros (27 pies) de ancho."
+  {
+    "id": 1,
+    "pregunta": "¿Cuál es el origen etimológico del término 'atletismo' según el documento?",
+    "opciones": {
+      "a": "Proviene del latín 'athletica', que significa fortaleza corporal",
+      "b": "Proviene del vocablo griego 'athlos', que significa competencia o contienda",
+      "c": "Proviene del griego 'athlon', que significa medalla o premio de oro",
+      "d": "Proviene del romano 'atletis', que significa corredor del estadio"
     },
-    {
-        "id": 2,
-        "pregunta": "¿A qué altura debe estar situada la red en su centro exacto?",
-        "opciones": {
-            "a": "1,07 metros (3,5 pies)",
-            "b": "1,00 metros",
-            "c": "0,914 metros (3 pies)",
-            "d": "0,850 metros"
-        },
-        "respuesta_correcta": "c",
-        "explicacion": "La Regla 1 especifica que, aunque los postes tengan una altura mayor, la altura en el centro de la red debe ser de 0,914 metros, sostenida por una faja."
+    "respuesta_correcta": "b",
+    "explicacion": "Según el documento, la palabra 'atletismo' proviene del vocablo griego 'athlos', que significa 'competencia' o 'contienda'."
+  },
+  {
+    "id": 2,
+    "pregunta": "¿Cómo se define conceptualmente el atletismo en el texto?",
+    "opciones": {
+      "a": "Un deporte en equipo que evalúa la estrategia táctica y la coordinación motriz",
+      "b": "Un conjunto exclusivo de carreras de velocidad en pistas techadas",
+      "c": "Un deporte que consiste en poner a prueba el cuerpo humano en modalidades competitivas de carrera, salto y lanzamiento",
+      "d": "Una disciplina gimnástica orientada a la acrobacia y fuerza muscular"
     },
-    {
-        "id": 3,
-        "pregunta": "En un partido de individuales que utiliza una red de dobles, ¿a qué distancia de la línea lateral de individuales deben colocarse los palos de individuales?",
-        "opciones": {
-            "a": "0,914 metros (3 pies)",
-            "b": "1,37 metros (4,5 pies)",
-            "c": "0,50 metros",
-            "d": "1,07 metros"
-        },
-        "respuesta_correcta": "a",
-        "explicacion": "Según la Regla 1, si se usa una red de dobles para individuales, esta se sostiene mediante palos de individuales cuyos centros estarán a 0,914 metros afuera de cada lado de la línea de individuales."
+    "respuesta_correcta": "c",
+    "explicacion": "El texto define el atletismo como un deporte que consiste en poner a prueba el cuerpo humano en diferentes modalidades competitivas, como son la carrera, el salto y el lanzamiento."
+  },
+  {
+    "id": 3,
+    "pregunta": "¿Por qué motivo se considera habitualmente al atletismo como el 'deporte natural'?",
+    "opciones": {
+      "a": "Porque se practica de forma exclusiva en circuitos y parajes de la naturaleza",
+      "b": "Porque no requiere el uso de ninguna regla ni equipamiento reglamentario",
+      "c": "Porque implica los movimientos básicos del cuerpo humano en relación con su desarrollo, como correr, saltar y lanzar",
+      "d": "Porque fue el único deporte practicado de forma continua desde la Prehistoria"
     },
-    {
-        "id": 4,
-        "pregunta": "¿Cuál es el ancho máximo permitido para la marca central situada en la línea de fondo?",
-        "opciones": {
-            "a": "10 cm (4 pulgadas)",
-            "b": "2 cm",
-            "c": "7,5 cm",
-            "d": "5 cm (2 pulgadas)"
-        },
-        "respuesta_correcta": "d",
-        "explicacion": "La Regla 1 establece que la línea central de servicio y la marca central deben ser de 5 cm (2 pulgadas) de ancho."
+    "respuesta_correcta": "c",
+    "explicacion": "El documento indica que se considera 'deporte natural' porque implica los movimientos básicos del cuerpo con relación al desarrollo humano: correr, saltar y lanzar."
+  },
+  {
+    "id": 4,
+    "pregunta": "¿Cuál es el rango de distancia estipulado para las carreras de velocidad?",
+    "opciones": {
+      "a": "Entre 50 y 100 metros",
+      "b": "Entre 100 y 400 metros",
+      "c": "Entre 400 y 800 metros",
+      "d": "Entre 200 y 600 metros"
     },
-    {
-        "id": 5,
-        "pregunta": "Si se establece una política de cambio de pelotas durante el partido, ¿cómo se realiza el primer cambio según el reglamento?",
-        "opciones": {
-            "a": "En el mismo número de juegos que los cambios subsiguientes",
-            "b": "Dos juegos antes que el resto del partido, para considerar el calentamiento",
-            "c": "Al finalizar el primer set, independientemente de los juegos",
-            "d": "Después del primer juego del partido"
-        },
-        "respuesta_correcta": "b",
-        "explicacion": "La Regla 3 estipula que el primer cambio de pelotas del partido se realizará dos juegos antes que en el resto del partido, teniendo en cuenta el calentamiento."
+    "respuesta_correcta": "b",
+    "explicacion": "El texto señala expresamente que las carreras de velocidad consisten en el recorrido de una distancia que varía entre 100 y 400 metros en el menor tiempo posible."
+  },
+  {
+    "id": 5,
+    "pregunta": "¿En qué rango de distancia se clasifican las carreras de media distancia o medio fondo?",
+    "opciones": {
+      "a": "Entre 400 y 800 metros",
+      "b": "Entre 500 y 1.500 metros",
+      "c": "Entre 800 y 3.000 metros",
+      "d": "Entre 1.500 y 5.000 metros"
     },
-    {
-        "id": 6,
-        "pregunta": "¿Qué ocurre si una pelota se rompe durante el juego de un punto?",
-        "opciones": {
-            "a": "El jugador que la rompió pierde el punto",
-            "b": "Se repite el punto (let)",
-            "c": "Se continúa el punto con la pelota en ese estado hasta que termine",
-            "d": "El juez de silla decide si el daño afectó la trayectoria"
-        },
-        "respuesta_correcta": "b",
-        "explicacion": "La Regla 3 indica claramente: 'Si una pelota se rompe durante el juego se repetirá el punto'."
+    "respuesta_correcta": "c",
+    "explicacion": "En el documento se especifica que en las carreras de media distancia el recorrido se encuentra entre los 800 y 3.000 metros."
+  },
+  {
+    "id": 6,
+    "pregunta": "¿A partir de qué distancia se consideran carreras de fondo según la clasificación del documento?",
+    "opciones": {
+      "a": "Recorridos superiores a los 1.500 metros",
+      "b": "Recorridos superiores a los 3.000 metros",
+      "c": "Recorridos superiores a los 5.000 metros",
+      "d": "Recorridos superiores a los 10.000 metros"
     },
-    {
-        "id": 7,
-        "pregunta": "¿Dónde pueden colocarse los dispositivos para reducir la vibración en la raqueta?",
-        "opciones": {
-            "a": "En cualquier parte del encordado",
-            "b": "Únicamente en el centro de la cabeza de la raqueta",
-            "c": "Únicamente fuera de la zona de las cuerdas cruzadas",
-            "d": "En el marco, pero nunca en las cuerdas"
-        },
-        "respuesta_correcta": "c",
-        "explicacion": "Según la Regla 4 (Caso 3), los dispositivos antivibración únicamente pueden colocarse fuera de la zona de las cuerdas cruzadas."
+    "respuesta_correcta": "b",
+    "explicacion": "De acuerdo con el texto, las carreras de fondo son pruebas que consisten en un recorrido de espacio superior a los 3.000 metros de distancia."
+  },
+  {
+    "id": 7,
+    "pregunta": "¿Cuál es la distancia exacta de la prueba de maratón estipulada en el texto?",
+    "opciones": {
+      "a": "40.000 metros",
+      "b": "41.500 metros",
+      "c": "42.195 metros",
+      "d": "45.000 metros"
     },
-    {
-        "id": 8,
-        "pregunta": "¿Cuál es el tanteo de un juego si ambos jugadores han ganado tres puntos cada uno?",
-        "opciones": {
-            "a": "40-40",
-            "b": "Iguales (Deuce)",
-            "c": "Ventaja",
-            "d": "Treinta iguales"
-        },
-        "respuesta_correcta": "b",
-        "explicacion": "La Regla 5 establece que si cada jugador o equipo ha ganado tres puntos, se cantará el tanteo de 'iguales'."
+    "respuesta_correcta": "c",
+    "explicacion": "El documento menciona textualmente que en la maratón se recorre una distancia de 42.195 metros."
+  },
+  {
+    "id": 8,
+    "pregunta": "¿A qué hecho histórico remite la denominación de la prueba de 'maratón'?",
+    "opciones": {
+      "a": "A la batalla naval de Salamina disputada entre griegos y persas",
+      "b": "A la hazaña del soldado Filípides en el 490 a. C. al correr de Maratón a Atenas",
+      "c": "A la marcha triunfal de Alejandro Magno tras la conquista de Persia",
+      "d": "A la distancia recorrida por los primeros atletas olímpicos en Olimpia"
     },
-    {
-        "id": 9,
-        "pregunta": "Para ganar un juego de tie-break estándar, ¿cuántos puntos debe alcanzar un jugador y por qué margen?",
-        "opciones": {
-            "a": "6 puntos con margen de 1",
-            "b": "10 puntos con margen de 2",
-            "c": "7 puntos con margen de 2",
-            "d": "5 puntos con margen de 2"
-        },
-        "respuesta_correcta": "c",
-        "explicacion": "La Regla 5b define que el primer jugador o equipo que obtenga siete puntos gana el juego y el set, siempre que haya un margen de dos puntos."
+    "respuesta_correcta": "b",
+    "explicacion": "El texto aclara que recuerda la hazaña del soldado Filípides en el 490 a. C., enviado desde Maratón a Atenas para anunciar la victoria sobre los persas."
+  },
+  {
+    "id": 9,
+    "pregunta": "¿De qué longitud pueden ser las carreras con obstáculos o vallas según lo indicado en el texto?",
+    "opciones": {
+      "a": "De 100 a 400 metros únicamente",
+      "b": "De 500 a 1.000 metros de longitud",
+      "c": "De 2.000 a 3.000 metros de longitud",
+      "d": "De 3.000 a 5.000 metros de longitud"
     },
-    {
-        "id": 10,
-        "pregunta": "¿En qué momento se debe anunciar qué método de puntuación de set se utilizará en una competición?",
-        "opciones": {
-            "a": "Al finalizar el primer juego",
-            "b": "Antes de que comience la competición",
-            "c": "Cuando el marcador llegue a 5-5",
-            "d": "Es opcional y lo decide el servidor del primer juego"
-        },
-        "respuesta_correcta": "b",
-        "explicacion": "La Regla 6 especifica que puede usarse cualquier método (set de ventaja o de tie-break) siempre que se anuncie antes de que comience la competición."
+    "respuesta_correcta": "c",
+    "explicacion": "El documento indica explícitamente que las carreras con obstáculos pueden ser carreras de 2.000 a 3.000 metros de longitud."
+  },
+  {
+    "id": 10,
+    "pregunta": "¿Cómo se estructuran los equipos en las carreras de relevos reglamentadas en el documento?",
+    "opciones": {
+      "a": "Equipos de dos atletas, uno cada 200 metros",
+      "b": "Equipos de cuatro atletas, repartidos a razón de uno cada 100 metros",
+      "c": "Equipos de tres atletas sin distancia fija establecida",
+      "d": "Equipos de cuatro atletas repartidos uno cada 400 metros"
     },
-    {
-        "id": 11,
-        "pregunta": "¿Cuál es el número máximo de sets que se pueden disputar en un partido de tenis masculino en los Grand Slams?",
-        "opciones": {
-            "a": "Tres sets",
-            "b": "Siete sets",
-            "c": "Cuatro sets",
-            "d": "Cinco sets"
-        },
-        "respuesta_correcta": "d",
-        "explicacion": "La Regla 7 permite que un partido se juegue al mejor de tres sets o al mejor de cinco sets."
+    "respuesta_correcta": "b",
+    "explicacion": "El texto especifica que las carreras de relevos se compiten en equipos de cuatro atletas cada uno, repartidos a lo largo de la pista a razón de uno cada 100 metros."
+  },
+  {
+    "id": 11,
+    "pregunta": "¿Qué elemento debe entregarse obligatoriamente entre corredores en la prueba de relevos?",
+    "opciones": {
+      "a": "Una medalla de transmisión reglamentaria",
+      "b": "Un testigo o talento",
+      "c": "Un aro metálico homologado",
+      "d": "Una cinta de tela identificatoria"
     },
-    {
-        "id": 12,
-        "pregunta": "Si un jugador gana el sorteo inicial, ¿cuál de las siguientes opciones NO puede elegir?",
-        "opciones": {
-            "a": "Ser el servidor o el restador en el primer juego",
-            "b": "El lado de la pista para el primer juego",
-            "c": "Que su oponente elija primero",
-            "d": "Cambiar las pelotas antes del calentamiento"
-        },
-        "respuesta_correcta": "d",
-        "explicacion": "La Regla 9 detalla las opciones tras ganar el sorteo (servir/restar, lado, o delegar elección). El cambio de pelotas no es una opción del sorteo."
+    "respuesta_correcta": "b",
+    "explicacion": "El texto menciona que el propósito en las carreras de relevos es entregar un testigo o talento al siguiente corredor antes que los adversarios."
+  },
+  {
+    "id": 12,
+    "pregunta": "¿Cuál es la distancia total de la vuelta de pista que debe cumplir el equipo para ganar en la carrera de relevos descrita?",
+    "opciones": {
+      "a": "200 metros",
+      "b": "400 metros",
+      "c": "800 metros",
+      "d": "1.000 metros"
     },
-    {
-        "id": 13,
-        "pregunta": "¿Con qué frecuencia cambian de lado los jugadores durante un set normal?",
-        "opciones": {
-            "a": "Después de cada juego",
-            "b": "Después de cada número par de juegos",
-            "c": "Al final del primer, tercer y siguientes juegos impares",
-            "d": "Solo al final de cada set"
-        },
-        "respuesta_correcta": "c",
-        "explicacion": "La Regla 10 dicta que los jugadores cambiarán de lado al final del primer, tercer y siguientes juegos impares de cada set."
+    "respuesta_correcta": "b",
+    "explicacion": "El documento indica que el ganador es el primer equipo en llevar el testigo cumpliendo la vuelta entera de 400 metros."
+  },
+  {
+    "id": 13,
+    "pregunta": "¿Qué estatus olímpico tienen las carreras en rutas o calles según el documento?",
+    "opciones": {
+      "a": "Son la prueba principal de los Juegos Olímpicos de Invierno",
+      "b": "Se compiten exclusivamente en los Juegos Paralímpicos",
+      "c": "No se reconocen como disciplina en los Juegos Olímpicos u otras competiciones",
+      "d": "Se consideran disciplina olímpica desde la edición de Atenas 1896"
     },
-    {
-        "id": 14,
-        "pregunta": "¿Qué ocurre si una pelota en juego toca una línea de la pista?",
-        "opciones": {
-            "a": "Se considera que cae fuera",
-            "b": "Se repite el punto",
-            "c": "Se considera que cae dentro del campo de juego",
-            "d": "Depende de si la pelota toca más del 50% de la línea"
-        },
-        "respuesta_correcta": "c",
-        "explicacion": "La Regla 12 establece de forma simple que si una pelota toca una línea, se considera que cae dentro del campo limitado por esa línea."
+    "respuesta_correcta": "c",
+    "explicacion": "El texto señala respecto a las carreras en rutas o calles que 'estas pruebas no se reconocen como disciplina en los Juegos Olímpicos u otras competiciones'."
+  },
+  {
+    "id": 14,
+    "pregunta": "¿Cuál es la condición olímpica de las carreras campo a través según la fuente?",
+    "opciones": {
+      "a": "Permanecen de forma ininterrumpida desde 1896 en el programa olímpico",
+      "b": "Nunca han formado parte de los Juegos Olímpicos",
+      "c": "Aunque actualmente no están en los Juegos Olímpicos, sí lo estuvieron en ediciones anteriores",
+      "d": "Son obligatorias solo para competiciones por equipos nacionales"
     },
-    {
-        "id": 15,
-        "pregunta": "Si la pelota golpea un accesorio fijo permanente (como la silla del juez) ANTES de tocar el suelo, ¿qué se dictamina?",
-        "opciones": {
-            "a": "Se repite el punto",
-            "b": "El jugador que golpeó la pelota pierde el punto",
-            "c": "El jugador que golpeó la pelota gana el punto",
-            "d": "Es una pelota buena si cae dentro tras el rebote"
-        },
-        "respuesta_correcta": "b",
-        "explicacion": "La Regla 13 estipula que si la pelota toca un accesorio fijo permanente antes de tocar el suelo, el jugador que golpeó la pelota pierde el punto."
+    "respuesta_correcta": "c",
+    "explicacion": "El documento menciona sobre las carreras campo a través que 'si bien en la actualidad no son pruebas que se encuentren en los Juegos Olímpicos, sí lo fueron en ediciones anteriores'."
+  },
+  {
+    "id": 15,
+    "pregunta": "¿Qué distancia previa de impulso se toma en el salto con pértiga (garrocha) según el texto?",
+    "opciones": {
+      "a": "15 metros",
+      "b": "20 metros",
+      "c": "30 metros",
+      "d": "50 metros"
     },
-    {
-        "id": 16,
-        "pregunta": "¿Cuál es la posición correcta de los pies del servidor en el momento de realizar el saque?",
-        "opciones": {
-            "a": "Un pie debe tocar la línea de fondo",
-            "b": "Ambos pies deben estar situados detrás de la línea de fondo",
-            "c": "Puede estar pisando la marca central",
-            "d": "Debe tener un pie en el aire obligatoriamente"
-        },
-        "respuesta_correcta": "b",
-        "explicacion": "La Regla 16 indica que el servidor se pondrá con ambos pies situados detrás de la línea de fondo y dentro de las prolongaciones imaginarias de la marca central y la línea lateral."
+    "respuesta_correcta": "c",
+    "explicacion": "El documento especifica que en el salto con pértiga se toma impulso durante una distancia de 30 metros."
+  },
+  {
+    "id": 16,
+    "pregunta": "¿Cuál es la diferencia fundamental entre el salto de altura y el salto con pértiga expresada en el texto?",
+    "opciones": {
+      "a": "El salto de altura se realiza sin la ayuda de ningún instrumento",
+      "b": "El salto de altura se realiza sobre fosa de agua",
+      "c": "El salto de altura exige dar dos saltos preparatorios previos",
+      "d": "El salto de altura no utiliza listón ni barra horizontal"
     },
-    {
-        "id": 17,
-        "pregunta": "En un partido de individuales, el servidor realiza el saque situándose detrás de la línea de fondo entre la línea lateral de individuales y la de dobles. ¿Es esto legal?",
-        "opciones": {
-            "a": "Sí, es permitido en individuales",
-            "b": "No, es una falta de pie",
-            "c": "Solo si el restador está de acuerdo",
-            "d": "Solo si se juega en pista de tierra batida"
-        },
-        "respuesta_correcta": "b",
-        "explicacion": "La Regla 18 (Caso 1) aclara que en individuales no se permite situarse en esa zona; si lo hace, infringe la regla de posición y comete una falta."
+    "respuesta_correcta": "a",
+    "explicacion": "El texto indica que el salto de altura es similar al salto con pértiga, pero 'se realiza sin la ayuda de ningún instrumento, simplemente tomando impulso y luego saltando un listón'."
+  },
+  {
+    "id": 17,
+    "pregunta": "¿En cuántas oportunidades distintas se repite la ejecución en el salto de altura?",
+    "opciones": {
+      "a": "En dos oportunidades",
+      "b": "En tres oportunidades distintas",
+      "c": "En cinco oportunidades de intento",
+      "d": "En una única oportunidad definitiva"
     },
-    {
-        "id": 18,
-        "pregunta": "Si el servidor lanza la pelota al aire para sacar pero decide no golpearla y la recoge con la raqueta, ¿qué se decide?",
-        "opciones": {
-            "a": "Falta en el servicio",
-            "b": "Doble falta",
-            "c": "No se ha cometido falta, puede repetir el intento",
-            "d": "Pérdida del punto"
-        },
-        "respuesta_correcta": "c",
-        "explicacion": "Según la Regla 19 (Caso 1), se permite que un jugador lance la pelota y decida no golpearla, recogiéndola con la mano o raqueta sin que cuente como falta."
+    "respuesta_correcta": "b",
+    "explicacion": "El texto declara que la acción de saltar el listón en el salto de altura 'se repite en tres oportunidades distintas'."
+  },
+  {
+    "id": 18,
+    "pregunta": "¿Sobre qué superficie se realiza el salto de longitud para medir la distancia lograda?",
+    "opciones": {
+      "a": "Sobre césped sintético blando",
+      "b": "Sobre una colchoneta de espuma de alta densidad",
+      "c": "Sobre una superficie de arena",
+      "d": "Sobre la misma pista de caucho que la carrera"
     },
-    {
-        "id": 19,
-        "pregunta": "¿Cuándo se considera que un restador está listo para recibir el servicio?",
-        "opciones": {
-            "a": "Cuando levanta la mano",
-            "b": "Cuando el juez de silla lo indica",
-            "c": "Si intenta devolver el servicio",
-            "d": "Después de 5 segundos de que el servidor se prepare"
-        },
-        "respuesta_correcta": "c",
-        "explicacion": "La Regla 21 establece que se considerará que un restador está listo para el juego si intenta devolver el servicio."
+    "respuesta_correcta": "c",
+    "explicacion": "El documento detalla que 'el salto se suele dar sobre una superficie de arena, para medir la distancia total de cada salto con las huellas dejadas por el cuerpo'."
+  },
+  {
+    "id": 19,
+    "pregunta": "¿Cuál es la secuencia técnica establecida para la ejecución del triple salto?",
+    "opciones": {
+      "a": "Tres saltos seguidos con la pierna dominante e impulso final",
+      "b": "Dos saltos preparatorios consecutivos con la pierna no dominante, y luego impulso final con cambio de pierna",
+      "c": "Un salto inicial con ambos pies y dos saltos alternados sobre la arena",
+      "d": "Un salto de carrera con pértiga y dos saltos de longitud consecutivos"
     },
-    {
-        "id": 20,
-        "pregunta": "¿Qué sucede con el primer servicio si se canta un 'let' durante el juego de un punto (no en el servicio)?",
-        "opciones": {
-            "a": "El servidor tiene derecho a un segundo servicio",
-            "b": "Se mantiene el error anterior",
-            "c": "El servidor tiene derecho a un primer servicio",
-            "d": "El restador elige qué servicio se repite"
-        },
-        "respuesta_correcta": "c",
-        "explicacion": "La Regla 23 (Caso 1) explica que cuando se canta un let, debe volverse a jugar todo el punto, lo que otorga al servidor un primer servicio."
+    "respuesta_correcta": "b",
+    "explicacion": "El texto define el triple salto especificando que 'se sigue una secuencia de pasos específica para dar el salto: dos saltos preparatorios consecutivos con la pierna no dominante, y luego el impulso final con un cambio de pierna'."
+  },
+  {
+    "id": 20,
+    "pregunta": "¿Qué implemento se utiliza en el lanzamiento de peso según el documento?",
+    "opciones": {
+      "a": "Una jabalina ligera",
+      "b": "Una bola",
+      "c": "Un disco circular de madera",
+      "d": "Un martillo con empuñadura de hule"
     },
-    {
-        "id": 21,
-        "pregunta": "Un jugador pierde el punto si la pelota en juego le toca a él o a cualquier cosa que lleve puesto, EXCEPTO:",
-        "opciones": {
-            "a": "Su gorra",
-            "b": "Su raqueta sostenida en la mano",
-            "c": "Su reloj",
-            "d": "Su compañero en dobles"
-        },
-        "respuesta_correcta": "b",
-        "explicacion": "La Regla 24i señala que un jugador pierde el punto si la pelota le toca a él o a su ropa, excepto la raqueta (cuando la tiene en la mano y es parte del golpe)."
+    "respuesta_correcta": "b",
+    "explicacion": "En la sección de lanzamientos, el documento afirma que el lanzamiento de peso 'consiste en el lanzamiento de una bola por parte de un competidor'."
+  },
+  {
+    "id": 21,
+    "pregunta": "¿Cómo se describe el objeto empleado en el lanzamiento de disco?",
+    "opciones": {
+      "a": "Objeto cilíndrico de peso moderado",
+      "b": "Objeto con forma circular y de peso pronunciado",
+      "c": "Estructura metálica cónica con punta roma",
+      "d": "Esfera cóncava de acero templado"
     },
-    {
-        "id": 22,
-        "pregunta": "Si un jugador lanza su raqueta hacia la pelota y la golpea, ganando el punto porque el oponente no llega, ¿cuál es la decisión?",
-        "opciones": {
-            "a": "Punto para el jugador que lanzó la raqueta",
-            "b": "Se repite el punto",
-            "c": "El jugador que lanzó la raqueta pierde el punto",
-            "d": "Depende de si la raqueta cruzó la red"
-        },
-        "respuesta_correcta": "c",
-        "explicacion": "La Regla 24j y el Caso 6 especifican que si la pelota toca la raqueta cuando no está en la mano del jugador, este pierde el punto."
+    "respuesta_correcta": "b",
+    "explicacion": "El texto define el lanzamiento de disco indicando que 'consiste en el lanzamiento de un objeto con forma circular y de peso pronunciado'."
+  },
+  {
+    "id": 22,
+    "pregunta": "¿Qué requisito debe cumplir la jabalina utilizada en su prueba de lanzamiento?",
+    "opciones": {
+      "a": "Estar fabricada exclusivamente en madera de fresno",
+      "b": "Ser una jabalina hecha con material autorizado",
+      "c": "Tener una punta de plomo de al menos 500 gramos",
+      "d": "Ser de diseño libre según la elección del atleta"
     },
-    {
-        "id": 23,
-        "pregunta": "¿Es una devolución buena si la pelota pasa por debajo de la cuerda de la red entre el palo de individuales y el poste de la red sin tocar nada?",
-        "opciones": {
-            "a": "No, debe pasar por encima de la red",
-            "b": "Sí, siempre que toque el campo correcto",
-            "c": "Solo en partidos de dobles",
-            "d": "Se canta let"
-        },
-        "respuesta_correcta": "b",
-        "explicacion": "La Regla 25d establece que es una devolución buena si la pelota pasa por debajo de la cuerda de la red entre el palo de individuales y el poste adyacente y golpea el campo correspondiente."
+    "respuesta_correcta": "b",
+    "explicacion": "El texto aclara que el lanzamiento de jabalina consiste en el lanzamiento de una 'jabalina hecha con material autorizado'."
+  },
+  {
+    "id": 23,
+    "pregunta": "¿Cómo se conforma el objeto arrojado en el lanzamiento de martillo y cuál es su técnica de impulso?",
+    "opciones": {
+      "a": "Disco pesado unido a una varilla flexible que se lanza tras una carrera recta",
+      "b": "Bola metálica unida a una empuñadura mediante un cable de acero, arrojada tras dar varias vueltas sobre el propio eje",
+      "c": "Pesas pareadas conectadas por una cadena de bronce lanzadas de frente",
+      "d": "Esfera de caucho pesado sujeta por un asa sintética arrojada en salto vertical"
     },
-    {
-        "id": 24,
-        "pregunta": "¿Qué ocurre si un jugador es obstaculizado por un acto deliberado de su contrario?",
-        "opciones": {
-            "a": "Se repite el punto",
-            "b": "El jugador obstaculizado gana el punto",
-            "c": "Se le da una advertencia al contrario",
-            "d": "No se toma ninguna medida si la pelota entró"
-        },
-        "respuesta_correcta": "b",
-        "explicacion": "La Regla 26 indica que si un jugador es obstaculizado por un acto deliberado de su contrario, el jugador ganará el punto."
+    "respuesta_correcta": "b",
+    "explicacion": "El documento indica que el martillo es una 'bola metálica unida a una empuñadura mediante un cable de acero', la cual 'se arroja luego de que el atleta da varias vueltas consecutivas sobre su propio eje'."
+  },
+  {
+    "id": 24,
+    "pregunta": "¿En qué consisten de manera general las pruebas combinadas en atletismo?",
+    "opciones": {
+      "a": "Competencias donde dos atletas ejecutan una misma disciplina en parejas",
+      "b": "Pruebas que integran distintas disciplinas de pista y campo a lo largo de uno o dos días, sumando puntos según el rendimiento",
+      "c": "Eventos de atletismo que se combinan con natación y ciclismo",
+      "d": "Carreras que mezclan tramos de velocidad con zonas de salto con pértiga"
     },
-    {
-        "id": 25,
-        "pregunta": "Si se descubre que un jugador está sacando desde el lado equivocado de la pista, ¿qué sucede con las faltas cometidas antes del descubrimiento?",
-        "opciones": {
-            "a": "Se anulan todas",
-            "b": "El jugador pierde el punto",
-            "c": "Cualquier falta cantada será válida",
-            "d": "Se repite el juego desde cero"
-        },
-        "respuesta_correcta": "c",
-        "explicacion": "La Regla 27a sobre corrección de errores especifica que cualquier falta que se cantase antes de descubrirse el error de lado será válida."
+    "respuesta_correcta": "b",
+    "explicacion": "El texto define las pruebas combinadas como competencias que integran distintas pruebas de pista y campo donde cada atleta realiza varias disciplinas a lo largo de uno o dos días y suma puntos según su rendimiento."
+  },
+  {
+    "id": 25,
+    "pregunta": "¿Cuántas pruebas integran el heptatlón y en qué periodo de tiempo se realiza?",
+    "opciones": {
+      "a": "Cinco pruebas en un solo día",
+      "b": "Siete pruebas diferentes a lo largo de dos días consecutivos",
+      "c": "Siete pruebas en un único día de competencia",
+      "d": "Diez pruebas repartidas en tres días consecutivos"
     },
-    {
-        "id": 26,
-        "pregunta": "¿Cuál es el tiempo máximo permitido entre el final de un punto y el inicio del servicio siguiente?",
-        "opciones": {
-            "a": "20 segundos",
-            "b": "90 segundos",
-            "c": "25 segundos",
-            "d": "60 segundos"
-        },
-        "respuesta_correcta": "c",
-        "explicacion": "La Regla 29a establece un descanso máximo de veinticinco (25) segundos entre el juego de un punto y otro."
+    "respuesta_correcta": "b",
+    "explicacion": "El documento señala explícitamente que en el heptatlón 'se combinan siete pruebas diferentes, a lo largo de dos días consecutivos'."
+  },
+  {
+    "id": 26,
+    "pregunta": "¿Cuáles son las siete disciplinas incluidas en la prueba del heptatlón?",
+    "opciones": {
+      "a": "100m, salto largo, peso, disco, martillo, jabalina y 1500m",
+      "b": "100m vallas, salto de altura, lanzamiento de peso, 200m, salto de longitud, lanzamiento de jabalina y 800m",
+      "c": "60m vallas, pértiga, peso, 400m, triple salto, disco y 1000m",
+      "d": "100m, 400m, 110m vallas, salto alto, longitud, jabalina y maratón"
     },
-    {
-        "id": 27,
-        "pregunta": "En un cambio de lado al final de un juego, ¿cuánto tiempo máximo de descanso se permite?",
-        "opciones": {
-            "a": "120 segundos",
-            "b": "60 segundos",
-            "c": "25 segundos",
-            "d": "90 segundos"
-        },
-        "respuesta_correcta": "d",
-        "explicacion": "La Regla 29a indica que cuando los jugadores cambian de lado al final de un juego se permite un descanso máximo de noventa (90) segundos."
+    "respuesta_correcta": "b",
+    "explicacion": "El texto enumera las 7 pruebas del heptatlón: 100 metros con vallas, salto de altura, lanzamiento de peso, 200 metros, salto de longitud, lanzamiento de jabalina y 800 metros."
+  },
+  {
+    "id": 27,
+    "pregunta": "¿Cuántas disciplinas componen el decatlón y cuál es la duración de la competencia?",
+    "opciones": {
+      "a": "Diez pruebas distintas disputadas a lo largo de dos días consecutivos",
+      "b": "Diez pruebas disputadas en una sola jornada de 12 horas",
+      "c": "Ocho pruebas distribuidas en dos fines de semana",
+      "d": "Diez pruebas exclusivas para carreras de pista durante cinco días"
     },
-    {
-        "id": 28,
-        "pregunta": "¿Cuánto tiempo se concede para un tiempo muerto médico para tratar una condición médica tratable?",
-        "opciones": {
-            "a": "5 minutos",
-            "b": "3 minutos",
-            "c": "10 minutos",
-            "d": "No hay límite, lo decide el médico"
-        },
-        "respuesta_correcta": "b",
-        "explicacion": "La Regla 29c estipula que se podrá permitir un tiempo muerto de tres minutos para tratar una condición médica tratable."
+    "respuesta_correcta": "a",
+    "explicacion": "De acuerdo con el documento, en el decatlón 'se combinan diez pruebas distintas a lo largo de dos días consecutivos'."
+  },
+  {
+    "id": 28,
+    "pregunta": "¿Cuál es la última prueba enumerada dentro de las diez disciplinas del decatlón en el documento?",
+    "opciones": {
+      "a": "Lanzamiento de jabalina",
+      "b": "Salto con pértiga",
+      "c": "1500 metros",
+      "d": "400 metros"
     },
-    {
-        "id": 29,
-        "pregunta": "¿Se permite dar instrucciones a un jugador durante el desarrollo de un punto?",
-        "opciones": {
-            "a": "Sí, si es el capitán en Copa Davis",
-            "b": "No, está prohibido en todo momento durante el punto",
-            "c": "Solo mediante señales manuales discretas",
-            "d": "Sí, si el juez de silla no lo oye"
-        },
-        "respuesta_correcta": "b",
-        "explicacion": "La Regla 30 es taxativa: 'No está permitido dar instrucciones durante el desarrollo de un punto'."
+    "respuesta_correcta": "c",
+    "explicacion": "La lista de pruebas del decatlón que presenta el texto culmina con los 1500 metros (100m, salto de longitud, peso, salto de altura, 400m, 110m vallas, disco, pértiga, jabalina y 1500m)."
+  },
+  {
+    "id": 29,
+    "pregunta": "¿A qué ámbito de competencia se asocia especialmente el pentatlón dentro del atletismo según el texto?",
+    "opciones": {
+      "a": "A competencias al aire libre en estadios olímpicos",
+      "b": "A competencias especialmente asociadas a modalidades bajo techo",
+      "c": "A carreras en rutas urbanas y pavimentadas",
+      "d": "A competencias exclusivas para atletas juveniles"
     },
-    {
-        "id": 30,
-        "pregunta": "En el tenis en silla de ruedas, ¿cuántos botes se le permiten al jugador antes de devolver la pelota?",
-        "opciones": {
-            "a": "Un solo bote",
-            "b": "Dos botes, y el segundo puede ser fuera de los límites",
-            "c": "Tres botes",
-            "d": "Dos botes, pero ambos deben ser dentro de la pista"
-        },
-        "respuesta_correcta": "b",
-        "explicacion": "En las Reglas del Tenis en Silla de Ruedas (sección a), se permiten dos botes, y el segundo puede ser fuera o dentro de los límites de la pista."
+    "respuesta_correcta": "b",
+    "explicacion": "El texto puntualiza que el pentatlón en atletismo es una prueba de cinco disciplinas 'especialmente asociada a competencias bajo techo'."
+  },
+  {
+    "id": 30,
+    "pregunta": "¿De qué año data la primera referencia histórica documentada del atletismo?",
+    "opciones": {
+      "a": "Del año 1000 a. C.",
+      "b": "Del año 776 a. C.",
+      "c": "Del año 490 a. C.",
+      "d": "Del año 186 a. C."
     },
-    {
-        "id": 31,
-        "pregunta": "¿Qué sucede en el tenis en silla de ruedas si el jugador utiliza sus pies como freno o para impulsarse mientras la pelota está en juego?",
-        "opciones": {
-            "a": "No pasa nada",
-            "b": "Se le da un aviso",
-            "c": "Pierde el punto",
-            "d": "Se repite el punto"
-        },
-        "respuesta_correcta": "c",
-        "explicacion": "Según la sección d.ii de las reglas de silla de ruedas, el jugador pierde el punto si utiliza sus pies o extremidades inferiores contra el suelo o las ruedas mientras la pelota está en juego."
+    "respuesta_correcta": "b",
+    "explicacion": "El texto expresa que 'la primera referencia histórica del atletismo data del año 776 a. C. y consiste en una lista de atletas premiados en una competición de la Antigua Grecia'."
+  },
+  {
+    "id": 31,
+    "pregunta": "¿En al menos cuántas ciudades griegas se celebraban Juegos Olímpicos según el texto?",
+    "opciones": {
+      "a": "En 12 ciudades",
+      "b": "En 24 ciudades",
+      "c": "En al menos 38 ciudades griegas",
+      "d": "En 50 ciudades"
     },
-    {
-        "id": 32,
-        "pregunta": "En el método de puntuación 'Sin Ventaja', ¿quién elige el lado de recepción en el punto decisivo?",
-        "opciones": {
-            "a": "El servidor",
-            "b": "El juez de silla",
-            "c": "Se sortea",
-            "d": "El restador"
-        },
-        "respuesta_correcta": "d",
-        "explicacion": "El Apéndice VI (Puntuación Sin Ventaja) indica que el o los restadores elegirán si recibir el servicio desde la mitad izquierda o derecha para el punto decisivo."
+    "respuesta_correcta": "c",
+    "explicacion": "El texto señala que las pruebas formaban parte de los Juegos Olímpicos que se celebraban en 'al menos 38 ciudades griegas'."
+  },
+  {
+    "id": 32,
+    "pregunta": "¿A partir de qué año comenzó a ser practicado el atletismo por los romanos?",
+    "opciones": {
+      "a": "A partir de 776 a. C.",
+      "b": "A partir de 490 a. C.",
+      "c": "A partir de 186 a. C.",
+      "d": "A partir de 86 d. C."
     },
-    {
-        "id": 33,
-        "pregunta": "¿Qué es un 'Match Tie-break' de 10 puntos?",
-        "opciones": {
-            "a": "Un juego para desempatar un set corto",
-            "b": "Un juego que reemplaza al set decisivo final para definir el partido",
-            "c": "Un entrenamiento previo al partido",
-            "d": "Una regla exclusiva para el tenis de playa"
-        },
-        "respuesta_correcta": "b",
-        "explicacion": "El Apéndice VI describe el Match Tie-break como un juego que reemplaza al set decisivo final (generalmente el tercero o quinto) cuando hay empate en sets."
+    "respuesta_correcta": "c",
+    "explicacion": "El documento menciona que 'A partir de 186 a. C., el atletismo comenzó a ser practicado por los romanos'."
+  },
+  {
+    "id": 33,
+    "pregunta": "¿En qué año y bajo qué nombre se construyó en Roma un recinto exclusivo para la práctica del atletismo?",
+    "opciones": {
+      "a": "En 186 a. C., el Coliseo Romano",
+      "b": "En 86 d. C., el Estadio de Domiciano",
+      "c": "En 490 a. C., el Circo Máximo",
+      "d": "En 1912, el Anfiteatro de Atenas"
     },
-    {
-        "id": 34,
-        "pregunta": "¿Quién es la autoridad final en todas las cuestiones de ley de tenis?",
-        "opciones": {
-            "a": "El juez de silla",
-            "b": "El comité del torneo",
-            "c": "El juez árbitro",
-            "d": "La ITF en Londres vía telefónica"
-        },
-        "respuesta_correcta": "c",
-        "explicacion": "El Apéndice VII establece que el juez árbitro es la autoridad final en todas las cuestiones de ley de tenis y su decisión será definitiva."
+    "respuesta_correcta": "b",
+    "explicacion": "El texto indica que en el '86 d. C. se construyó el Estadio de Domiciano exclusivamente para su práctica'."
+  },
+  {
+    "id": 34,
+    "pregunta": "¿Por qué motivo desaparecieron las prácticas atléticas en Occidente tras la caída del Imperio romano?",
+    "opciones": {
+      "a": "Por falta de instalaciones y materiales de construcción",
+      "b": "Por estar asociadas al mundo pagano",
+      "c": "Por decretos gubernamentales de prohibición militar",
+      "d": "Por la sustitución completa del deporte por torneos ecuestres"
     },
-    {
-        "id": 35,
-        "pregunta": "¿En qué tipo de superficie se permiten exclusivamente las inspecciones de marcas de pelota?",
-        "opciones": {
-            "a": "Hierba natural",
-            "b": "Moqueta",
-            "c": "Tierra batida (arcilla)",
-            "d": "Superficies duras acrílicas"
-        },
-        "respuesta_correcta": "c",
-        "explicacion": "El Apéndice VII (Procedimientos para inspecciones de marca) especifica que estas solamente se pueden hacer en pistas de tierra batida."
+    "respuesta_correcta": "b",
+    "explicacion": "El texto explica que tras la caída del Imperio romano estas prácticas desaparecieron 'por estar asociadas al mundo pagano'."
+  },
+  {
+    "id": 35,
+    "pregunta": "¿En qué año y lugar se celebró la primera competición de atletismo moderno?",
+    "opciones": {
+      "a": "En 1896 en Atenas, Grecia",
+      "b": "En 1825 en las afueras de Londres, Inglaterra",
+      "c": "En 1912 en París, Francia",
+      "d": "En 1850 en Nueva York, Estados Unidos"
     },
-    {
-        "id": 36,
-        "pregunta": "¿Cuántas reclamaciones fallidas de revisión electrónica se permiten a un jugador por set?",
-        "opciones": {
-            "a": "Ilimitadas",
-            "b": "Tres (3)",
-            "c": "Una (1)",
-            "d": "Dos (2)"
-        },
-        "respuesta_correcta": "b",
-        "explicacion": "El Apéndice VII (Revisión Electrónica) permite a cada jugador o equipo hacer tres reclamaciones fallidas por set."
+    "respuesta_correcta": "b",
+    "explicacion": "El documento estipula que 'En 1825 se celebró la primera competición de atletismo moderno, en las afueras de Londres, Inglaterra'."
+  },
+  {
+    "id": 36,
+    "pregunta": "¿Hacia qué países se extendió inicialmente el atletismo moderno tras su surgimiento en Inglaterra?",
+    "opciones": {
+      "a": "Hacia España e Italia",
+      "b": "Pronto a Francia y posteriormente a Estados Unidos",
+      "c": "Hacia Grecia y Alemania",
+      "d": "Exclusivamente hacia las colonias británicas de Asia"
     },
-    {
-        "id": 37,
-        "pregunta": "¿Qué sucede si un jugador en silla de ruedas no puede impulsar la silla con las ruedas debido a su discapacidad?",
-        "opciones": {
-            "a": "Es descalificado",
-            "b": "Puede impulsarla utilizando un pie",
-            "c": "Debe jugar con un asistente",
-            "d": "Solo puede jugar dobles"
-        },
-        "respuesta_correcta": "b",
-        "explicacion": "La regla f de silla de ruedas permite que, por falta de capacidad, un jugador impulse la silla utilizando un pie."
+    "respuesta_correcta": "b",
+    "explicacion": "El texto expone que esta nueva disciplina 'se extendió pronto a Francia y posteriormente a Estados Unidos'."
+  },
+  {
+    "id": 37,
+    "pregunta": "¿En qué año se creó la Federación Internacional de Atletismo?",
+    "opciones": {
+      "a": "1825",
+      "b": "1896",
+      "c": "1912",
+      "d": "1980"
     },
-    {
-        "id": 38,
-        "pregunta": "¿Se permite publicidad sobre la superficie de la pista dentro de las líneas de juego?",
-        "opciones": {
-            "a": "Sí, si es de color oscuro",
-            "b": "Solo en la zona de servicio",
-            "c": "No, no se permite publicidad dentro de las líneas",
-            "d": "Solo el logo del fabricante de la raqueta"
-        },
-        "respuesta_correcta": "c",
-        "explicacion": "El Apéndice V, punto 5, prohíbe explícitamente publicidad y otras marcas sobre la superficie de la pista dentro de las líneas que la definen."
+    "respuesta_correcta": "c",
+    "explicacion": "En el documento se indica textualmente: 'En 1912, se creó la Federación Internacional de Atletismo'."
+  },
+  {
+    "id": 38,
+    "pregunta": "¿En qué edición de las olimpiadas modernas estuvo presente el atletismo desde el inicio?",
+    "opciones": {
+      "a": "Londres 1825",
+      "b": "Atenas 1896",
+      "c": "París 1900",
+      "d": "Roma 1912"
     },
-    {
-        "id": 39,
-        "pregunta": "Durante un tie-break, ¿cada cuántos puntos deben cambiar de lado los jugadores?",
-        "opciones": {
-            "a": "Cada dos puntos",
-            "b": "Cada seis puntos",
-            "c": "Después del primer punto y luego cada cuatro",
-            "d": "Al final del tie-break únicamente"
-        },
-        "respuesta_correcta": "b",
-        "explicacion": "La Regla 10 establece que durante el juego de tie-break los jugadores cambiarán de lado después de cada seis puntos."
+    "respuesta_correcta": "b",
+    "explicacion": "El texto establece que el atletismo 'estuvo entre las disciplinas de las primeras olimpíadas modernas, celebradas en Atenas en 1896'."
+  },
+  {
+    "id": 39,
+    "pregunta": "¿De qué regiones provenía la mayoría de los competidores olímpicos de atletismo en la primera mitad del siglo XX?",
+    "opciones": {
+      "a": "De Asia y Oceanía",
+      "b": "De Europa y Estados Unidos",
+      "c": "De América Latina y África",
+      "d": "De Grecia y el Reino Unido exclusivamente"
     },
-    {
-        "id": 40,
-        "pregunta": "¿Cuál es la duración máxima permitida para el calentamiento previo al partido?",
-        "opciones": {
-            "a": "10 minutos",
-            "b": "3 minutos",
-            "c": "5 minutos",
-            "d": "Lo que decidan los jugadores"
-        },
-        "respuesta_correcta": "c",
-        "explicacion": "La Regla 29e indica que el tiempo de calentamiento será de un máximo de cinco (5) minutos, a menos que los organizadores decidan otra cosa."
-    }
+    "respuesta_correcta": "b",
+    "explicacion": "El documento especifica que 'En la primera mitad del siglo XX, la mayoría de los practicantes olímpicos de este deporte provenían de Europa y Estados Unidos'."
+  },
+  {
+    "id": 40,
+    "pregunta": "¿A partir de qué año se consagró el atletismo como un deporte universal según el texto?",
+    "opciones": {
+      "a": "A partir de 1896",
+      "b": "A partir de 1912",
+      "c": "A partir de 1950",
+      "d": "A partir de 1980"
+    },
+    "respuesta_correcta": "d",
+    "explicacion": "El documento concluye señalando que 'a partir de 1980, se consagró como un deporte universal, fundamental para la cultura deportiva contemporánea'."
+  }
 ]
