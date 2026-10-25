@@ -39,7 +39,7 @@ Los archivos se encuentran en `assets/json/`:
 * `ajedrez.json`
 * `basquet.json`
 * `futsal.json`
-* `tenis.json`
+* `atletismo.json`
 * `voley.json`
 
 Cada archivo contiene un arreglo de 40 objetos con la siguiente estructura estandarizada:
@@ -97,7 +97,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const deportesDisponibles = {
         'basquet': { nombre: 'Básquet', json: 'basquet.json', activo: true },
         'futsal': { nombre: 'Futsal', json: 'futsal.json', activo: true },
-        'tenis': { nombre: 'Tenis', json: 'tenis.json', activo: true },
+        'atletismo': { nombre: 'atletismo', json: 'atletismo.json', activo: true },
         'voley': { nombre: 'Vóley', json: 'voley.json', activo: true },
         'ajedrez': { nombre: 'Ajedrez', json: 'ajedrez.json', activo: true },
         'local': { nombre: 'Deporte Local', json: null, activo: false }
@@ -114,7 +114,7 @@ document.addEventListener('DOMContentLoaded', () => {
             let claveDeporte = null;
             if (titulo.includes('básquet') || titulo.includes('basquet')) claveDeporte = 'basquet';
             else if (titulo.includes('futsal') || titulo.includes('futbol') || titulo.includes('fútbol')) claveDeporte = 'futsal';
-            else if (titulo.includes('tenis')) claveDeporte = 'tenis';
+            else if (titulo.includes('atletismo')) claveDeporte = 'atletismo';
             else if (titulo.includes('voley') || titulo.includes('vóley')) claveDeporte = 'voley';
             else if (titulo.includes('ajedrez')) claveDeporte = 'ajedrez';
             else if (titulo.includes('local')) claveDeporte = 'local';
@@ -156,7 +156,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     const infoDeportes = {
         'basquet': { nombre: 'BÁSQUETBOL', img: 'assets/img/basquet.png' },
         'futsal': { nombre: 'FUTSAL', img: 'assets/img/futbol.png' },
-        'tenis': { nombre: 'TENIS', img: 'assets/img/tenis.png' },
+        'atletismo': { nombre: 'ATLETISMO', img: 'assets/img/tenis.png' },
         'voley': { nombre: 'VÓLEY', img: 'assets/img/voley.png' },
         'ajedrez': { nombre: 'AJEDREZ', img: 'assets/img/ajedrez.png' }
     };
