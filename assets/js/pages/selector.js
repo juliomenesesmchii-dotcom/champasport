@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const deportesDisponibles = {
         'basquet': { nombre: 'Básquet', json: 'basquet.json', activo: true },
         'futsal': { nombre: 'Futsal', json: 'futsal.json', activo: true },
-        'tenis': { nombre: 'Tenis', json: 'tenis.json', activo: true },
+        'atletismo': { nombre: 'Atletismo', json: 'atletismo.json', activo: true },
         'voley': { nombre: 'Vóley', json: 'voley.json', activo: true },
         'ajedrez': { nombre: 'Ajedrez', json: 'ajedrez.json', activo: true },
         'local': { nombre: 'Deporte Local', json: null, activo: false }
@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
             let claveDeporte = null;
             if (titulo.includes('básquet') || titulo.includes('basquet')) claveDeporte = 'basquet';
             else if (titulo.includes('futsal') || titulo.includes('futbol') || titulo.includes('fútbol')) claveDeporte = 'futsal';
-            else if (titulo.includes('tenis')) claveDeporte = 'tenis';
+            else if (titulo.includes('atletismo')) claveDeporte = 'atletismo';
             else if (titulo.includes('voley') || titulo.includes('vóley')) claveDeporte = 'voley';
             else if (titulo.includes('ajedrez')) claveDeporte = 'ajedrez';
             else if (titulo.includes('local')) claveDeporte = 'local';
@@ -36,7 +36,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 });
                 return;
             }
-
             // Redirigir enviando el deporte como parámetro GET
             window.location.href = `preguntas.html?deporte=${claveDeporte}`;
         });
