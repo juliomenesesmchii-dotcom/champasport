@@ -273,7 +273,7 @@
       "d": "Esfera de caucho pesado sujeta por un asa sintética arrojada en salto vertical"
     },
     "respuesta_correcta": "b",
-    "explicacion": "El documento indica que el martillo es una 'bola metálica unida a una empuñadura mediante un cable de acero', la cual 'se arroja luego de que el atleta da varias vueltas consecutivas sobre su propio eje'."
+    "explicacion": "El documento indica que el martillo es una 'bola metálica unida a una empuñadura mediante un cable de acero', la cual 'se arroja luego de que el atleta dar varias vueltas consecutivas sobre su propio eje'."
   },
   {
     "id": 24,
@@ -333,7 +333,7 @@
       "d": "400 metros"
     },
     "respuesta_correcta": "c",
-    "explicacion": "La lista de pruebas del decatlón que presenta el texto culmina con los 1500 metros (100m, salto de longitud, peso, salto de altura, 400m, 110m vallas, disco, pértiga, jabalina y 1500m)."
+    "explicacion": "La lista de pruebas del decatlón que presenta el texto culmina con los 1500 metros."
   },
   {
     "id": 29,
