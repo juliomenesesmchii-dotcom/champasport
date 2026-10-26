@@ -1,482 +1,200 @@
-[
-    {
-        "id": 1,
-        "pregunta": "¿Cuál es el origen etimológico del término 'atletismo' según el documento?",
-        "opciones": {
-            "a": "Proviene del latín 'athletica', que significa fortaleza corporal",
-            "b": "Proviene del vocablo griego 'athlos', que significa competencia o contienda",
-            "c": "Proviene del griego 'athlon', que significa medalla o premio de oro",
-            "d": "Proviene del romano 'atletis', que significa corredor del estadio"
-        },
-        "respuesta_correcta": "b",
-        "explicacion": "Según el documento, la palabra 'atletismo' proviene del vocablo griego 'athlos', que significa 'competencia' o 'contienda'."
-    },
-    {
-        "id": 2,
-        "pregunta": "¿Cómo se define conceptualmente el atletismo en el texto?",
-        "opciones": {
-            "a": "Un deporte en equipo que evalúa la estrategia táctica y la coordinación motriz",
-            "b": "Un conjunto exclusivo de carreras de velocidad en pistas techadas",
-            "c": "Un deporte que consiste en poner a prueba el cuerpo humano en modalidades competitivas de carrera, salto y lanzamiento",
-            "d": "Una disciplina gimnástica orientada a la acrobacia y fuerza muscular"
-        },
-        "respuesta_correcta": "c",
-        "explicacion": "El texto define el atletismo como un deporte que consiste en poner a prueba el cuerpo humano en diferentes modalidades competitivas, como son la carrera, el salto y el lanzamiento."
-    },
-    {
-        "id": 3,
-        "pregunta": "¿Por qué motivo se considera habitualmente al atletismo como el 'deporte natural'?",
-        "opciones": {
-            "a": "Porque se practica de forma exclusiva en circuitos y parajes de la naturaleza",
-            "b": "Porque no requiere el uso de ninguna regla ni equipamiento reglamentario",
-            "c": "Porque implica los movimientos básicos del cuerpo humano en relación con su desarrollo, como correr, saltar y lanzar",
-            "d": "Porque fue el único deporte practicado de forma continua desde la Prehistoria"
-        },
-        "respuesta_correcta": "c",
-        "explicacion": "El documento indica que se considera 'deporte natural' porque implica los movimientos básicos del cuerpo con relación al desarrollo humano: correr, saltar y lanzar."
-    },
-    {
-        "id": 4,
-        "pregunta": "¿Cuál es el rango de distancia estipulado para las carreras de velocidad?",
-        "opciones": {
-            "a": "Entre 50 y 100 metros",
-            "b": "Entre 100 y 400 metros",
-            "c": "Entre 400 y 800 metros",
-            "d": "Entre 200 y 600 metros"
-        },
-        "respuesta_correcta": "b",
-        "explicacion": "El texto señala expresamente que las carreras de velocidad consisten en el recorrido de una distancia que varía entre 100 y 400 metros en el menor tiempo posible."
-    },
-    {
-        "id": 5,
-        "pregunta": "¿En qué rango de distancia se clasifican las carreras de media distancia o medio fondo?",
-        "opciones": {
-            "a": "Entre 400 y 800 metros",
-            "b": "Entre 500 y 1.500 metros",
-            "c": "Entre 800 y 3.000 metros",
-            "d": "Entre 1.500 y 5.000 metros"
-        },
-        "respuesta_correcta": "c",
-        "explicacion": "En el documento se especifica que en las carreras de media distancia el recorrido se encuentra entre los 800 y 3.000 metros."
-    },
-    {
-        "id": 6,
-        "pregunta": "¿A partir de qué distancia se consideran carreras de fondo según la clasificación del documento?",
-        "opciones": {
-            "a": "Recorridos superiores a los 1.500 metros",
-            "b": "Recorridos superiores a los 3.000 metros",
-            "c": "Recorridos superiores a los 5.000 metros",
-            "d": "Recorridos superiores a los 10.000 metros"
-        },
-        "respuesta_correcta": "b",
-        "explicacion": "De acuerdo con el texto, las carreras de fondo son pruebas que consisten en un recorrido de espacio superior a los 3.000 metros de distancia."
-    },
-    {
-        "id": 7,
-        "pregunta": "¿Cuál es la distancia exacta de la prueba de maratón estipulada en el texto?",
-        "opciones": {
-            "a": "40.000 metros",
-            "b": "41.500 metros",
-            "c": "42.195 metros",
-            "d": "45.000 metros"
-        },
-        "respuesta_correcta": "c",
-        "explicacion": "El documento menciona textualmente que en la maratón se recorre una distancia de 42.195 metros."
-    },
-    {
-        "id": 8,
-        "pregunta": "¿A qué hecho histórico remite la denominación de la prueba de 'maratón'?",
-        "opciones": {
-            "a": "A la batalla naval de Salamina disputada entre griegos y persas",
-            "b": "A la hazaña del soldado Filípides en el 490 a. C. al correr de Maratón a Atenas",
-            "c": "A la marcha triunfal de Alejandro Magno tras la conquista de Persia",
-            "d": "A la distancia recorrida por los primeros atletas olímpicos en Olimpia"
-        },
-        "respuesta_correcta": "b",
-        "explicacion": "El texto aclara que recuerda la hazaña del soldado Filípides en el 490 a. C., enviado desde Maratón a Atenas para anunciar la victoria sobre los persas."
-    },
-    {
-        "id": 9,
-        "pregunta": "¿De qué longitud pueden ser las carreras con obstáculos o vallas según lo indicado en el texto?",
-        "opciones": {
-            "a": "De 100 a 400 metros únicamente",
-            "b": "De 500 a 1.000 metros de longitud",
-            "c": "De 2.000 a 3.000 metros de longitud",
-            "d": "De 3.000 a 5.000 metros de longitud"
-        },
-        "respuesta_correcta": "c",
-        "explicacion": "El documento indica explícitamente que las carreras con obstáculos pueden ser carreras de 2.000 a 3.000 metros de longitud."
-    },
-    {
-        "id": 10,
-        "pregunta": "¿Cómo se estructuran los equipos en las carreras de relevos reglamentadas en el documento?",
-        "opciones": {
-            "a": "Equipos de dos atletas, uno cada 200 metros",
-            "b": "Equipos de cuatro atletas, repartidos a razón de uno cada 100 metros",
-            "c": "Equipos de tres atletas sin distancia fija establecida",
-            "d": "Equipos de cuatro atletas repartidos uno cada 400 metros"
-        },
-        "respuesta_correcta": "b",
-        "explicacion": "El texto especifica que las carreras de relevos se compiten en equipos de cuatro atletas cada uno, repartidos a lo largo de la pista a razón de uno cada 100 metros."
-    },
-    {
-        "id": 11,
-        "pregunta": "¿Qué elemento debe entregarse obligatoriamente entre corredores en la prueba de relevos?",
-        "opciones": {
-            "a": "Una medalla de transmisión reglamentaria",
-            "b": "Un testigo o talento",
-            "c": "Un aro metálico homologado",
-            "d": "Una cinta de tela identificatoria"
-        },
-        "respuesta_correcta": "b",
-        "explicacion": "El texto menciona que el propósito en las carreras de relevos es entregar un testigo o talento al siguiente corredor antes que los adversarios."
-    },
-    {
-        "id": 12,
-        "pregunta": "¿Cuál es la distancia total de la vuelta de pista que debe cumplir el equipo para ganar en la carrera de relevos descrita?",
-        "opciones": {
-            "a": "200 metros",
-            "b": "400 metros",
-            "c": "800 metros",
-            "d": "1.000 metros"
-        },
-        "respuesta_correcta": "b",
-        "explicacion": "El documento indica que el ganador es el primer equipo en llevar el testigo cumpliendo la vuelta entera de 400 metros."
-    },
-    {
-        "id": 13,
-        "pregunta": "¿Qué estatus olímpico tienen las carreras en rutas o calles según el documento?",
-        "opciones": {
-            "a": "Son la prueba principal de los Juegos Olímpicos de Invierno",
-            "b": "Se compiten exclusivamente en los Juegos Paralímpicos",
-            "c": "No se reconocen como disciplina en los Juegos Olímpicos u otras competiciones",
-            "d": "Se consideran disciplina olímpica desde la edición de Atenas 1896"
-        },
-        "respuesta_correcta": "c",
-        "explicacion": "El texto señala respecto a las carreras en rutas o calles que 'estas pruebas no se reconocen como disciplina en los Juegos Olímpicos u otras competiciones'."
-    },
-    {
-        "id": 14,
-        "pregunta": "¿Cuál es la condición olímpica de las carreras campo a través según la fuente?",
-        "opciones": {
-            "a": "Permanecen de forma ininterrumpida desde 1896 en el programa olímpico",
-            "b": "Nunca han formado parte de los Juegos Olímpicos",
-            "c": "Aunque actualmente no están en los Juegos Olímpicos, sí lo estuvieron en ediciones anteriores",
-            "d": "Son obligatorias solo para competiciones por equipos nacionales"
-        },
-        "respuesta_correcta": "c",
-        "explicacion": "El documento menciona sobre las carreras campo a través que 'si bien en la actualidad no son pruebas que se encuentren en los Juegos Olímpicos, sí lo fueron en ediciones anteriores'."
-    },
-    {
-        "id": 15,
-        "pregunta": "¿Qué distancia previa de impulso se toma en el salto con pértiga (garrocha) según el texto?",
-        "opciones": {
-            "a": "15 metros",
-            "b": "20 metros",
-            "c": "30 metros",
-            "d": "50 metros"
-        },
-        "respuesta_correcta": "c",
-        "explicacion": "El documento especifica que en el salto con pértiga se toma impulso durante una distancia de 30 metros."
-    },
-    {
-        "id": 16,
-        "pregunta": "¿Cuál es la diferencia fundamental entre el salto de altura y el salto con pértiga expresada en el texto?",
-        "opciones": {
-            "a": "El salto de altura se realiza sin la ayuda de ningún instrumento",
-            "b": "El salto de altura se realiza sobre fosa de agua",
-            "c": "El salto de altura exige dar dos saltos preparatorios previos",
-            "d": "El salto de altura no utiliza listón ni barra horizontal"
-        },
-        "respuesta_correcta": "a",
-        "explicacion": "El texto indica que el salto de altura es similar al salto con pértiga, pero 'se realiza sin la ayuda de ningún instrumento, simplemente tomando impulso y luego saltando un listón'."
-    },
-    {
-        "id": 17,
-        "pregunta": "¿En cuántas oportunidades distintas se repite la ejecución en el salto de altura?",
-        "opciones": {
-            "a": "En dos oportunidades",
-            "b": "En tres oportunidades distintas",
-            "c": "En cinco oportunidades de intento",
-            "d": "En una única oportunidad definitiva"
-        },
-        "respuesta_correcta": "b",
-        "explicacion": "El texto declara que la acción de saltar el listón en el salto de altura 'se repite en tres oportunidades distintas'."
-    },
-    {
-        "id": 18,
-        "pregunta": "¿Sobre qué superficie se realiza el salto de longitud para medir la distancia lograda?",
-        "opciones": {
-            "a": "Sobre césped sintético blando",
-            "b": "Sobre una colchoneta de espuma de alta densidad",
-            "c": "Sobre una superficie de arena",
-            "d": "Sobre la misma pista de caucho que la carrera"
-        },
-        "respuesta_correcta": "c",
-        "explicacion": "El documento detalla que 'el salto se suele dar sobre una superficie de arena, para medir la distancia total de cada salto con las huellas dejadas por el cuerpo'."
-    },
-    {
-        "id": 19,
-        "pregunta": "¿Cuál es la secuencia técnica establecida para la ejecución del triple salto?",
-        "opciones": {
-            "a": "Tres saltos seguidos con la pierna dominante e impulso final",
-            "b": "Dos saltos preparatorios consecutivos con la pierna no dominante, y luego impulso final con cambio de pierna",
-            "c": "Un salto inicial con ambos pies y dos saltos alternados sobre la arena",
-            "d": "Un salto de carrera con pértiga y dos saltos de longitud consecutivos"
-        },
-        "respuesta_correcta": "b",
-        "explicacion": "El texto define el triple salto especificando que 'se sigue una secuencia de pasos específica para dar el salto: dos saltos preparatorios consecutivos con la pierna no dominante, y luego el impulso final con un cambio de pierna'."
-    },
-    {
-        "id": 20,
-        "pregunta": "¿Qué implemento se utiliza en el lanzamiento de peso según el documento?",
-        "opciones": {
-            "a": "Una jabalina ligera",
-            "b": "Una bola",
-            "c": "Un disco circular de madera",
-            "d": "Un martillo con empuñadura de hule"
-        },
-        "respuesta_correcta": "b",
-        "explicacion": "En la sección de lanzamientos, el documento afirma que el lanzamiento de peso 'consiste en el lanzamiento de una bola por parte de un competidor'."
-    },
-    {
-        "id": 21,
-        "pregunta": "¿Cómo se describe el objeto empleado en el lanzamiento de disco?",
-        "opciones": {
-            "a": "Objeto cilíndrico de peso moderado",
-            "b": "Objeto con forma circular y de peso pronunciado",
-            "c": "Estructura metálica cónica con punta roma",
-            "d": "Esfera cóncava de acero templado"
-        },
-        "respuesta_correcta": "b",
-        "explicacion": "El texto define el lanzamiento de disco indicando que 'consiste en el lanzamiento de un objeto con forma circular y de peso pronunciado'."
-    },
-    {
-        "id": 22,
-        "pregunta": "¿Qué requisito debe cumplir la jabalina utilizada en su prueba de lanzamiento?",
-        "opciones": {
-            "a": "Estar fabricada exclusivamente en madera de fresno",
-            "b": "Ser una jabalina hecha con material autorizado",
-            "c": "Tener una punta de plomo de al menos 500 gramos",
-            "d": "Ser de diseño libre según la elección del atleta"
-        },
-        "respuesta_correcta": "b",
-        "explicacion": "El texto aclara que el lanzamiento de jabalina consiste en el lanzamiento de una 'jabalina hecha con material autorizado'."
-    },
-    {
-        "id": 23,
-        "pregunta": "¿Cómo se conforma el objeto arrojado en el lanzamiento de martillo y cuál es su técnica de impulso?",
-        "opciones": {
-            "a": "Disco pesado unido a una varilla flexible que se lanza tras una carrera recta",
-            "b": "Bola metálica unida a una empuñadura mediante un cable de acero, arrojada tras dar varias vueltas sobre el propio eje",
-            "c": "Pesas pareadas conectadas por una cadena de bronce lanzadas de frente",
-            "d": "Esfera de caucho pesado sujeta por un asa sintética arrojada en salto vertical"
-        },
-        "respuesta_correcta": "b",
-        "explicacion": "El documento indica que el martillo es una 'bola metálica unida a una empuñadura mediante un cable de acero', la cual 'se arroja luego de que el atleta dar varias vueltas consecutivas sobre su propio eje'."
-    },
-    {
-        "id": 24,
-        "pregunta": "¿En qué consisten de manera general las pruebas combinadas en atletismo?",
-        "opciones": {
-            "a": "Competencias donde dos atletas ejecutan una misma disciplina en parejas",
-            "b": "Pruebas que integran distintas disciplinas de pista y campo a lo largo de uno o dos días, sumando puntos según el rendimiento",
-            "c": "Eventos de atletismo que se combinan con natación y ciclismo",
-            "d": "Carreras que mezclan tramos de velocidad con zonas de salto con pértiga"
-        },
-        "respuesta_correcta": "b",
-        "explicacion": "El texto define las pruebas combinadas como competencias que integran distintas pruebas de pista y campo donde cada atleta realiza varias disciplinas a lo largo de uno o dos días y suma puntos según su rendimiento."
-    },
-    {
-        "id": 25,
-        "pregunta": "¿Cuántas pruebas integran el heptatlón y en qué periodo de tiempo se realiza?",
-        "opciones": {
-            "a": "Cinco pruebas en un solo día",
-            "b": "Siete pruebas diferentes a lo largo de dos días consecutivos",
-            "c": "Siete pruebas en un único día de competencia",
-            "d": "Diez pruebas repartidas en tres días consecutivos"
-        },
-        "respuesta_correcta": "b",
-        "explicacion": "El documento señala explícitamente que en el heptatlón 'se combinan siete pruebas diferentes, a lo largo de dos días consecutivos'."
-    },
-    {
-        "id": 26,
-        "pregunta": "¿Cuáles son las siete disciplinas incluidas en la prueba del heptatlón?",
-        "opciones": {
-            "a": "100m, salto largo, peso, disco, martillo, jabalina y 1500m",
-            "b": "100m vallas, salto de altura, lanzamiento de peso, 200m, salto de longitud, lanzamiento de jabalina y 800m",
-            "c": "60m vallas, pértiga, peso, 400m, triple salto, disco y 1000m",
-            "d": "100m, 400m, 110m vallas, salto alto, longitud, jabalina y maratón"
-        },
-        "respuesta_correcta": "b",
-        "explicacion": "El texto enumera las 7 pruebas del heptatlón: 100 metros con vallas, salto de altura, lanzamiento de peso, 200 metros, salto de longitud, lanzamiento de jabalina y 800 metros."
-    },
-    {
-        "id": 27,
-        "pregunta": "¿Cuántas disciplinas componen el decatlón y cuál es la duración de la competencia?",
-        "opciones": {
-            "a": "Diez pruebas distintas disputadas a lo largo de dos días consecutivos",
-            "b": "Diez pruebas disputadas en una sola jornada de 12 horas",
-            "c": "Ocho pruebas distribuidas en dos fines de semana",
-            "d": "Diez pruebas exclusivas para carreras de pista durante cinco días"
-        },
-        "respuesta_correcta": "a",
-        "explicacion": "De acuerdo con el documento, en el decatlón 'se combinan diez pruebas distintas a lo largo de dos días consecutivos'."
-    },
-    {
-        "id": 28,
-        "pregunta": "¿Cuál es la última prueba enumerada dentro de las diez disciplinas del decatlón en el documento?",
-        "opciones": {
-            "a": "Lanzamiento de jabalina",
-            "b": "Salto con pértiga",
-            "c": "1500 metros",
-            "d": "400 metros"
-        },
-        "respuesta_correcta": "c",
-        "explicacion": "La lista de pruebas del decatlón que presenta el texto culmina con los 1500 metros."
-    },
-    {
-        "id": 29,
-        "pregunta": "¿A qué ámbito de competencia se asocia especialmente el pentatlón dentro del atletismo según el texto?",
-        "opciones": {
-            "a": "A competencias al aire libre en estadios olímpicos",
-            "b": "A competencias especialmente asociadas a modalidades bajo techo",
-            "c": "A carreras en rutas urbanas y pavimentadas",
-            "d": "A competencias exclusivas para atletas juveniles"
-        },
-        "respuesta_correcta": "b",
-        "explicacion": "El texto puntualiza que el pentatlón en atletismo es una prueba de cinco disciplinas 'especialmente asociada a competencias bajo techo'."
-    },
-    {
-        "id": 30,
-        "pregunta": "¿De qué año data la primera referencia histórica documentada del atletismo?",
-        "opciones": {
-            "a": "Del año 1000 a. C.",
-            "b": "Del año 776 a. C.",
-            "c": "Del año 490 a. C.",
-            "d": "Del año 186 a. C."
-        },
-        "respuesta_correcta": "b",
-        "explicacion": "El texto expresa que 'la primera referencia histórica del atletismo data del año 776 a. C. y consiste en una lista de atletas premiados en una competición de la Antigua Grecia'."
-    },
-    {
-        "id": 31,
-        "pregunta": "¿En al menos cuántas ciudades griegas se celebraban Juegos Olímpicos según el texto?",
-        "opciones": {
-            "a": "En 12 ciudades",
-            "b": "En 24 ciudades",
-            "c": "En al menos 38 ciudades griegas",
-            "d": "En 50 ciudades"
-        },
-        "respuesta_correcta": "c",
-        "explicacion": "El texto señala que las pruebas formaban parte de los Juegos Olímpicos que se celebraban en 'al menos 38 ciudades griegas'."
-    },
-    {
-        "id": 32,
-        "pregunta": "¿A partir de qué año comenzó a ser practicado el atletismo por los romanos?",
-        "opciones": {
-            "a": "A partir de 776 a. C.",
-            "b": "A partir de 490 a. C.",
-            "c": "A partir de 186 a. C.",
-            "d": "A partir de 86 d. C."
-        },
-        "respuesta_correcta": "c",
-        "explicacion": "El documento menciona que 'A partir de 186 a. C., el atletismo comenzó a ser practicado por los romanos'."
-    },
-    {
-        "id": 33,
-        "pregunta": "¿En qué año y bajo qué nombre se construyó en Roma un recinto exclusivo para la práctica del atletismo?",
-        "opciones": {
-            "a": "En 186 a. C., el Coliseo Romano",
-            "b": "En 86 d. C., el Estadio de Domiciano",
-            "c": "En 490 a. C., el Circo Máximo",
-            "d": "En 1912, el Anfiteatro de Atenas"
-        },
-        "respuesta_correcta": "b",
-        "explicacion": "El texto indica que en el '86 d. C. se construyó el Estadio de Domiciano exclusivamente para su práctica'."
-    },
-    {
-        "id": 34,
-        "pregunta": "¿Por qué motivo desaparecieron las prácticas atléticas en Occidente tras la caída del Imperio romano?",
-        "opciones": {
-            "a": "Por falta de instalaciones y materiales de construcción",
-            "b": "Por estar asociadas al mundo pagano",
-            "c": "Por decretos gubernamentales de prohibición militar",
-            "d": "Por la sustitución completa del deporte por torneos ecuestres"
-        },
-        "respuesta_correcta": "b",
-        "explicacion": "El texto explica que tras la caída del Imperio romano estas prácticas desaparecieron 'por estar asociadas al mundo pagano'."
-    },
-    {
-        "id": 35,
-        "pregunta": "¿En qué año y lugar se celebró la primera competición de atletismo moderno?",
-        "opciones": {
-            "a": "En 1896 en Atenas, Grecia",
-            "b": "En 1825 en las afueras de Londres, Inglaterra",
-            "c": "En 1912 en París, Francia",
-            "d": "En 1850 en Nueva York, Estados Unidos"
-        },
-        "respuesta_correcta": "b",
-        "explicacion": "El documento estipula que 'En 1825 se celebró la primera competición de atletismo moderno, en las afueras de Londres, Inglaterra'."
-    },
-    {
-        "id": 36,
-        "pregunta": "¿Hacia qué países se extendió inicialmente el atletismo moderno tras su surgimiento en Inglaterra?",
-        "opciones": {
-            "a": "Hacia España e Italia",
-            "b": "Pronto a Francia y posteriormente a Estados Unidos",
-            "c": "Hacia Grecia y Alemania",
-            "d": "Exclusivamente hacia las colonias británicas de Asia"
-        },
-        "respuesta_correcta": "b",
-        "explicacion": "El texto expone que esta nueva disciplina 'se extendió pronto a Francia y posteriormente a Estados Unidos'."
-    },
-    {
-        "id": 37,
-        "pregunta": "¿En qué año se creó la Federación Internacional de Atletismo?",
-        "opciones": {
-            "a": "1825",
-            "b": "1896",
-            "c": "1912",
-            "d": "1980"
-        },
-        "respuesta_correcta": "c",
-        "explicacion": "En el documento se indica textualmente: 'En 1912, se creó la Federación Internacional de Atletismo'."
-    },
-    {
-        "id": 38,
-        "pregunta": "¿En qué edición de las olimpiadas modernas estuvo presente el atletismo desde el inicio?",
-        "opciones": {
-            "a": "Londres 1825",
-            "b": "Atenas 1896",
-            "c": "París 1900",
-            "d": "Roma 1912"
-        },
-        "respuesta_correcta": "b",
-        "explicacion": "El texto establece que el atletismo 'estuvo entre las disciplinas de las primeras olimpíadas modernas, celebradas en Atenas en 1896'."
-    },
-    {
-        "id": 39,
-        "pregunta": "¿De qué regiones provenía la mayoría de los competidores olímpicos de atletismo en la primera mitad del siglo XX?",
-        "opciones": {
-            "a": "De Asia y Oceanía",
-            "b": "De Europa y Estados Unidos",
-            "c": "De América Latina y África",
-            "d": "De Grecia y el Reino Unido exclusivamente"
-        },
-        "respuesta_correcta": "b",
-        "explicacion": "El documento especifica que 'En la primera mitad del siglo XX, la mayoría de los practicantes olímpicos de este deporte provenían de Europa y Estados Unidos'."
-    },
-    {
-        "id": 40,
-        "pregunta": "¿A partir de qué año se consagró el atletismo como un deporte universal según el texto?",
-        "opciones": {
-            "a": "A partir de 1896",
-            "b": "A partir de 1912",
-            "c": "A partir de 1950",
-            "d": "A partir de 1980"
-        },
-        "respuesta_correcta": "d",
-        "explicacion": "El documento concluye señalando que 'a partir de 1980, se consagró como un deporte universal, fundamental para la cultura deportiva contemporánea'."
+document.addEventListener('DOMContentLoaded', async () => {
+    // Inicializar sidenav
+    M.Sidenav.init(document.querySelectorAll('.sidenav'));
+
+    // 1. Obtener el deporte desde la URL (?deporte=basquet)
+    const urlParams = new URLSearchParams(window.location.search);
+    const deporte = urlParams.get('deporte') || 'basquet';
+
+    // Metadatos por deporte (imágenes y títulos)
+    const infoDeportes = {
+        'basquet': { nombre: 'BÁSQUETBOL', img: 'assets/img/basquet.webp' },
+        'futsal': { nombre: 'FUTSAL', img: 'assets/img/futbol.webp' },
+        'atletismo': { nombre: 'ATLETISMO', img: 'assets/img/atletismo.webp' },
+        'voley': { nombre: 'VÓLEY', img: 'assets/img/voley.webp' },
+        'ajedrez': { nombre: 'AJEDREZ', img: 'assets/img/aajedrez.webp' }
+    };
+
+    const configActual = infoDeportes[deporte] || { nombre: deporte.toUpperCase(), img: 'assets/img/principal.webp' };
+
+    // Elementos del DOM
+    const tituloPregunta = document.getElementById('texto-pregunta');
+    const imagenPregunta = document.getElementById('imagen-pregunta');
+    const contenedorOpciones = document.getElementById('contenedor-opciones');
+    const textoProgreso = document.getElementById('texto-progreso');
+    const barraProgreso = document.getElementById('barra-progreso');
+    const btnAnterior = document.getElementById('btn-anterior');
+    const btnSiguiente = document.getElementById('btn-siguiente');
+
+    if (imagenPregunta) imagenPregunta.src = configActual.img;
+
+    let preguntas = [];
+    let indiceActual = 0;
+    const respuestasUsuario = {}; // { 0: 'a', 1: 'c', ... }
+    const TOTAL_EVALUAR = 10; // 10 preguntas por examen
+
+    // 2. Cargar archivo JSON
+    try {
+        const respuesta = await fetch(`assets/json/${deporte}.json`);
+        if (!respuesta.ok) throw new Error(`No se pudo cargar el archivo ${deporte}.json`);
+        const todasLasPreguntas = await respuesta.json();
+
+        // Barajar aleatoriamente y seleccionar 10 preguntas
+        preguntas = todasLasPreguntas.sort(() => 0.5 - Math.random()).slice(0, TOTAL_EVALUAR);
+    } catch (error) {
+        console.error(error);
+        M.toast({
+            html: '<i class="material-icons left">error</i>Error al cargar las preguntas del deporte.',
+            classes: 'rounded red accent-4'
+        });
+        setTimeout(() => window.location.href = 'selector.html', 2000);
+        return;
     }
-]
+
+    // 3. Función para renderizar la pregunta actual
+    function mostrarPregunta(index) {
+        const p = preguntas[index];
+        if (!p) return;
+
+        // Actualizar texto de la pregunta
+        if (tituloPregunta) {
+            tituloPregunta.textContent = `${index + 1}. ${p.pregunta}`;
+        }
+
+        // Actualizar barra de progreso
+        const porcentaje = Math.round(((index + 1) / TOTAL_EVALUAR) * 100);
+        if (barraProgreso) barraProgreso.style.width = `${porcentaje}%`;
+        if (textoProgreso) {
+            textoProgreso.innerHTML = `
+                <i class="material-icons left red-text text-accent-4" style="font-size: 1.2rem; margin-right: 6px;">trending_up</i>
+                Progreso de examen (${porcentaje}%) - Pregunta ${index + 1} de ${TOTAL_EVALUAR}
+            `;
+        }
+
+        // Renderizar opciones A, B, C, D
+        const letras = ['a', 'b', 'c', 'd'];
+        const seleccionPrevia = respuestasUsuario[index];
+
+        let htmlOpciones = '<div class="row" style="margin-bottom: 0;">';
+        letras.forEach((letra, idx) => {
+            const textoOpcion = p.opciones[letra];
+            const estaSeleccionada = seleccionPrevia === letra;
+
+            // Clases de Materialize para respuesta activa
+            const colorTarjeta = estaSeleccionada ? 'teal darken-1 z-depth-3' : 'blue darken-2 z-depth-2';
+            const colorBotonLetra = estaSeleccionada ? 'amber darken-2' : 'grey darken-4';
+
+            // Cerrar fila cada 2 opciones para mantener la grilla s12 m6
+            if (idx === 2) {
+                htmlOpciones += '</div><div class="row">';
+            }
+
+            htmlOpciones += `
+                <div class="col s12 m6 tarjeta-opcion" data-opcion="${letra}" style="margin-bottom: 15px; cursor: pointer;">
+                    <div style="display: flex; align-items: center;">
+                        <a class="btn-floating btn-large waves-effect waves-light ${colorBotonLetra} center-align bold"
+                            style="pointer-events: none; font-weight: 800; flex-shrink: 0; margin-right: 15px;">
+                            ${letra.toUpperCase()}
+                        </a>
+                        <div class="card ${colorTarjeta} hoverable"
+                            style="border-radius: 15px; overflow: hidden; width: 100%; margin: 0; transition: transform 0.2s ease;">
+                            <div class="card-content white-text" style="padding: 16px 20px;">
+                                <span class="card-title bold" style="font-size: 1.15rem; font-weight: 600; margin: 0;">
+                                    ${textoOpcion}
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            `;
+        });
+        htmlOpciones += '</div>';
+
+        contenedorOpciones.innerHTML = htmlOpciones;
+
+        // Agregar listeners a las opciones
+        document.querySelectorAll('.tarjeta-opcion').forEach((opcionCard) => {
+            opcionCard.addEventListener('click', () => {
+                const opcionElegida = opcionCard.getAttribute('data-opcion');
+                respuestasUsuario[index] = opcionElegida;
+                mostrarPregunta(index); // Re-renderizar para marcar visualmente
+            });
+        });
+
+        // Configuración de botones Anterior / Siguiente
+        if (btnAnterior) {
+            btnAnterior.style.visibility = index === 0 ? 'hidden' : 'visible';
+        }
+
+        if (btnSiguiente) {
+            if (index === TOTAL_EVALUAR - 1) {
+                btnSiguiente.innerHTML = 'Finalizar <i class="material-icons right">done_all</i>';
+                btnSiguiente.className = 'waves-effect waves-light btn-large green darken-1 hoverable';
+            } else {
+                btnSiguiente.innerHTML = 'Siguiente <i class="material-icons right">arrow_forward</i>';
+                btnSiguiente.className = 'waves-effect waves-light btn-large red accent-4 hoverable';
+            }
+        }
+    }
+
+    // 4. Eventos de botones
+    if (btnAnterior) {
+        btnAnterior.addEventListener('click', (e) => {
+            e.preventDefault();
+            if (indiceActual > 0) {
+                indiceActual--;
+                mostrarPregunta(indiceActual);
+            }
+        });
+    }
+
+    if (btnSiguiente) {
+        btnSiguiente.addEventListener('click', (e) => {
+            e.preventDefault();
+
+            // Validar que se haya seleccionado una opción
+            if (!respuestasUsuario[indiceActual]) {
+                M.toast({
+                    html: '<i class="material-icons left">warning</i>Selecciona una respuesta para continuar',
+                    classes: 'rounded amber darken-3'
+                });
+                return;
+            }
+
+            if (indiceActual < TOTAL_EVALUAR - 1) {
+                indiceActual++;
+                mostrarPregunta(indiceActual);
+            } else {
+                finalizarEvaluacion();
+            }
+        });
+    }
+
+    // 5. Cálculo y redirección a resultados
+    function finalizarEvaluacion() {
+        let correctas = 0;
+        preguntas.forEach((p, idx) => {
+            if (respuestasUsuario[idx] === p.respuesta_correcta) {
+                correctas++;
+            }
+        });
+
+        const resultadoData = {
+            deporte: deporte,
+            nombreDeporte: configActual.nombre,
+            totalPreguntas: TOTAL_EVALUAR,
+            correctas: correctas,
+            incorrectas: TOTAL_EVALUAR - correctas,
+            porcentaje: Math.round((correctas / TOTAL_EVALUAR) * 100),
+            preguntas: preguntas,
+            respuestasUsuario: respuestasUsuario
+        };
+
+        // Guardar en sessionStorage para que resultados.html lo consuma
+        sessionStorage.setItem('champasport_resultado', JSON.stringify(resultadoData));
+        window.location.href = 'resultados.html';
+    }
+
+    // Inicializar primera pregunta
+    mostrarPregunta(0);
+});
