@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     const infoDeportes = {
         'basquet': { nombre: 'BÁSQUETBOL', img: 'assets/img/basquet.webp' },
         'futsal': { nombre: 'FUTSAL', img: 'assets/img/futbol.webp' },
-        'atletismo': { nombre: 'ATLETISMO', img: 'assets/img/atletismo.webp' },
+        'atletismo': { nombre: 'ATLETISMO', img: 'assets/img/atletismo.jpeg' },
         'voley': { nombre: 'VÓLEY', img: 'assets/img/voley.webp' },
         'ajedrez': { nombre: 'AJEDREZ', img: 'assets/img/ajedrez.webp' }
     };
