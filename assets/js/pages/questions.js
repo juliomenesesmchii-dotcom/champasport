@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         'futsal': { nombre: 'FUTSAL', img: 'assets/img/futbol.webp' },
         'atletismo': { nombre: 'ATLETISMO', img: 'assets/img/atletismo.webp' },
         'voley': { nombre: 'VÓLEY', img: 'assets/img/voley.webp' },
-        'ajedrez': { nombre: 'AJEDREZ', img: 'assets/img/aajedrez.webp' }
+        'ajedrez': { nombre: 'AJEDREZ', img: 'assets/img/ajedrez.webp' }
     };
 
     const configActual = infoDeportes[deporte] || { nombre: deporte.toUpperCase(), img: 'assets/img/principal.webp' };
