@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 return;
             }
             // Redirigir enviando el deporte como parámetro GET
-            window.location.href = `preguntas.html?deporte=${claveDeporte}`;
+            window.location.href = `leccion.html?deporte=${claveDeporte}`;
         });
     });
 });

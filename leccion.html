@@ -1,50 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link type="text/css" rel="stylesheet" href="assets/css/materialize.css" media="screen,projection" />
+    <title>CHAMPASPORT | Lección</title>
+
+    <!-- Materialize -->
+    <link rel="stylesheet" href="assets/css/materialize.css">
+
+    <!-- Material Icons -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <style>
-        .texto-resaltado {
-            /* Crea el fondo medio negro transparente */
-            background-color: rgba(0, 0, 0, 0.65) !important;
-
-            /* Sombra para que las letras blancas resalten de la imagen */
-            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.9);
-
-            /* Espacio interno para que el fondo no quede pegado a las letras */
-            padding: 10px 24px !important;
-            border-radius: 6px;
-            letter-spacing: 2px;
-        }
-
-        .descripcion-llamativa {
-            font-size: 1.3rem !important;
-            font-weight: 300;
-            color: #37474f !important;
-            line-height: 1.6;
-            display: flex;
-            align-items: center;
-            flex-wrap: wrap;
-        }
-
-        .descripcion-llamativa i {
-            margin-right: 14px !important;
-        }
-
-        .descripcion-llamativa strong {
-            font-weight: 700;
-            color: #d50000;
-            margin: 0 5px;
-        }
-    </style>
-    <title>CHAMPASPORT</title>
 </head>
 
-<body>
-    <!-- ================= BARRA DE NAVEGACIÓN (COPIAR EN LAS 5 VISTAS) ================= -->
+<body class="grey lighten-4">
+
+    <!-- NAVBAR -->
     <nav>
         <div class="nav-wrapper red accent-4">
             <a href="index.html" class="brand-logo" style="margin-left: 15px;">CHAMPASPORT</a>
@@ -72,274 +43,297 @@
                 Récords</a></li>
     </ul>
 
-    <div class="card z-depth-2" style="border-radius: 8px; overflow: hidden;">
-        <div class="card-image">
-            <!-- Imagen de fondo -->
-            <img src="assets/img/principal.png" style="width: 100%; height: 300px; object-fit: cover;">
 
-            <!-- TÍTULO PRINCIPAL: Subido a la parte superior con fondo oscuro para máxima lectura -->
-            <span class="card-title flow-text bold texto-resaltado"
-                style="top: 20px; bottom: auto; display: flex; align-items: center;">
-                <i class="material-icons"
-                    style="margin-right: 10px; font-size: 2rem; color: #ff1744;">sports_basketball</i>
-                BÁSQUET
-            </span>
-        </div>
+    <!-- PORTADA DEL DEPORTE -->
 
-        <!-- DESCRIPCIÓN: Fuera de la imagen para que respire el diseño y se vea llamativo -->
-        <div class="card-content" style="padding: 24px;">
-            <p class="descripcion-llamativa">
-                <i class="material-icons left red-text text-accent-4">import_contacts</i>
-                Antes de poner a prueba tus conocimientos, repasemos las <strong>reglas y conceptos más
-                    importantes</strong> de este deporte.
+    <!-- PORTADA DEL DEPORTE -->
+    <div class="card z-depth-3" id="portada-deporte" style="border-radius: 15px; overflow: hidden;
+    background: linear-gradient(rgba(0,0,0,0.60), rgba(0,0,0,0.60)),
+    url('assets/img/cl.webp') center center / cover no-repeat;
+    min-height: 250px; display: flex; align-items: center;">
+
+        <div class="card-content white-text center-align" style="width: 100%; padding: 35px 20px;">
+
+            <i class="material-icons large yellow-text text-accent-2" id="icono-portada">
+                sports_basketball
+            </i>
+
+            <h3 class="white-text" id="titulo-portada">
+                BÁSQUETBOL
+            </h3>
+
+            <p class="flow-text white-text" id="descripcion-portada">
+                Conoce este deporte antes de comenzar tu evaluación.
             </p>
+
         </div>
     </div>
 
 
 
-    <!-- ================= CONTENIDO ================= -->
+    <!-- CONTENIDO PRINCIPAL -->
+    <main class="container section">
 
-    <div class="container">
+        <!-- DEFINICIÓN -->
+        <div class="card white z-depth-2" style="border-radius: 15px; overflow: hidden;">
 
-        <div class="row">
+            <div class="card-content">
+                <div class="row valign-wrapper">
 
+                    <div class="col s2 m1 center-align">
+                        <i class="material-icons medium red-text text-accent-4">
+                            info
+                        </i>
+                    </div>
 
-            <!-- ¿QUÉ ES EL BÁSQUET? -->
+                    <div class="col s10 m11">
 
-            <div class="col s12 m8">
-
-                <div class="card blue darken-2 z-depth-3" style="border-radius: 20px; overflow: hidden;">
-                    <div class="card-content white-text">
-                        <span class="card-title bold" style="font-weight: 700; display: flex; align-items: center;">
-                            <i class="material-icons left yellow-text text-accent-4"
-                                style="font-size: 2rem;">local_library</i>
-                            ¿Qué es el básquet?
+                        <span class="card-title blue-text text-darken-4" id="titulo-definicion">
+                            ¿Qué es el básquetbol?
                         </span>
-                        <!-- Divider sutil blanco para separar el título -->
-                        <div class="divider white" style="opacity: 0.3; margin: 10px 0;"></div>
-                        <p class="flow-text" style="font-size: 1.15rem; font-weight: 300; line-height: 1.6;">
-                            El básquetbol es un deporte de equipo que se juega entre dos conjuntos de cinco jugadores.
-                            El objetivo principal es conseguir puntos introduciendo el balón en el aro del equipo
-                            contrario.
+
+                        <p class="blue-text text-darken-4" id="texto-definicion">
+                            El básquetbol es un deporte de equipo que se juega
+                            entre dos conjuntos de cinco jugadores, cuyo
+                            objetivo es anotar puntos en el aro contrario.
                         </p>
+
                     </div>
                 </div>
+            </div>
+        </div>
 
 
-                <!-- REGLAS PRINCIPALES -->
+        <!-- ELEMENTOS PRINCIPALES -->
+        <div class="row">
 
-                <div class="card z-depth-3" style="border-radius: 20px; overflow: hidden; background-color: #fafafa;">
+            <!-- PRIMER ELEMENTO -->
+            <div class="col s12 l6">
+
+                <div class="card white z-depth-2" style="border-radius: 15px; overflow: hidden;">
+
+                    <div class="card-panel red accent-4 white-text" style="margin: 0;">
+
+                        <div class="row valign-wrapper" style="margin: 0;">
+
+                            <div class="col s2 center-align">
+                                <i class="material-icons medium" id="icono-elemento-1">
+                                    sports_basketball
+                                </i>
+                            </div>
+
+                            <div class="col s10">
+                                <span class="card-title" id="titulo-elemento-1">
+                                    El balón
+                                </span>
+                            </div>
+
+                        </div>
+                    </div>
+
                     <div class="card-content">
-                        <span class="card-title red-text text-accent-4 bold"
-                            style="font-weight: 700; display: flex; align-items: center;">
-                            <i class="material-icons left">rule</i>
-                            Reglas principales
-                        </span>
-                        <div class="divider red accent-4" style="height: 2px; margin: 10px 0 15px 0;"></div>
 
-                        <!-- Lista de reglas mejorada con clases de Materialize -->
-                        <ul class="collection z-depth-1" style="border: none; border-radius: 8px;">
-                            <li class="collection-item grey lighten-5" style="display: flex; align-items: center;">
-                                <i class="material-icons left blue-text text-darken-2"
-                                    style="margin-right: 15px;">check_circle</i>
-                                <span>Cada equipo juega con <b>cinco jugadores</b> en cancha.</span>
+                        <div class="row valign-wrapper">
+
+                            <div class="col s12 m5 center-align">
+                                <img id="imagen-elemento-1" src="assets/img.leccion/futsal/balonfutsal.webp"
+                                    alt="Balón de básquet" style="width: 100%; height: 180px; object-fit: contain;">
+                            </div>
+
+                            <div class="col s12 m7">
+
+                                <p class="blue-text text-darken-4" id="descripcion-elemento-1">
+                                    Es el elemento principal del juego.
+                                </p>
+
+                                <div class="section">
+                                    <span class="chip red lighten-4 red-text text-accent-4" id="etiqueta-elemento-1">
+                                        Medidas oficiales
+                                    </span>
+                                </div>
+
+                                <ul class="collection" id="lista-elemento-1">
+                                    <li class="collection-item">
+                                        Circunferencia: 75 – 77 cm.
+                                    </li>
+                                    <li class="collection-item">
+                                        Peso: 580 – 620 g.
+                                    </li>
+                                    <li class="collection-item">
+                                        Tamaño: N.º 7.
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- SEGUNDO ELEMENTO -->
+            <div class="col s12 l6">
+
+                <div class="card white z-depth-2" style="border-radius: 15px; overflow: hidden;">
+
+                    <div class="card-panel red accent-4 white-text" style="margin: 0;">
+
+                        <div class="row valign-wrapper" style="margin: 0;">
+
+                            <div class="col s2 center-align">
+                                <i class="material-icons medium" id="icono-elemento-2">
+                                    sports
+                                </i>
+                            </div>
+
+                            <div class="col s10">
+                                <span class="card-title" id="titulo-elemento-2">
+                                    La cancha
+                                </span>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="card-content">
+
+                        <div class="row valign-wrapper">
+
+                            <div class="col s12 m5 center-align">
+                                <img id="imagen-elemento-2" src="assets/img.leccion/futsal/canchafutsal.webp"
+                                    alt="Cancha de básquet" style="width: 100%; height: 180px; object-fit: contain;">
+                            </div>
+
+                            <div class="col s12 m7">
+
+                                <p class="blue-text text-darken-4" id="descripcion-elemento-2">
+                                    Es el espacio donde se juega el partido.
+                                </p>
+
+                                <div class="section">
+                                    <span class="chip red lighten-4 red-text text-accent-4" id="etiqueta-elemento-2">
+                                        Medidas oficiales
+                                    </span>
+                                </div>
+
+                                <ul class="collection" id="lista-elemento-2">
+                                    <li class="collection-item">
+                                        Largo: 28 m.
+                                    </li>
+                                    <li class="collection-item">
+                                        Ancho: 15 m.
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- REGLAS Y DATO CURIOSO -->
+        <div class="row">
+
+            <!-- REGLAS -->
+            <div class="col s12 l6">
+
+                <div class="card white z-depth-2" style="border-radius: 15px; overflow: hidden;">
+
+                    <div class="card-panel red accent-4 white-text" style="margin: 0;">
+
+                        <span class="card-title">
+                            <i class="material-icons left">star</i>
+                            Reglas fundamentales
+                        </span>
+
+                    </div>
+
+                    <div class="card-content">
+
+                        <ul class="collection" id="lista-reglas">
+                            <li class="collection-item">
+                                Cada equipo tiene 5 jugadores.
                             </li>
-                            <li class="collection-item white" style="display: flex; align-items: center;">
-                                <i class="material-icons left blue-text text-darken-2"
-                                    style="margin-right: 15px;">check_circle</i>
-                                <span>El objetivo es conseguir más puntos que el rival.</span>
+                            <li class="collection-item">
+                                Se puede botar, pasar o lanzar el balón.
                             </li>
-                            <li class="collection-item grey lighten-5" style="display: flex; align-items: center;">
-                                <i class="material-icons left blue-text text-darken-2"
-                                    style="margin-right: 15px;">check_circle</i>
-                                <span>El jugador debe <b>botar el balón</b> mientras se desplaza.</span>
+                            <li class="collection-item">
+                                No se puede caminar con el balón en las manos.
                             </li>
-                            <li class="collection-item white" style="display: flex; align-items: center;">
-                                <i class="material-icons left blue-text text-darken-2"
-                                    style="margin-right: 15px;">check_circle</i>
-                                <span>El contacto físico excesivo es considerado falta.</span>
-                            </li>
-                            <li class="collection-item grey lighten-5" style="display: flex; align-items: center;">
-                                <i class="material-icons left blue-text text-darken-2"
-                                    style="margin-right: 15px;">check_circle</i>
-                                <span>El balón debe mantenerse dentro de los límites.</span>
+                            <li class="collection-item">
+                                El partido dura 4 cuartos de 10 minutos.
                             </li>
                         </ul>
+
                     </div>
                 </div>
+            </div>
 
 
-                <!-- DATO IMPORTANTE -->
+            <!-- DATO CURIOSO -->
+            <div class="col s12 l6">
 
-                <div class="card grey darken-4 z-depth-3" style="border-radius: 20px; overflow: hidden;">
-                    <div class="card-content white-text">
+                <div class="card pink lighten-4 z-depth-1" style="border-radius: 15px; overflow: hidden;">
 
-                        <!-- TÍTULO: Icono y texto en Amarillo Oro para resaltar que es una idea brillante -->
-                        <span class="card-title bold amber-text text-accent-4"
-                            style="font-weight: 700; display: flex; align-items: center;">
-                            <i class="material-icons left amber-text text-accent-4"
-                                style="font-size: 2rem;">lightbulb</i>
-                            Dato importante
+                    <div class="card-content">
+
+                        <span class="card-title red-text text-accent-4">
+                            <i class="material-icons left">lightbulb</i>
+                            Dato curioso
                         </span>
 
-                        <!-- Línea divisoria sutil -->
-                        <div class="divider grey darken-2" style="margin: 10px 0 15px 0; opacity: 0.5;"></div>
-
-                        <!-- CUERPO DEL TEXTO: Con las puntuaciones en negrita para fijar el conocimiento -->
-                        <p class="flow-text" style="font-size: 1.15rem; font-weight: 300; line-height: 1.6;">
-                            Una canasta puede valer <strong class="amber-text text-accent-4">1, 2 o 3 puntos</strong>,
-                            dependiendo de la situación y del lugar exacto desde donde se realiza el lanzamiento.
+                        <p class="blue-text text-darken-4" id="dato-importante">
+                            El básquetbol fue creado en 1891 por James
+                            Naismith, un profesor de educación física.
                         </p>
 
                     </div>
                 </div>
-
-            </div>
-
-
-            <!-- ================= COLUMNA DERECHA ================= -->
-
-            <div class="col s12 m4">
-
-
-                <!-- IMAGEN DEL DEPORTE -->
-
-                <div class="card z-depth-3" style="border-radius: 20px; overflow: hidden; background-color: #fafafa;">
-
-                    <!-- Imagen con tamaño controlado para que no se deforme -->
-                    <div class="card-image" style="height: 180px; border-bottom: 4px solid #d50000;">
-                        <img src="assets/img/principal.png" style="height: 100%; width: 100%; object-fit: cover;">
-                    </div>
-
-                    <div class="card-content" style="padding: 20px;">
-                        <!-- TÍTULO: En tu rojo característico y bien resaltado -->
-                        <span class="card-title bold red-text text-accent-4"
-                            style="font-weight: 700; display: flex; align-items: center; font-size: 1.4rem; margin-bottom: 10px;">
-                            <i class="material-icons left red-text text-accent-4">sports_basketball</i>
-                            Básquet
-                        </span>
-
-                        <p class="grey-text text-darken-3"
-                            style="font-size: 0.95rem; line-height: 1.5; font-weight: 400;">
-                            Conoce algunos datos importantes antes de comenzar la evaluación oficial de esta disciplina.
-                        </p>
-                    </div>
-
-                </div>
-
-
-                <!-- DATOS CLAVE -->
-                <div class="card z-depth-3" style="border-radius: 20px; overflow: hidden; background-color: #ffffff;">
-
-                    <div class="card-content" style="padding: 20px;">
-
-                        <!-- TÍTULO PRINCIPAL: Con un icono informativo destacado -->
-                        <span class="card-title red-text text-accent-4 bold"
-                            style="font-weight: 700; display: flex; align-items: center; font-size: 1.35rem;">
-                            <i class="material-icons left">info</i>
-                            Datos clave
-                        </span>
-
-                        <!-- Línea divisoria roja que unifica el diseño -->
-                        <div class="divider red accent-4" style="height: 2px; margin: 10px 0 20px 0;"></div>
-
-                        <!-- LISTADO DE DATOS (Ordenado con flexbox para que no se amontone) -->
-
-                        <!-- Dato 1: Jugadores -->
-                        <div style="display: flex; align-items: flex-start; margin-bottom: 15px;">
-                            <i class="material-icons red-text text-accent-4"
-                                style="font-size: 1.6rem; margin-right: 12px; margin-top: 2px;">group</i>
-                            <div>
-                                <b class="blue-text text-darken-2"
-                                    style="font-size: 0.95rem; text-transform: uppercase; letter-spacing: 0.5px;">Jugadores
-                                    por equipo</b>
-                                <p class="grey-text text-darken-4"
-                                    style="font-size: 1.05rem; font-weight: 600; margin: 2px 0 0 0;">5 jugadores en
-                                    cancha</p>
-                            </div>
-                        </div>
-                        <div class="divider grey lighten-3" style="margin: 12px 0;"></div>
-
-                        <!-- Dato 2: Duración -->
-                        <div style="display: flex; align-items: flex-start; margin-bottom: 15px;">
-                            <i class="material-icons red-text text-accent-4"
-                                style="font-size: 1.6rem; margin-right: 12px; margin-top: 2px;">access_time</i>
-                            <div>
-                                <b class="blue-text text-darken-2"
-                                    style="font-size: 0.95rem; text-transform: uppercase; letter-spacing: 0.5px;">Duración</b>
-                                <p class="grey-text text-darken-4"
-                                    style="font-size: 1.05rem; font-weight: 600; margin: 2px 0 0 0;">4 cuartos de 10 min
-                                </p>
-                            </div>
-                        </div>
-                        <div class="divider grey lighten-3" style="margin: 12px 0;"></div>
-
-                        <!-- Dato 3: Objetivo -->
-                        <div style="display: flex; align-items: flex-start; margin-bottom: 15px;">
-                            <i class="material-icons red-text text-accent-4"
-                                style="font-size: 1.6rem; margin-right: 12px; margin-top: 2px;">sports_basketball</i>
-                            <div>
-                                <b class="blue-text text-darken-2"
-                                    style="font-size: 0.95rem; text-transform: uppercase; letter-spacing: 0.5px;">Objetivo</b>
-                                <p class="grey-text text-darken-4"
-                                    style="font-size: 1.05rem; font-weight: 600; margin: 2px 0 0 0;">Conseguir más
-                                    puntos</p>
-                            </div>
-                        </div>
-                        <div class="divider grey lighten-3" style="margin: 12px 0;"></div>
-
-                        <!-- Dato 4: Puntuación -->
-                        <div style="display: flex; align-items: flex-start;">
-                            <i class="material-icons red-text text-accent-4"
-                                style="font-size: 1.6rem; margin-right: 12px; margin-top: 2px;">emoji_events</i>
-                            <div>
-                                <b class="blue-text text-darken-2"
-                                    style="font-size: 0.95rem; text-transform: uppercase; letter-spacing: 0.5px;">Puntuación</b>
-                                <p class="grey-text text-darken-4"
-                                    style="font-size: 1.05rem; font-weight: 600; margin: 2px 0 0 0;">Anotaciones de 1, 2
-                                    o 3 puntos</p>
-                            </div>
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-            <!-- ... AQUÍ TERMINA TU COLUMNA DERECHA (LA DE LOS DATOS CLAVE) ... -->
-        </div>
-
-    </div> <!-- ¡ESTE DIV ES EL MÁS IMPORTANTE! Cierra la fila (row) de las tarjetas para que no se herede el ancho -->
-
-
-    <!-- ================= BOTONES DE ACCIÓN (FUERA DE LAS TARJETAS) ================= -->
-    <div class="container" style="margin-top: 30px; margin-bottom: 40px;">
-        <div class="row">
-
-            <!-- Botón Volver: En un color gris deportivo sutil para no competir con el principal -->
-            <div class="col s12 m6" style="margin-bottom: 15px;">
-                <a href="selector.html" class="btn-large waves-effect waves-light grey darken-3 hoverable"
-                    style="width: 100%; border-radius: 8px; font-weight: 700;">
-                    <i class="material-icons left">arrow_back</i>
-                    Volver al selector
-                </a>
-            </div>
-
-            <!-- Botón Comenzar: En tu Rojo característico con efecto llamativo -->
-            <div class="col s12 m6 right-align">
-                <a href="preguntas.html" class="btn-large waves-effect waves-light red accent-4 hoverable"
-                    style="width: 100%; border-radius: 8px; font-weight: 700; letter-spacing: 0.5px;">
-                    Comenzar evaluación
-                    <i class="material-icons right">arrow_forward</i>
-                </a>
             </div>
 
         </div>
-    </div>
 
 
-    <!-- ================= FOOTER EN COLOR ROJO UNIFICADO ================= -->
+        <!-- DATOS CLAVE -->
+        <div class="card white z-depth-1" style="border-radius: 15px; overflow: hidden;">
+
+            <div class="card-content">
+
+                <span class="card-title blue-text text-darken-3">
+                    <i class="material-icons left">fact_check</i>
+                    Datos clave
+                </span>
+
+                <ul class="collection" id="datos-clave">
+                    <li class="collection-item">
+                        Información importante del deporte.
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+
+
+        <!-- BOTÓN DE EVALUACIÓN -->
+        <div class="center-align section">
+
+            <a href="preguntas.html" class="btn-large red accent-4 waves-effect waves-light" id="btn-comenzar">
+
+                Comenzar evaluación
+                <i class="material-icons right">arrow_forward</i>
+
+            </a>
+
+        </div>
+
+    </main>
+
+    <!-- FOOTER -->
     <footer class="page-footer red accent-4">
         <div class="container">
             <div class="row">
@@ -372,23 +366,16 @@
     </footer>
 
 
-    <script type="text/javascript" src="assets/js/materialize.js"></script>
+    <!-- SCRIPTS -->
+    <script src="assets/js/materialize.js"></script>
+    <script src="assets/js/pages/leccion.js"></script>
+
     <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            var elems = document.querySelectorAll('.sidenav');
-            var instances = M.Sidenav.init(elems);
-        });
-        document.addEventListener('DOMContentLoaded', function () {
-
-            var elems = document.querySelectorAll('.carousel');
-
-            var instances = M.Carousel.init(elems, {
-                fullWidth: true,
-                indicators: true
-            });
-
+        document.addEventListener("DOMContentLoaded", function () {
+            M.Sidenav.init(document.querySelectorAll(".sidenav"));
         });
     </script>
+
 </body>
 
 </html>
